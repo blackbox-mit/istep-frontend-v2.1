@@ -1,29 +1,31 @@
 import Image from "next/image";
 import howIs from "@/assets/aboutUs/howIs.png";
 
+import { useTranslations } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
+
 interface whoIsProps {
-  whoIs: {
-    title: string;
-    subTitle: string;
-    text: string;
-  };
+  lng: string;
 }
 
-export default function howIsIstep({ whoIs }: whoIsProps) {
+export default async function howIsIstep({ lng }: whoIsProps) {
+  unstable_setRequestLocale(lng);
+  const t = useTranslations("About.whoIs");
+
   return (
     <>
       <div className={`flex flex-col md:flex-row `}>
         <div className="font-palanquin w-full md:w-1/2">
           <h3 className={`text-h-md md:text-h-lg text-orange mb-2 md:mb-4`}>
-            {whoIs.title}
+            {t("title")}
           </h3>
           <p
             className={`text-p-lg md:text-h-md text-orange font-thin w-full md:w-4/5 mb-2 md:mb-4`}
           >
-            {whoIs.subTitle}
+            {t("subTitle")}
           </p>
           <p className="w-full mb-2 text-darkblue text-p-sm md:text-p-lg">
-            {whoIs.text}
+            {t("text")}
           </p>
         </div>
         <div className="w-full md:w-1/2 flex justify-center">

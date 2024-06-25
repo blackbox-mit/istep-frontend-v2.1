@@ -1,68 +1,52 @@
 import VisionValueElement from "../visionValueElement/visionValueElement";
 import titleImage from "@/assets/home/titleImage.png";
-import engagementImage from '@/assets/aboutUs/werte-engagement.png'
-import individualitaeteImage from '@/assets/aboutUs/werte-individualitaet.png'
-import nachhaltigImage from '@/assets/aboutUs/werte-nachhaltig.png'
+import engagementImage from "@/assets/aboutUs/werte-engagement.png";
+import individualitaeteImage from "@/assets/aboutUs/werte-individualitaet.png";
+import nachhaltigImage from "@/assets/aboutUs/werte-nachhaltig.png";
 
+import { useTranslations } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
 
 interface ourValuesProps {
-  ourValues: {
-    title: string;
-    subTitle: string;
-    appreciation: {
-      title: string;
-      text: string;
-    };
-    individualSupport: {
-      title: string;
-      text: string;
-    };
-    growingTogether: {
-      title: string;
-      text: string;
-    };
-  };
+  lng: string;
 }
 
-export default function ourValues({ourValues}:ourValuesProps) {
+export default function ourValues({ lng }: ourValuesProps) {
+  unstable_setRequestLocale(lng);
+
+  const t = useTranslations("About.ourValues");
   return (
     <div>
       <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4">
         <div className="font-palanquin  text-orange">
-          <h3 className="text-h-md md:text-h-lg  mb-2 md:mb-4">Unsere Werte</h3>
+          <h3 className="text-h-md md:text-h-lg  mb-2 md:mb-4">{t("title")}</h3>
           <p className="text-p-lg md:text-h-md  font-thin w-full md:w-3/5 mb-2 md:mb-4">
-            Wir arbeiten direkt vor Ort in Albanienan diesen zwei Standorten.
+            {t("subTitle")}
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-8">
           <div className="mt-4">
             <VisionValueElement
-              title={"Wertschätzung"}
+              title={t("appreciation.title")}
               image={engagementImage}
               theme={"darkblue"}
-              text={
-                "Wir begegnen anderen Menschen mit Freundlichkeit, Respekt und Offenheit. Egal woher eine Person kommt, woran sie glaubt oder wo sie im Leben steht, wir sind für alle Menschen offen, wertschätzend und empathisch."
-              }
+              text={t("appreciation.text")}
             />
           </div>
           <div className="mt-4">
             <VisionValueElement
-              title={"Individuell fördern"}
+              title={t("individualSupport.title")}
               image={individualitaeteImage}
               theme={"darkblue"}
-              text={
-                "Bei unseren Aktionen steht der Mensch mit seinen eigenen Erfahrungen im Zentrum. Wir ermöglichen unseren Teilnehmenden eine individuelle Betreuung und achten darauf, sie ihrem Niveau entsprechend zu fördern."
-              }
+              text={t("individualSupport.text")}
             />
           </div>
           <div className="mt-4">
             <VisionValueElement
-              title={"Gemeinsam wachsen"}
+              title={t("growingTogether.title")}
               image={nachhaltigImage}
               theme={"darkblue"}
-              text={
-                "Unsere Leidenschaft ist es, Menschen neue Perspektiven zu zeigen, ihnen ein Gefühl der Zuversicht zu vermitteln und sie zu motivieren, einen nächsten Schritt zu wagen. Durch den wertvollen Austausch lernen und wachsen wir mit unseren Teilnehmenden mit."
-              }
+              text={t("growingTogether.text")}
             />
           </div>
         </div>

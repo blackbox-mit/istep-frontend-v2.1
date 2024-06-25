@@ -3,49 +3,41 @@ import VisionValueElement from "../visionValueElement/visionValueElement";
 import ImageEnable from "@/assets/aboutUs/vision_enable.png";
 import ImageRoom from "@/assets/aboutUs/vision_room.png";
 
+import { useTranslations } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
+
 interface ourVisionProps {
-  ourVision: {
-    title: string;
-    subTitle: string;
-    enable: {
-      title: string;
-      text: string;
-    };
-    createSpace: {
-      title: string;
-      text: string;
-    };
-  };
+  lng: string;
 }
 
-export default function ourVision({ ourVision }: ourVisionProps) {
+export default function ourVision({ lng }: ourVisionProps) {
+  unstable_setRequestLocale(lng);
+
+  const t = useTranslations("About.ourVision");
   return (
     <div className="bg-yellow/20">
       <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4">
         <div className="font-palanquin  text-orange">
-          <h3 className="text-h-md md:text-h-lg  mb-2 md:mb-4">
-            {ourVision.title}
-          </h3>
+          <h3 className="text-h-md md:text-h-lg  mb-2 md:mb-4">{t("title")}</h3>
           <p className="text-p-lg md:text-h-md  font-thin w-full md:w-3/5 mb-2 md:mb-4">
-            {ourVision.subTitle}
+            {t("subTitle")}
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ">
-        
           <div className="mt-4">
             <VisionValueElement
-              title={ourVision.enable.title}
+              title={t("enable.title")}
               image={ImageEnable}
               theme={"yellow"}
-              text={ourVision.enable.text}
+              text={t("enable.text")}
             />
           </div>
           <div className="mt-4">
             <VisionValueElement
-              title={ourVision.createSpace.title}
+              title={t("createSpace.title")}
               image={ImageRoom}
               theme={"yellow"}
-              text={ourVision.createSpace.text}
+              text={t("createSpace.text")}
             />
           </div>
         </div>

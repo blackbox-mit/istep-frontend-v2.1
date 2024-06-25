@@ -30,11 +30,6 @@ export default function HomePage({ params: { locale } }: HomeProps) {
 
   const t = useTranslations("Home");
 
-  const contactPerson = t("contactPerson", { returnObjects: true });
-  const ourCourses = t("ourCourses", { returnObjects: true });
-  const results = t("results", { returnObjects: true });
-  const blog = t("blog", { returnObjects: true });
-
   return (
     <main className="z-10">
       <div className="h-[calc(100vh-80px)] bg-darkblue w-full pb-8 md:-pb-0 relative">
