@@ -1,26 +1,20 @@
 import CoursesTeaserElement from "@/components/general/courseTeaserElement/courseTeaserElement";
-//import { useTranslation } from "@/app/i18n";
 
+import { useTranslations } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
 interface ourCoursesProps {
   imagesCourses: [];
   lng: string;
-  ourCourses: {
-    title: string;
-    subTitle: string;
-    text: string;
-  };
 }
 
 export default async function CoursesTeaser({
-  ourCourses,
   lng,
   imagesCourses,
 }: ourCoursesProps) {
-  /* const { t: coursesTranslation } = await useTranslation(lng, "courses", {
-    returnObjects: true,
-  });
-
-  const courses = coursesTranslation("courses", { returnObjects: true }) as any;*/
+  unstable_setRequestLocale(lng);
+  const t = useTranslations("Home.ourCourses");
+  const translation = (await import(`../../../../locales/${lng}/${lng}.json`))
+    .default;
 
   return (
     <>
@@ -28,18 +22,18 @@ export default async function CoursesTeaser({
         <div className=" py-12 px-8 lg:px-4 container mx-auto">
           <div className="font-palanquin">
             <h3 className="text-h-md md:text-h-lg text-orange mb-2 md:mb-4">
-              {ourCourses.title}
+              {t("title")}
             </h3>
             <p className="text-p-lg md:text-h-md text-orange font-thin w-full md:w-3/5 mb-2 md:mb-4">
-              {ourCourses.subTitle}
+              {t("subTitle")}
             </p>
             <p className="w-full md:w-1/2 mb-2 text-darkblue text-p-sm md:text-p-lg">
-              {ourCourses.text}
+              {t("text")}
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 md:grid-rows-2 grid-cols-1 grid-rows-1 gap-8 md:mt-12 mt-4">
-            {/* {courses.map((item: any, index: number) => (
+            {translation.Courses.map((item: any, index: number) => (
               <CoursesTeaserElement
                 key={index}
                 image={imagesCourses[index]}
@@ -50,7 +44,7 @@ export default async function CoursesTeaser({
                 lng={lng}
                 link={"/courses/" + item.link}
               />
-            ))} */}
+            ))}
           </div>
         </div>
       </div>

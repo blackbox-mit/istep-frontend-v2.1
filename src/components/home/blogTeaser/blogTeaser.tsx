@@ -2,30 +2,34 @@ import TeaserIntroText from "@/components/general/teaserIntroText/teaserIntroTex
 import BlogPreview from "@/components/general/blogPreview/blogPreview";
 import image from "@/assets/placeholder/project.png";
 import Link from "next/link";
-//import { useTranslation } from "@/app/i18n";
+import { unstable_setRequestLocale } from "next-intl/server";
 
-export default async function BlogTeaser({ blog, lng }: any) {
-  //const { t } = await useTranslation(lng, "blogs", { returnObjects: true });
+import { useTranslations } from "next-intl";
 
-  //const blogs = t("blogs", { returnObjects: true }) as any;
+export default async function BlogTeaser({ lng }: any) {
+  unstable_setRequestLocale(lng);
+  const t = useTranslations("Home.blog");
+
+  const translation = (await import(`../../../../locales/${lng}/${lng}.json`))
+    .default;
 
   return (
     <>
       <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4 ">
         <TeaserIntroText
-          title={blog.title}
-          subTitle={blog.subTitle}
-          text={blog.text}
-          theme={"green"}
+          title={t("title")}
+          subTitle={t("subTitle")}
+          text={t("text")}
+          theme={"#25926F"}
         />
         <div className="mt-8 ">
-          {/* <BlogPreview
-            title={blogs[0].title}
-            text={blogs[0].text}
-            moreText={blogs[0].moreText}
-            theme={"green"}
+          <BlogPreview
+            title={translation.Blogs.blogs[0].title}
+            text={translation.Blogs.blogs[0].text}
+            moreText={translation.Blogs.blogs[0].moreText}
+            theme={"#25926F"}
             image={image}
-          /> */}
+          />
         </div>
         <div className="flex md:justify-end justify-center">
           <Link href={lng + "/blog"}>
@@ -33,7 +37,7 @@ export default async function BlogTeaser({ blog, lng }: any) {
               type="button"
               className="rounded-full font-palanquin bg-green/80 md:mt-8 mt-4 ml-0  px-10 py-2.5 text-sm font-semibold text-white focus-visible:outline hover:scale-105 transition-all duration-300"
             >
-              {/* {blog.buttonText} */}asd
+              {t("buttonText")}
             </button>
           </Link>
         </div>

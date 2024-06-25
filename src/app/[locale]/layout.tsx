@@ -5,6 +5,9 @@ import { unstable_setRequestLocale } from "next-intl/server";
 import { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
+import { Suspense } from "react";
+import Navbar from "../../components/general/navbar/navbar";
+import Footer from "../../components/general/footer/footer";
 
 type Props = {
   children: ReactNode;
@@ -19,7 +22,7 @@ export const metadata: Metadata = {
 //function to get the translations
 async function getMessages(locale: string) {
   try {
-    return (await import(`../../../messages/${locale}.json`)).default;
+    return (await import(`../../../locales/${locale}/${locale}.json`)).default;
   } catch (error) {
     notFound();
   }
@@ -37,10 +40,18 @@ export default async function RootLayout({
   const messages = await getMessages(locale);
   unstable_setRequestLocale(locale);
   return (
-    <html lang="en">
-      <body className="bg-gray-100">
+    <html lang={locale}>
+      <body className="h-full">
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <div className="p-5">{children}</div>
+          <div>
+            <Suspense>
+              <Navbar />
+            </Suspense>
+            {children}
+          </div>
+          <Suspense>
+            <Footer />
+          </Suspense>
         </NextIntlClientProvider>
       </body>
     </html>

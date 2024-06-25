@@ -23,7 +23,10 @@ export default function blogPreview({
           className={`bg-green/20 rounded-3xl font-palanquin flex flex-1 md:flex-row flex-col`}
         >
           <div className="w-full md:w-1/2 md:p-12 md:pr-0 p-6">
-            <h3 className={`text-h-sm md:text-h-md text-${theme} mb-2 md:mb-4`}>
+            <h3
+              className={`text-h-sm md:text-h-md  mb-2 md:mb-4`}
+              style={{ color: theme }}
+            >
               {title}
             </h3>
             <p
@@ -33,7 +36,7 @@ export default function blogPreview({
             </p>
             <div className="flex items-center cursor-pointer">
               <hr className="h-0.5 my-4 w-4 border-0 dark:bg-darkblue mr-2" />
-              <p className="text-p-sm md:text-p-lg  font-thin  text-darkblue">
+              <p className="text-p-sm md:text-p-lg !font-bold text-darkblue">
                 {moreText}
               </p>
             </div>

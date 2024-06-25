@@ -13,11 +13,15 @@ export default function teaserIntroText({
 }: TeaserIntroTextProps) {
   return (
     <div className="font-palanquin">
-      <h3 className={`text-h-md md:text-h-lg text-${theme} mb-2 md:mb-4`}>
+      <h3
+        className={`text-h-md md:text-h-lg  mb-2 md:mb-4`}
+        style={{ color: theme }}
+      >
         {title}
       </h3>
       <p
-        className={`text-p-lg md:text-h-md text-${theme} font-thin w-full md:w-3/5 mb-2 md:mb-4`}
+        className={`text-p-lg md:text-h-md  font-thin w-full md:w-3/5 mb-2 md:mb-4`}
+        style={{ color: theme }}
       >
         {subTitle}
       </p>
