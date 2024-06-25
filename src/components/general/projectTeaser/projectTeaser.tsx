@@ -1,0 +1,66 @@
+"use client";
+import Image from "next/image";
+import image from "@/assets/placeholder/project.png";
+import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
+import { truncate } from "@/utils/truncate";
+
+const getGradient = (idx: number) => {
+  const gradient = ["from-green ", "from-orange ", "from-yellow"];
+  return gradient[idx % gradient.length];
+};
+const getColor = (idx: number) => {
+  const color = ["bg-green ", "bg-orange ", "bg-yellow"];
+  return color[idx % color.length];
+};
+
+const ProjectTeaser = ({ project, idx }: { project: any; idx: number }) => {
+  const router = useRouter();
+  const pathname = usePathname();
+  const teaserText = truncate(project.teaser, 200);
+  const bgGradient = getGradient(idx);
+  const bgColor = getColor(idx);
+
+  return (
+    <div className=" bg-white w-full rounded-3xl">
+      <div className="relative">
+        <Image
+          src={image}
+          alt={project.title}
+          className="rounded-t-3xl max-h-96 h-full w-full object-cover"
+        />
+        <div
+          className={`bg-gradient-to-t ${bgGradient}  h-24 absolute bottom-0 w-full`}
+        >
+          <h4 className="text-white text-h-md md:text-h-l font-palanquin mt-10 md:mt-4 ml-10 md:font-normal">
+            {project.title}
+          </h4>
+        </div>
+      </div>
+      <div className="p-5  font-palanquin">
+        <div className="flex-1 flex ">
+          <div
+            className={`inline-block w-3 self-stretch ${bgColor} opacity-100 dark:opacity-50`}
+          />
+          <p className="ml-4 ">{teaserText}</p>
+        </div>
+
+        <button
+          type="button"
+          onClick={() =>
+            router.push(
+              pathname.substring(0, 3) +
+                "/projects/" +
+                project.title.toLowerCase()
+            )
+          }
+          className={`rounded-full ${bgColor} mt-4 ml-5 px-10 py-2.5 text-sm font-semibold text-white focus-visible:outline hover:scale-105 transition-all duration-300`}
+        >
+          {project.moreText}
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default ProjectTeaser;
