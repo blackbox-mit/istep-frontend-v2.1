@@ -24,9 +24,9 @@ export default async function BlogTeaser({ lng }: any) {
         />
         <div className="mt-8 ">
           <BlogPreview
-            title={translation.Blogs.blogs[0].title}
-            text={translation.Blogs.blogs[0].text}
-            moreText={translation.Blogs.blogs[0].moreText}
+            title={translation.Blog.blogs[0].title}
+            text={translation.Blog.blogs[0].text}
+            moreText={translation.Blog.blogs[0].moreText}
             theme={"#25926F"}
             image={image}
           />

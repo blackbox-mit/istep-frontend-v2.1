@@ -93,7 +93,7 @@
       "buttonText": "Ganzer Blog"
     }
   },
-  "Blogs": {
+  "Blog": {
     "title": "Blog",
     "subTitle": "Das neueste von iSTEP",
     "latestBlog": {
