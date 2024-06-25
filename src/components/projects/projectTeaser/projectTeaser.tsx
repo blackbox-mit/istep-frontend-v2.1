@@ -4,8 +4,6 @@ import projcet from "@/assets/placeholder/project.png";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-//import { useTranslation } from "../../../app/i18n";
-
 interface projectProps {
   idx: number;
   project: {
@@ -14,10 +12,9 @@ interface projectProps {
     moreText: string;
     link: string;
   };
-  params: any;
 }
 
-const projectTeaser = ({ project, idx, params }: projectProps) => {
+const projectTeaser = ({ project, idx }: projectProps) => {
   const bgColorOptions = ["#f2c494", "#fcdfb1", "#a4d1c3"];
   const bgColorStyle = {
     backgroundColor: bgColorOptions[idx % bgColorOptions.length],
@@ -44,13 +41,12 @@ const projectTeaser = ({ project, idx, params }: projectProps) => {
           </p>
           <div className="flex items-center cursor-pointer">
             <hr className="h-0.5 my-4 w-4 border-0 dark:bg-darkblue mr-2" />
-            {/* <Link
-              className="text-p-sm md:text-p-lg  font-thin  text-darkblue"
+            <Link
+              className="text-p-sm md:text-p-lg  !font-bold  text-darkblue"
               href={pathname.substring(0, 3) + "/projects/" + project.link}
             >
               Mehr erfahren
-            </Link> */}
-            <p>{params}</p>
+            </Link>
           </div>
         </div>
       </div>

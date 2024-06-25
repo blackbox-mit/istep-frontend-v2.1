@@ -1,0 +1,110 @@
+import Image from "next/image";
+import titleImage from "@/assets/projects/titleImage.png";
+import ProjectTeaser from "@/components/projects/projectTeaser/projectTeaser";
+import ScrollDown from "@/components/general/scrollDown/scrollDown";
+
+import { unstable_setRequestLocale } from "next-intl/server";
+
+export default async function detailPage({
+  params: { locale, id },
+}: {
+  params: { locale: string; id: string };
+}) {
+  unstable_setRequestLocale(locale);
+  const translation = (
+    await import(`../../../../../locales/${locale}/${locale}.json`)
+  ).default;
+
+  console.log(id);
+
+  const matchedProject = translation.Projects.find(
+    (project: any) => project.title.toLowerCase() === id.toLowerCase()
+  );
+
+  /* if (!matchedProject) {
+    return <div>Project not found</div>;
+  }*/
+
+  return (
+    <main>
+      <div className="min-h-[calc(100vh-80px)] z-10 w-full pb-8 md:-pd-0 ">
+        <div className="bg-darkblue h-[calc(100vh-80px)]">
+          <div className="container mx-auto md:pt-48 px-8 pt-8 lg:px-4 relative">
+            <div className="w-2/3 ">
+              <h1 className="lg:text-h-xl  text-h-l  text-yellow font-palanquin md:text-left text-center">
+                {matchedProject.title}
+              </h1>
+              <p className="text-white text-h-xs md:text-h-sm mt-4 mb-4 md:text-left text-center font-palanquin !font-thin">
+                {matchedProject.teaser}
+              </p>
+            </div>
+          </div>
+          <div className="container mx-auto py-12 mt-36 lg:px-4 ">
+            <div className="w-full justify-end flex">
+              <Image
+                src={matchedProject.image}
+                alt={`Image of ${matchedProject.title}`}
+                className="h-full object-contain w-1/2 mr-16 z-20 rounded-3xl"
+                width={500}
+                height={300}
+              />
+            </div>
+          </div>
+          <ScrollDown />
+        </div>
+      </div>
+      <div className="pt-36 pb-12" />
+      <div className="container mx-auto md:pt-18 pt-12 px-8 lg:px-4 ">
+        <div className="text-orange font-palanquin ">
+          <h3 className="text-h-md md:text-h-lg font-thin ">
+            {matchedProject.details.theLocation}
+          </h3>
+
+          <div className="grid md:grid-cols-2 grid-cols-1">
+            <div>
+              <p className="text-darkblue text-p-sm md:text-p-lg mt-4 mb-4 font-palanquin !font-thin">
+                {matchedProject.details.theLocationText}
+              </p>
+            </div>
+            <div className="flex justify-center">
+              <Image
+                src={matchedProject.image}
+                alt={`Image of ${matchedProject.title}`}
+                className="md:w-4/5 w-full object-contain rounded-3xl"
+                width={500}
+                height={300}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container mx-auto md:pt-18 pt-12 px-8 lg:px-4 pb-32">
+        <div className="text-orange font-palanquin ">
+          <h3 className="text-h-md md:text-h-lg font-thin ">
+            {matchedProject.details.whatWeDo}
+          </h3>
+
+          <div className="grid md:grid-cols-2 grid-cols-1 mt-6">
+            <div className="flex ">
+              <Image
+                src={matchedProject.image}
+                alt={`Image of ${matchedProject.title}`}
+                className="md:w-4/5 w-full object-contain rounded-3xl"
+                width={500}
+                height={300}
+              />
+            </div>
+            <div>
+              <p className="text-darkblue text-p-sm md:text-p-lg mt-4 mb-4 font-palanquin !font-thin">
+                {matchedProject.details.whatWeDoText}
+              </p>
+              <p className="text-darkblue text-p-sm md:text-p-lg mt-4 mb-4 font-palanquin !font-thin">
+                {matchedProject.details.whatWeDoText2}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  );
+}

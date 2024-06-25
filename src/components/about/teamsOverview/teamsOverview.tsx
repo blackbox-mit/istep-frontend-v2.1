@@ -36,11 +36,9 @@ const imageTeamElbasan = [ImageFabjan, ImageMigena, ImagePeki];
 
 import { unstable_setRequestLocale } from "next-intl/server";
 
-import { useTranslations } from "next-intl";
-
 export default async function teamsOverview({ lng }: any) {
   unstable_setRequestLocale(lng);
-  const t = useTranslations("OurTeam");
+
   const translation = (await import(`../../../../locales/${lng}/${lng}.json`))
     .default;
 
