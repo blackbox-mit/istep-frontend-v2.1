@@ -1,29 +1,42 @@
 import Image from "next/image";
-import titleImage from "@/assets/projects/titleImage.png";
-import ProjectTeaser from "@/components/projects/projectTeaser/projectTeaser";
 import ScrollDown from "@/components/general/scrollDown/scrollDown";
 
 import { unstable_setRequestLocale } from "next-intl/server";
 
+/*export function generateStaticParams() {
+  const ids = ["elbasan", "lezha", "gjader"];
+  return ids.map((id) => {
+    return { id };
+  });
+}*/
+export function generateStaticParams() {
+  return [
+    { locale: "de", slug: "elbasan" },
+    { locale: "de", slug: "lezha" },
+    { locale: "de", slug: "gjader" },
+    { locale: "en", slug: "elbasan" },
+    { locale: "en", slug: "lezha" },
+    { locale: "en", slug: "gjader" },
+  ];
+}
+
 export default async function detailPage({
-  params: { locale, id },
+  params: { locale, slug },
 }: {
-  params: { locale: string; id: string };
+  params: { locale: string; slug: string };
 }) {
   unstable_setRequestLocale(locale);
   const translation = (
     await import(`../../../../../locales/${locale}/${locale}.json`)
   ).default;
 
-  console.log(id);
-
   const matchedProject = translation.Projects.find(
-    (project: any) => project.title.toLowerCase() === id.toLowerCase()
+    (project: any) => project.title.toLowerCase() === slug.toLowerCase()
   );
 
-  /* if (!matchedProject) {
+  if (!matchedProject) {
     return <div>Project not found</div>;
-  }*/
+  }
 
   return (
     <main>
