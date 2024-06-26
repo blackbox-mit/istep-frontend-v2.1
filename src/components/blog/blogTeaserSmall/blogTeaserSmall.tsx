@@ -6,15 +6,14 @@ interface BlogTeaserSmallProps {
   text: string;
   moreText: string;
   idx: number;
-  image: NextImageProps;
+  image: string;
 }
 
 export default function blogTeaserSmall({
   title,
   text,
-  image,
   moreText,
-
+  image,
   idx,
 }: BlogTeaserSmallProps) {
   const bgColorOptions = ["#E07200", "#F8B344", "#25926F"];
@@ -43,9 +42,10 @@ export default function blogTeaserSmall({
         <div className="relative">
           <Image
             src={image}
-            alt="Picture of the author"
-            className="rounded-t-3xl w-full max-h-96 object-cover"
-
+            alt={title}
+            className="rounded-t-3xl !w-full !max-h-96 !object-cover"
+            width={500}
+            height={300}
             // blurDataURL="data:..." automatically provided
             // placeholder="blur" // Optional blur-up while loading
           />
