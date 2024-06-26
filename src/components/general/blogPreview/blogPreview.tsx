@@ -2,7 +2,7 @@ import Image, { StaticImageData as NextImageProps } from "next/image";
 
 import { unstable_setRequestLocale } from "next-intl/server";
 
-import image from "@/assets/blogs/11_PinkFloydAndSayingGoodbye/Bild_1.jpg";
+import image from "@/assets/blog/11_PinkFloydAndSayingGoodbye/Bild_1.jpg";
 
 export default async function blogPreview({ lng }: any) {
   unstable_setRequestLocale(lng);

@@ -21,6 +21,7 @@ export default async function coursesOverview({ lng }: projectProps) {
           image={blog.images[0]}
           moreText={blog.moreText}
           idx={index}
+          lng={lng}
         />
       ))}
     </div>

@@ -29,6 +29,7 @@ export default async function BlogTeaser({ lng }: any) {
             moreText={translation.Blog.blogs[0].moreText}
             theme={"#25926F"}
             image={image}
+            lng={lng}
           />
         </div>
         <div className="flex md:justify-end justify-center">

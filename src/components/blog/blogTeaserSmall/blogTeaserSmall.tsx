@@ -1,5 +1,6 @@
 import Image, { StaticImageData as NextImageProps } from "next/image";
 import { truncate } from "@/utils/truncate";
+import Link from "next/link";
 
 interface BlogTeaserSmallProps {
   title: string;
@@ -7,6 +8,7 @@ interface BlogTeaserSmallProps {
   moreText: string;
   idx: number;
   image: string;
+  lng: string;
 }
 
 export default function blogTeaserSmall({
@@ -15,6 +17,7 @@ export default function blogTeaserSmall({
   moreText,
   image,
   idx,
+  lng,
 }: BlogTeaserSmallProps) {
   const bgColorOptions = ["#E07200", "#F8B344", "#25926F"];
   const bgColorOptions2 = [
@@ -67,14 +70,15 @@ export default function blogTeaserSmall({
             />
             <p className="ml-4">{textBlog}</p>
           </div>
-
-          <button
-            type="button"
-            className={`rounded-full mt-4 ml-5 px-10 py-2.5 text-sm font-semibold text-white focus-visible:outline hover:scale-105 transition-all duration-300`}
-            style={{ backgroundColor: theme }}
-          >
-            {moreText}
-          </button>
+          <Link href={`/${lng}/blog/${idx}`}>
+            <button
+              type="button"
+              className={`rounded-full mt-4 ml-5 px-10 py-2.5 text-sm font-semibold text-white focus-visible:outline hover:scale-105 transition-all duration-300`}
+              style={{ backgroundColor: theme }}
+            >
+              {moreText}
+            </button>
+          </Link>
         </div>
       </div>
     </>
