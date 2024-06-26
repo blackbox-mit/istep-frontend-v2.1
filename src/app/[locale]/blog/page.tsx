@@ -4,10 +4,6 @@ import BlogOverview from "@/components/blog/blogOverview/blogOverview";
 
 import ScrollDown from "@/components/general/scrollDown/scrollDown";
 
-import image41 from "@/assets/blogs/04_ContinueToLezha/image_1.jpg";
-import image42 from "@/assets/blogs/04_ContinueToLezha/image_2.jpg";
-import image43 from "@/assets/blogs/04_ContinueToLezha/image_3.jpg";
-
 import { useTranslations } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
 
@@ -20,7 +16,6 @@ interface BlogProps {
 export default function Blog({ params: { locale } }: BlogProps) {
   unstable_setRequestLocale(locale);
   const t = useTranslations("Blog");
-  const preview = [image41, image42, image43];
 
   return (
     <main>
@@ -35,16 +30,7 @@ export default function Blog({ params: { locale } }: BlogProps) {
             </p>
           </div>
           <div className="mt-12">
-            <BlogPreview
-              theme="green"
-              //@ts-ignore
-              title={t("latestBlog.title")}
-              //@ts-ignore
-              text={t("latestBlog.text")}
-              //@ts-ignore
-              moreText={t("latestBlog.moreText")}
-              image={preview[0]}
-            />
+            <BlogPreview lng={locale} />
           </div>
         </div>
         <ScrollDown />
