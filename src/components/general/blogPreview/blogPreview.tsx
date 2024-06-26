@@ -30,9 +30,12 @@ export default async function blogPreview({ lng }: any) {
             </p>
             <div className="flex items-center cursor-pointer">
               <hr className="h-0.5 my-4 w-4 border-0 dark:bg-darkblue mr-2" />
-              <p className="text-p-sm md:text-p-lg !font-bold text-darkblue">
+              <a
+                href={"/" + lng + "/blog/" + 0}
+                className="text-p-sm md:text-p-lg !font-bold text-darkblue"
+              >
                 {translation.Blog.blogs[0].moreText}
-              </p>
+              </a>
             </div>
           </div>
           <div className="w-full md:w-1/2 order-first md:order-last">

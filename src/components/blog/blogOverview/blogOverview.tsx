@@ -20,7 +20,7 @@ export default async function coursesOverview({ lng }: projectProps) {
           text={blog.text}
           image={blog.images[0]}
           moreText={blog.moreText}
-          idx={index}
+          idx={index + 1}
           lng={lng}
         />
       ))}
