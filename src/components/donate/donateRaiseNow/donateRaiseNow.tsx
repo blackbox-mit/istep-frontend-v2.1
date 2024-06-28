@@ -23,7 +23,6 @@ export default function DonateRaiseNow({}: donateRaiseNowProps) {
                 language: "en",
               });
               // console.log(window.rnw.tamaro.runWidget(buttonRef));
-              console.log(buttonRef.current);
             }
 
             /* window.rnw.tamaro.runWidget(".rnw-widget-container", {

@@ -40,7 +40,7 @@ export default async function RootLayout({
           {children}
 
           <Suspense>
-            <Footer />
+            <Footer lng={locale} />
           </Suspense>
         </NextIntlClientProvider>
       </body>
