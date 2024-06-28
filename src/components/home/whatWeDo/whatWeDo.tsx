@@ -34,7 +34,7 @@ export default function wahtWeDo({ lng }: { lng: string }) {
           // placeholder="blur" // Optional blur-up while loading
         />
         <p className="text-p-sm md:text-p-lg order-first md:order-last text-darkblue">
-          ${t("text2")}
+          {t("text2")}
         </p>
       </div>
     </>
