@@ -46,7 +46,7 @@ export default async function detailPage({
       <div className="min-h-[calc(100vh-80px)] z-10 w-full pb-8 md:pb-0">
         <div className="bg-darkblue h-[calc(100vh-80px)]">
           <div className="container mx-auto md:pt-48 px-8 pt-8 lg:px-4 relative">
-            <div className="w-2/3">
+            <div className="md:w-2/3 w-full">
               <h1 className="lg:text-h-l text-h-md text-yellow font-palanquin md:text-left text-center">
                 {translation.Blog.blogs[id].title}
               </h1>
@@ -55,12 +55,12 @@ export default async function detailPage({
               </p>
             </div>
           </div>
-          <div className="container mx-auto py-12 mt-36 lg:px-4">
-            <div className="w-full justify-end flex">
+          <div className="container mx-auto py-12 md:mt-36 lg:px-4">
+            <div className="w-full justify-end flex md:p-0 p-8">
               <Image
                 src={translation.Blog.blogs[id].images[0]}
                 alt={`Image of ${translation.Blog.blogs[id].title}`}
-                className="h-full object-contain w-1/2 mr-16 z-20 rounded-3xl"
+                className="h-full object-contain md:w-1/2 w-full md:mr-16 z-20 rounded-3xl"
                 width={500}
                 height={300}
               />
@@ -70,13 +70,13 @@ export default async function detailPage({
         </div>
       </div>
       <div className="pt-36 pb-12" />
-      <div className="container mx-auto py-12 mt-36 lg:px-4">
+      <div className="container mx-auto py-12 md:mt-36 lg:px-4">
         <div className="flex flex-col">
           {Array.from({ length: loopLength }, (_, index) => (
-            <div key={index} className="flex">
+            <div key={index} className="flex flex-col md:flex-row">
               {newText[index] && newText[index].type === "text" && (
                 <div
-                  className={`w-1/2 p-4 ${
+                  className={`md:w-1/2 w-full p-4 ${
                     index % 2 === 0 ? "order-last" : "order-first"
                   }  `}
                 >
@@ -86,7 +86,7 @@ export default async function detailPage({
                 </div>
               )}
               {newImages[index] && newImages[index].type === "image" && (
-                <div className=" w-1/2 p-4">
+                <div className="w-full md:w-1/2 p-4">
                   <Image
                     src={newImages[index].content}
                     alt={`image-${index}`}

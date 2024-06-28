@@ -31,11 +31,11 @@ export default async function CourseResultsTeaser({
         <div className="w-full mt-8">
           <Carousel results={translation.Results} lng={lng} />
         </div>
-        <div className="flex justify-end">
+        {/* <div className="flex justify-end">
           <button className="bg-orange text-white px-6 py-2 rounded-full mt-8 font-palanquin ">
             {t("buttonText")}
           </button>
-        </div>
+        </div> */}
       </div>
     </>
   );

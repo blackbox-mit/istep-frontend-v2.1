@@ -25,7 +25,7 @@ export default function Blog({ params: { locale } }: BlogProps) {
             <h1 className="lg:text-h-xl text-h-l  text-green font-palanquin md:text-left text-center">
               {t("title")}
             </h1>
-            <p className="text-white md:text-h-md text-h-sm !font-thin font-palanquin">
+            <p className="text-white md:text-h-md text-h-sm !font-thin font-palanquin md:text-left text-center">
               {t("subTitle")}
             </p>
           </div>

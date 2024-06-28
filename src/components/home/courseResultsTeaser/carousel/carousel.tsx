@@ -40,7 +40,8 @@ export default function carousel({ results, lng }: any) {
   ];
 
   return (
-    <Swiper
+    <>
+      {/* <Swiper
       breakpoints={breakpoints}
       spaceBetween={20}
       initialSlide={1}
@@ -62,6 +63,22 @@ export default function carousel({ results, lng }: any) {
           />
         </SwiperSlide>
       ))}
-    </Swiper>
+    </Swiper> */}
+      <div className="w-full grid md:grid-cols-3 grid-cols-1 gap-8 ">
+        {results.map((item: any, index: number) => (
+          <div key={index}>
+            <CoursesTeaserElement
+              image={resultsImage[index]}
+              bgColor={item.backgroundColor}
+              imagePosition={item.imagePosition}
+              title={item.title}
+              text={item.moreText}
+              link={"/" + item.link}
+              lng={lng}
+            />
+          </div>
+        ))}
+      </div>
+    </>
   );
 }

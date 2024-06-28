@@ -113,7 +113,6 @@
           "/blog/11_PinkFloydAndSayingGoodbye/Bild_2.jpg",
           "/blog/11_PinkFloydAndSayingGoodbye/Bild_3.jpg",
           "/blog/11_PinkFloydAndSayingGoodbye/Bild_4.jpg",
-          "/blog/11_PinkFloydAndSayingGoodbye/Bild_5.jpg",
           "/blog/11_PinkFloydAndSayingGoodbye/Bild_5.jpg"
         ]
       },
@@ -188,8 +187,7 @@
           "/blog/07_CreativeStepsMastered/Bild_3.jpg",
           "/blog/07_CreativeStepsMastered/Bild_4.jpg",
           "/blog/07_CreativeStepsMastered/Bild_5.jpg",
-          "/blog/07_CreativeStepsMastered/Bild_6.jpg",
-          "/blog/07_CreativeStepsMastered/Bild_7.jpg"
+          "/blog/07_CreativeStepsMastered/Bild_6.jpg"
         ]
       },
       {
@@ -664,35 +662,21 @@
       "moreText": "mehr Lesen",
       "backgroundColor": "#E07200",
       "imagePosition": "justify-center",
-      "link": "results"
+      "link": ""
     },
     {
       "title": "Präsentation",
       "moreText": "mehr Lesen",
       "backgroundColor": "#509D75",
       "imagePosition": "justify-center",
-      "link": "results"
+      "link": ""
     },
     {
-      "title": "Video ",
+      "title": "Video",
       "moreText": "mehr Lesen",
       "backgroundColor": "#F8B344",
       "imagePosition": "justify-center",
-      "link": "results"
-    },
-    {
-      "title": "Video ",
-      "moreText": "mehr Lesen",
-      "backgroundColor": "#F8B344",
-      "imagePosition": "justify-center",
-      "link": "results"
-    },
-    {
-      "title": "Video ",
-      "moreText": "mehr Lesen",
-      "backgroundColor": "#F8B344",
-      "imagePosition": "justify-center",
-      "link": "results"
+      "link": ""
     }
   ],
 
