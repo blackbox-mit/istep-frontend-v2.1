@@ -69,7 +69,7 @@ export default async function detailPage({
           <ScrollDown />
         </div>
       </div>
-      <div className="pt-36 pb-12" />
+      <div className="pt-48 pb-24" />
       <div className="container mx-auto py-12 md:mt-36 lg:px-4">
         <div className="flex flex-col">
           {Array.from({ length: loopLength }, (_, index) => (
