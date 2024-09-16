@@ -77,7 +77,7 @@ export default function TeamMember({
               />
             </Transition.Child>
             <div className={`fixed inset-0 z-10 w-screen overflow-y-auto `}>
-              <div className="flex min-h-full  md:items-center justify-center p-4 text-center sm:items-center sm:p-0">
+              <div className="flex min-h-full  md:items-center justify-center md:p-4 text-center sm:items-center sm:p-0">
                 <Transition.Child
                   as={Fragment}
                   enter="ease-out duration-300"
@@ -87,7 +87,10 @@ export default function TeamMember({
                   leaveFrom="opacity-100 translate-y-0 sm:scale-100"
                   leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
                 >
-                  <Dialog.Panel className="relative transform md:overflow-hidden overflow-scroll rounded-3xl bg-white text-left h-[90vh]  transition-all w-5/6 ">
+                  <Dialog.Panel
+                    className="relative transform md:overflow-hidden overflow-scroll md:rounded-3xl bg-white text-left md:h-[90vh]  
+                 h-[100vh] transition-all md:w-5/6 "
+                  >
                     <div className="flex md:flex-row flex-col w-full items-stretch justify-between h-full ">
                       <div className="w-full md:w-1/2 flex-1">
                         <div className="p-6 font-palanquin md:mt-6">
@@ -101,7 +104,7 @@ export default function TeamMember({
                         <Image
                           src={image}
                           alt={name}
-                          className="object-cover rounded-rt-3xl rounded-rb-3xl h-full"
+                          className="object-cover rounded-rt-3xl rounded-rb-3xl h-full hidden md:flex"
 
                           // blurDataURL="data:..." automatically provided
                           // placeholder="blur" // Optional blur-up while loading

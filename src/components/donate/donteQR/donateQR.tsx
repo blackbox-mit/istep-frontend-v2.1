@@ -1,12 +1,15 @@
 "use client";
+
 import Image, { StaticImageData as NextImageProps } from "next/image";
 import { useState } from "react";
 import QRImage from "@/assets/donate/QR-Rechnung.png";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
-interface donateQRProps {}
+interface donateQRProps {
+  lng: string;
+}
 
-export default function DonateQR({}: donateQRProps) {
+export default function DonateQR({ lng }: donateQRProps) {
   const [open, setOpen] = useState(false);
 
   return (

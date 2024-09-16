@@ -36,7 +36,7 @@ export default function DonateRaiseNow({}: donateRaiseNowProps) {
           } `}
           onClick={() => setOpen(!open)}
         >
-          <p className="text-h-sm ">Donate Bankverbindung</p>
+          <p className="text-h-sm ">Donate RaiseNow</p>
 
           <ChevronDownIcon aria-hidden="true" className="w-12" />
         </div>

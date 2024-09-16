@@ -416,8 +416,22 @@
   ],
 
   "Donate": {
-    "mainTitle": "Bildung für alle.",
-    "subTitle": "Bildung für alle."
+    "mainTitle": "Spenden",
+    "donateQR": {
+      "title": "QR-Code",
+      "image": "/donate/QR-Code.png"
+    },
+    "donateBank": {
+      "title": "Bankverbindung",
+      "IBAN": "CH68 0900 0000 1617 1693 4",
+      "name": "iSTEP",
+      "address": "Weingartenstrasse 6",
+      "address2": "3417 Rüegsau"
+    },
+    "donateTwint": {
+      "title": "Twint",
+      "image": "/donate/QR-Code.png"
+    }
   },
   "General": {
     "navbar": {
