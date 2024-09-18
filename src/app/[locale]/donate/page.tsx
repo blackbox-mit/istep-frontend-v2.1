@@ -44,7 +44,7 @@ export default async function Donate({ params: { lng } }: CoursesProps) {
       </div>
       <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4">
         <div className="mt-4">
-          <DonateQR />
+          <DonateQR lng={lng} />
         </div>
         <div className="mt-4">
           <DonateBankConnection />
