@@ -89,7 +89,7 @@
     "blog": {
       "title": "Blog",
       "subTitle": "Neues von uns",
-      "text": "Wir bieten diverse Kurse im Bereich der IT und Multimedia an. Am meisten besucht sind folgende:",
+      "text": "",
       "buttonText": "Ganzer Blog"
     }
   },
@@ -666,7 +666,7 @@
 
   "Results": [
     {
-      "title": "Fotoghraphie",
+      "title": "Fotografie",
       "moreText": "mehr Lesen",
       "backgroundColor": "#E07200",
       "imagePosition": "justify-center",
