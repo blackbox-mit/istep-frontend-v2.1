@@ -8,7 +8,7 @@
     "whoIs": {
       "title": "Wer ist iSTEP",
       "subTitle": "Die Idee von iSTEP hat ihren Ursprung im Jahr 2015.",
-      "text": "Adrian Burkhalter rief im Rahmen seiner Tätigkeit als Lernbegleiter bei Swisscom das Projekt NGG (Next Generation Give & Grow) ins Leben. Sieben Jahre lang führte er in Zusammenarbeit mit über 300 beteiligten Lernenden IT-Kurse durch, von denen über 500 Asylsuchende profitierten. Nach seiner Pensionierung entwickelte Adrian diese Idee privat weiter und so wurde nach einigen Monaten Aufbauarbeit im Frühsommer 2023 der Verein iSTEP gegründet. Mittlerweile besteht das Team aus sieben Mitgliedern. Zudem arbeiten wir mit verschiedenen Hilfsorganisationen zusammen."
+      "text": "Adrian Burkhalter rief im Rahmen seiner Tätigkeit als Lernbegleiter bei Swisscom das Projekt NGG (Next Generation Give & Grow) ins Leben. Sieben Jahre lang führte er in Zusammenarbeit mit über 300 beteiligten Lernenden IT-Kurse durch, von denen über 500 Asylsuchende profitierten. Nach seiner Pensionierung entwickelte Adrian diese Idee privat weiter und so wurde nach einigen Monaten Aufbauarbeit im Frühsommer 2023 der Verein iSTEP gegründet. Mittlerweile besteht das Team aus 12 Mitgliedern. Zudem arbeiten wir mit verschiedenen Hilfsorganisationen zusammen."
     },
     "teamSwiss": {
       "title": "Team Schweiz",
@@ -227,7 +227,7 @@
         "moreText": "Mehr Lesen",
         "date": "2023.09.14",
         "texts": [
-          "Als ich mit einem der Teammitglieder (Adrian) in Kontakt kam und er mir das iStep-Projekt erläuterte, wusste ich, dass ich mithelfen wollte, dieses Projekt zu verwirklichen. Vor allem, weil ich wusste, wie innovativ dies für Lezha sein würde. Während dieser 4 Tage in Lezha lernten Adrian und das Team viele Schüler und ihre Geschichten, ihre Ziele und ihr Interesse am iStep-Kurs kennen. Diese 4 Tage liefen sowohl für die Anfänger- als auch für die Fortgeschrittenengruppe sehr gut. Ich glaube, dieser Kurs wird bald in der ganzen Stadt angeboten werden. Dies war eine großartige Gelegenheit für die Schüler, und ihr Interesse wird sich noch verstärken, wenn sie erst einmal in die Welt der Technologie eingetaucht sind!"
+          "Als ich mit einem der Teammitglieder (Adrian) in Kontakt kam und er mir das iSTEP-Projekt erläuterte, wusste ich, dass ich mithelfen wollte, dieses Projekt zu verwirklichen. Vor allem, weil ich wusste, wie innovativ dies für Lezha sein würde. Während dieser 4 Tage in Lezha lernten Adrian und das Team viele Schüler und ihre Geschichten, ihre Ziele und ihr Interesse am iSTEP-Kurs kennen. Diese 4 Tage liefen sowohl für die Anfänger- als auch für die Fortgeschrittenengruppe sehr gut. Ich glaube, dieser Kurs wird bald in der ganzen Stadt angeboten werden. Dies war eine großartige Gelegenheit für die Schüler, und ihr Interesse wird sich noch verstärken, wenn sie erst einmal in die Welt der Technologie eingetaucht sind!"
         ],
         "images": [
           "/blog/04_ContinueToLezha/image_1.jpg",
@@ -615,7 +615,7 @@
   "Projects": [
     {
       "title": "Elbasan",
-      "teaser": "Elbasan ist eine grössere Stadt im Zentrum Albaniens. iStep knüpft hier an das bestehende Schulprojekt der Hilfsorganisation A2B (Aid to the Balkans) an. Wir rüsten das Schul- und Tagesstrukturzentrum für benachteiligte Kinder und Jugendliche mit Laptops aus. In fortlaufenden Kursen können die Teilnehmenden Multimedia- und Informatikkenntnisse aufbauen und vertiefen.",
+      "teaser": "Elbasan ist eine grössere Stadt im Zentrum Albaniens. iSTEP knüpft hier an das bestehende Schulprojekt der Hilfsorganisation A2B (Aid to the Balkans) an. Wir rüsten das Schul- und Tagesstrukturzentrum für benachteiligte Kinder und Jugendliche mit Laptops aus. In fortlaufenden Kursen können die Teilnehmenden Multimedia- und Informatikkenntnisse aufbauen und vertiefen.",
       "moreText": "mehr Lesen",
       "link": "/elbasan",
       "image": "/placeholder/project.png",
@@ -623,13 +623,13 @@
         "theLocation": "Der Standort",
         "theLocationText": "Lezhë ist eine beschauliche Kleinstadt im Nordwesten des Landes unweit der schönen Touristenstrände von Shëngjin entfernt. Hier führen die Venerini Sisters eine High School, so wie ein Reintegrationszentrum und Sprungbrett für junge Frauen auf dem Weg ins Erwachsenenleben. Wir arbeiten eng mit lokalen Organisationen und freiwilligen Mithelfer:innen zusammen, um auf bestehenden Projekten aufzubauen. ",
         "whatWeDo": "Was wir tun",
-        "whatWeDoText": "Seit September 2023 ist iStep an der High School in Lezhë aktiv und erweitert den IT-Unterricht der Schule mit zusätzlichen Onlinemodulen für Interessierte. Im Januar 2024 startete dann der erste Pilot für einen Webentwicklungsblockkurs. In zwölf Onlinesegmenten und fünf Unterrichtstagen vor Ort wurden den Schülerinnen und Schülern die Grundlagen der Webentwicklung mit HTML, CSS und JavaScript vermittelt. Die Teilnehmenden schlossen den Kurs mit einem eigenen Webseitenprojekt und einer Abschlussprüfung erfolgreich ab. Es ist geplant den Blockkurs im nächsten Schuljahr für die Neuzugänge wieder auszuschreiben.",
+        "whatWeDoText": "Seit September 2023 ist iSTEP an der High School in Lezhë aktiv und erweitert den IT-Unterricht der Schule mit zusätzlichen Onlinemodulen für Interessierte. Im Januar 2024 startete dann der erste Pilot für einen Webentwicklungsblockkurs. In zwölf Onlinesegmenten und fünf Unterrichtstagen vor Ort wurden den Schülerinnen und Schülern die Grundlagen der Webentwicklung mit HTML, CSS und JavaScript vermittelt. Die Teilnehmenden schlossen den Kurs mit einem eigenen Webseitenprojekt und einer Abschlussprüfung erfolgreich ab. Es ist geplant den Blockkurs im nächsten Schuljahr für die Neuzugänge wieder auszuschreiben.",
         "whatWeDoText2": "Ebenfalls stehen wir dem IT-Lehrpersonal der High School beratend zur Seite und helfen beim Zusammenstellen von Unterrichtsmaterial. Für die jungen Frauen aus dem Reintegrationscenter Casa Rozalba II bieten wir nach Bedarf allgemeine Computerkursen an, damit sie für den Übertritt ins Erwachsenenleben mit dem nötigen digitalen Rüstzeug gewappnet sind."
       }
     },
     {
       "title": "Lezha",
-      "teaser": "In der Kleinstadt Lezhë im Nordwesten Albaniens arbeitet iStep mit den lokal tätigen Venerini Sisters zusammen. Wir ergänzen die Bildungsangebote an der von den Venerini Sisters geleiteten High School mit zusätzlichen Informatikvertiefungskursen und unterstützen die Lehrkräfte im IT-Themenfeld. ",
+      "teaser": "In der Kleinstadt Lezhë im Nordwesten Albaniens arbeitet iSTEP mit den lokal tätigen Venerini Sisters zusammen. Wir ergänzen die Bildungsangebote an der von den Venerini Sisters geleiteten High School mit zusätzlichen Informatikvertiefungskursen und unterstützen die Lehrkräfte im IT-Themenfeld. ",
       "moreText": "mehr Lesen",
       "link": "/lezha",
       "image": "/placeholder/project.png",
@@ -637,21 +637,21 @@
         "theLocation": "Der Standort",
         "theLocationText": "Gjadër ist ein kleines Dorf einige Autofahrminuten von Lezhë entfernt. Es ist bekannt für den aufgegebenen Militärflughafen, der heute als Schrottplatz für altes Fluggerät dient. Die verlassene Landebahn, zieht sich quer durch das Dorf und prägt das Ortsbild. Gleich neben dem maroden Startfeld steht das Jugend- und Hilfszentrum Casa Rozalba I der Venerini Sisters. ",
         "whatWeDo": "Was wir tun",
-        "whatWeDoText": "Seit dem ersten Outreach von iStep im September 2023 führen wir im Casa Rozalba Anfängerkurse im Bereich allgemeine Computerkenntnisse und Office Anwendungen durch. Da die Kinder und Frauen des Zentrums oft aus schwierigen Umständen stammen, hilft iStep auch mit materieller Unterstützung und stellt den Bewohner:innen Notebooks und Peripheriegeräte zur Verfügung. Bei den Einsätzen vor Ort liegt der Fokus jeweils darauf, Interessierte auf einen technischen Stand zu bringen, der ihnen die Teilnahme an weiterführenden Onlinekursen ermöglicht.",
+        "whatWeDoText": "Seit dem ersten Outreach von iSTEP im September 2023 führen wir im Casa Rozalba Anfängerkurse im Bereich allgemeine Computerkenntnisse und Office Anwendungen durch. Da die Kinder und Frauen des Zentrums oft aus schwierigen Umständen stammen, hilft iSTEP auch mit materieller Unterstützung und stellt den Bewohner:innen Notebooks und Peripheriegeräte zur Verfügung. Bei den Einsätzen vor Ort liegt der Fokus jeweils darauf, Interessierte auf einen technischen Stand zu bringen, der ihnen die Teilnahme an weiterführenden Onlinekursen ermöglicht.",
         "whatWeDoText2": ""
       }
     },
     {
       "title": "Gjadër",
-      "teaser": "Im kleinen Dorf Gjadër im Umland von Lezhë liegt das Jugend- und Hilfszentrum Casa Rozalba I der Venerini Sisters. Dort finden Kinder und Frauen aus schwierigen Umständen ein neues Zuhause. iStep ergänzt auch hier das bereits bestehende Bildungsangebot des Zentrums mit Computerkursangeboten. Zusätzlich liefern wir Laptops und anderes Material, um den Frauen und Kindern den Anschluss ans digitale Zeitalter zu ermöglichen. ",
+      "teaser": "Im kleinen Dorf Gjadër im Umland von Lezhë liegt das Jugend- und Hilfszentrum Casa Rozalba I der Venerini Sisters. Dort finden Kinder und Frauen aus schwierigen Umständen ein neues Zuhause. iSTEP ergänzt auch hier das bereits bestehende Bildungsangebot des Zentrums mit Computerkursangeboten. Zusätzlich liefern wir Laptops und anderes Material, um den Frauen und Kindern den Anschluss ans digitale Zeitalter zu ermöglichen. ",
       "moreText": "mehr Lesen",
       "link": "/gjader",
       "image": "/placeholder/project.png",
       "details": {
         "theLocation": "Der Standort",
-        "theLocationText": "Elbasan ist die viertgrösste Stadt in Albanien. In Elbasans Peripherie liegt das A2B Zentrum der gleichnamigen Hilfsorganisation. Es bietet einen Kindergarten an, sowie einen Mittagstisch mit warmen Mahlzeiten für die Kinder und Jugendlichen aus der nahegelegenen Schule. Als ergänzende Tagestruktur fürht das Zentrum im Anschluss an die Mittagsmahlzeiten begleitete Hausaufgabenhilfe und Nachhilfeunterricht durch. Obschon sich das Angebot primär an Kinder aus ärmeren Verhältnissen richtet, steht es bewusst auch besser situierten Familien offen. So wird einer Stigmatisierung vorgebeugt und eine für alle Seiten bereichernde Durchmischung ermöglicht. Im Gebäude werden auch Hilfsgüter und Lebensmittel für andere Unterstützungsangebote des Hilfswerks gelagert. iStep nutzt die bestehenden Hilfsgütertransporte von A2B um IT-Material nach Albanien zu schicken.",
+        "theLocationText": "Elbasan ist die viertgrösste Stadt in Albanien. In Elbasans Peripherie liegt das A2B Zentrum der gleichnamigen Hilfsorganisation. Es bietet einen Kindergarten an, sowie einen Mittagstisch mit warmen Mahlzeiten für die Kinder und Jugendlichen aus der nahegelegenen Schule. Als ergänzende Tagestruktur fürht das Zentrum im Anschluss an die Mittagsmahlzeiten begleitete Hausaufgabenhilfe und Nachhilfeunterricht durch. Obschon sich das Angebot primär an Kinder aus ärmeren Verhältnissen richtet, steht es bewusst auch besser situierten Familien offen. So wird einer Stigmatisierung vorgebeugt und eine für alle Seiten bereichernde Durchmischung ermöglicht. Im Gebäude werden auch Hilfsgüter und Lebensmittel für andere Unterstützungsangebote des Hilfswerks gelagert. iSTEP nutzt die bestehenden Hilfsgütertransporte von A2B um IT-Material nach Albanien zu schicken.",
         "whatWeDo": "Was wir tun",
-        "whatWeDoText": "Seit dem ersten Einsatz im September 2023 führt iStep angeknüpft an die Tagesstrukturangebote von A2B regelmässig Onlinekurse für die Kinder des Zentrums durch. Die Kurse finden in einem 14-Tage-Rhythmus statt und sind modular konzipiert. Durch die Kontinuität erreichen wir einen fortschreitenden Lerneffekt und bauen eine Vertrauensbasis mit den Kindern und Jugendlichen auf. Ebenso ermöglicht uns der regelmässige Austausch, die Interessen der Teilnehmenden zu erfassen und sie bei Bedarf individuell zu fördern.",
+        "whatWeDoText": "Seit dem ersten Einsatz im September 2023 führt iSTEP angeknüpft an die Tagesstrukturangebote von A2B regelmässig Onlinekurse für die Kinder des Zentrums durch. Die Kurse finden in einem 14-Tage-Rhythmus statt und sind modular konzipiert. Durch die Kontinuität erreichen wir einen fortschreitenden Lerneffekt und bauen eine Vertrauensbasis mit den Kindern und Jugendlichen auf. Ebenso ermöglicht uns der regelmässige Austausch, die Interessen der Teilnehmenden zu erfassen und sie bei Bedarf individuell zu fördern.",
         "whatWeDoText2": "Die Kurse werden von lokalen Übersetzer:innen begleitet, damit auch Kinder ohne grosse Englischkenntnisse Anschluss finden. Das Kursprogramm teilt sich dabei in zwei Themenbereiche auf. Ein Angebot fokussiert sich auf den kreativen Bereich und bringt den Teilnehmenden beispielsweise Designkonzepte, sowie Bild- und Videobearbeitung bei. Das zweite Kursangebot ist auf die Vermittlung von IT-Kenntnissen ausgerichtet. "
       }
     }
@@ -764,7 +764,7 @@
     "albaniaElbasan": [
       {
         "name": "Fabjan",
-        "text": "Die Arbeit mit der iStep hilft mir, einen Beitrag zu leisten und das Leben der Kinder positiv zu beeinflussen.",
+        "text": "Die Arbeit mit der iSTEP hilft mir, einen Beitrag zu leisten und das Leben der Kinder positiv zu beeinflussen.",
         "moreText": "Mehr Erfahren"
       },
       {
