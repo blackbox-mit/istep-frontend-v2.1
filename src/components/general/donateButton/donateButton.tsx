@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 interface DonateButtonProps {
-  toggleSidebar: () => void;
+  toggleSidebar?: () => void;
 }
 
 const DonateButton = ({ toggleSidebar }: DonateButtonProps) => {
