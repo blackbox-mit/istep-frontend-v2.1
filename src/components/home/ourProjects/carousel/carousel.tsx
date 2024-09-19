@@ -11,8 +11,8 @@ import "swiper/css/pagination";
 export default function carousel({ projects }: { projects: any }) {
   const breakpoints = {
     1: {
-      slidesPerView: 1.3,
-      spaceBetween: 30,
+      slidesPerView: 1.2,
+      spaceBetween: 16,
     },
     480: {
       slidesPerView: 1.3,
