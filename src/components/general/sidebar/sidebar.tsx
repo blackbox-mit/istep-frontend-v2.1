@@ -19,7 +19,7 @@ export default function Sidebar({ isOpen, toggleSidebar }: SidebarProps) {
       >
         <div className="inline-flex justify-end items-center w-full mt-4 mb-4 pr-4">
           <div className="w-36 mr-4">
-            <DonateButton />
+            <DonateButton toggleSidebar={toggleSidebar} />
           </div>
 
           <XMarkIcon

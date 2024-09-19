@@ -3,14 +3,12 @@
 import { useState } from "react";
 
 export default function BurgerMenu() {
-
   const [isHovered, setIsHovered] = useState(false);
   return (
     <div className="flex flex-col justify-center ">
       <div className="relative ">
         <button
           className="w-12 h-10 relative focus:outline-none "
-        
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >
