@@ -5,7 +5,7 @@ import ImageAdrian from "@/assets/aboutUs/teamSwiss/istep_adrian.jpg";
 import ImageAlexandra from "@/assets/aboutUs/teamSwiss/istep_alexandra.jpg";
 import ImageAline from "@/assets/aboutUs/teamSwiss/istep_aline.jpg";
 import ImageDominic from "@/assets/aboutUs/teamSwiss/istep_dominic.jpg";
-import ImageMaxim from "@/assets/aboutUs/teamSwiss/istep_maxim.jpg";
+import ImageMaxim from "@/assets/aboutUs/teamSwiss/istep_maxim.png";
 import ImageMichelle from "@/assets/aboutUs/teamSwiss/istep_michelle.jpg";
 import ImageOlivia from "@/assets/aboutUs/teamSwiss/istep_olivia.jpg";
 import ImageYannic from "@/assets/aboutUs/teamSwiss/istep_yannic.jpg";
