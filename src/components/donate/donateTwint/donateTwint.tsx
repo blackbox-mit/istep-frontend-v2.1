@@ -9,7 +9,7 @@ export default function DonateTwint({}: donateTwintProps) {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <div className="rounded-3xl bg-white w-full shadow-2xl font-palanquin p-6">
+      <div className="rounded-3xl bg-white w-full shadow-2xl font-palanquin p-6 cursor-pointer">
         <div
           className="flex justify-between items-center h-12"
           onClick={() => setOpen(!open)}

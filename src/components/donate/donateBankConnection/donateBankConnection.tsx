@@ -7,7 +7,7 @@ export default function DonateBankConnection({}: donateBankConnectionProps) {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <div className="rounded-3xl bg-white w-full shadow-2xl font-palanquin p-8">
+      <div className="rounded-3xl bg-white w-full shadow-2xl font-palanquin p-8 cursor-pointer">
         <div
           className="flex justify-between items-center h-12"
           onClick={() => setOpen(!open)}
@@ -16,7 +16,7 @@ export default function DonateBankConnection({}: donateBankConnectionProps) {
           <ChevronDownIcon aria-hidden="true" className="w-12" />
         </div>
         {open && (
-          <div>
+          <div className="pt-4">
             <p>CH68 0900 0000 1617 1693 4</p>
             <p>iSTEP </p>
             <p>Weingartenstrasse 6 </p>

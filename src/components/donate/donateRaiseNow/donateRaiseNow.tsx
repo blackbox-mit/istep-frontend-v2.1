@@ -13,7 +13,7 @@ export default function DonateRaiseNow({}: donateRaiseNowProps) {
 
   return (
     <>
-      <div className="rounded-3xl bg-white w-full shadow-2xl font-palanquin p-8">
+      <div className="rounded-3xl bg-white w-full shadow-2xl font-palanquin p-8 cursor-pointer">
         <Script
           src="https://tamaro.raisenow.com/istep-b7da/latest/widget.js"
           onLoad={
