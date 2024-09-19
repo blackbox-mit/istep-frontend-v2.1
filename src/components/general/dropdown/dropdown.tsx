@@ -12,12 +12,22 @@ const Dropdown = () => {
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        <div className="cursor-pointer text-center">
-          <Link href="/de">
+        <div
+          className="cursor-pointer text-center"
+          onClick={() => setIsHovered(true)}
+        >
+          {isHovered && (
+            <Link href="/de">
+              <p className="p-2 hover:bg-orange hover:rounded-[24px] text-white text-p-sm">
+                DE
+              </p>
+            </Link>
+          )}
+          {!isHovered && (
             <p className="p-2 hover:bg-orange hover:rounded-[24px] text-white text-p-sm">
               DE
             </p>
-          </Link>
+          )}
         </div>
 
         <div
