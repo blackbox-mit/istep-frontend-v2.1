@@ -34,8 +34,6 @@ export default async function howIsIstep({ lng }: whoIsProps) {
             alt="Picture of the author"
             width={400}
             className="p-4"
-            // blurDataURL="data:..." automatically provided
-            // placeholder="blur" // Optional blur-up while loading
           />
         </div>
       </div>

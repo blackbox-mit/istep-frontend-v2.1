@@ -28,8 +28,6 @@ export default function DonateQR({ lng }: donateQRProps) {
               src={QRImage}
               alt="Picture of the author "
               className="object-contain pt-2 w-5/6 mt-8"
-              // blurDataURL="data:..." automatically provided
-              // placeholder="blur" // Optional blur-up while loading
             />
           </div>
         )}

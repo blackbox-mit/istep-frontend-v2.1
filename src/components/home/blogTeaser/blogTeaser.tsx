@@ -28,7 +28,7 @@ export default async function BlogTeaser({ lng }: any) {
             text={translation.Blog.blogs[0].text}
             moreText={translation.Blog.blogs[0].moreText}
             theme={"#25926F"}
-            image={image}
+            image={translation.Blog.blogs[0].images[0]}
             lng={lng}
           />
         </div>

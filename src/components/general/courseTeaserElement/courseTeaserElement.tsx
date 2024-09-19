@@ -37,9 +37,6 @@ export default function CoursesTeaserElement({
               src={image}
               alt="Picture of the author"
               className="object-contain md:w-96 sm:w-48 w-28 aspect-square rounded-3xl max-h-56"
-
-              // blurDataURL="data:..." automatically provided
-              // placeholder="blur" // Optional blur-up while loading
             />
           </div>
 

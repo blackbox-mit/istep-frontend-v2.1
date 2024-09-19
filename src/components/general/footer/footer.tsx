@@ -11,9 +11,6 @@ export default function footer({ lng }: any) {
           src={logo}
           alt="Picture of the author"
           className="md:w-36 w-24"
-
-          // blurDataURL="data:..." automatically provided
-          // placeholder="blur" // Optional blur-up while loading
         />
 
         <div className="mt-4 md:mt-8 font-palanquin flex md:flex-row flex-col justify-between ">

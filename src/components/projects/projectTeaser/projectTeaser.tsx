@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import projcet from "@/assets/placeholder/project.png";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -11,6 +10,7 @@ interface projectProps {
     teaser: string;
     moreText: string;
     link: string;
+    image: any;
   };
 }
 
@@ -53,7 +53,9 @@ const projectTeaser = ({ project, idx }: projectProps) => {
 
       <div className="w-full md:w-1/2 order-first md:order-last">
         <Image
-          src={projcet}
+          src={"/projects" + project.image}
+          width={500}
+          height={500}
           alt={project.title}
           className="md:rounded-tr-3xl md:rounded-br-3xl  md:rounded-tl-none rounded-t-3xl md:rounded-bl-none object-cover w-full h-full"
         />

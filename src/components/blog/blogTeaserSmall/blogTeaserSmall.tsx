@@ -49,8 +49,6 @@ export default function blogTeaserSmall({
             className="rounded-t-3xl !w-full !max-h-96 !object-cover"
             width={500}
             height={300}
-            // blurDataURL="data:..." automatically provided
-            // placeholder="blur" // Optional blur-up while loading
           />
           <div
             className={`bg-gradient-to-t absolute bottom-0 w-full h-auto`}

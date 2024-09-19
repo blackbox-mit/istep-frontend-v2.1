@@ -23,8 +23,6 @@ export default function DonateTwint({}: donateTwintProps) {
               src={Twint}
               alt="Picture of the author "
               className="object-contain pt-2 w-1/4 mt-8"
-              // blurDataURL="data:..." automatically provided
-              // placeholder="blur" // Optional blur-up while loading
             />
           </div>
         )}

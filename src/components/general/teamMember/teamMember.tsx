@@ -44,9 +44,6 @@ export default function TeamMember({
           src={image}
           alt="Picture of the author"
           className="object-cover h-full rounded-3xl"
-
-          // blurDataURL="data:..." automatically provided
-          // placeholder="blur" // Optional blur-up while loading
         />
         <div
           className={`bg-gradient-to-t  h-36 absolute bottom-0 w-full rounded-b-3xl`}
@@ -105,9 +102,6 @@ export default function TeamMember({
                           src={image}
                           alt={name}
                           className="object-cover rounded-rt-3xl rounded-rb-3xl h-full hidden md:flex"
-
-                          // blurDataURL="data:..." automatically provided
-                          // placeholder="blur" // Optional blur-up while loading
                         />
                         <div
                           style={{ backgroundColor: hex }}

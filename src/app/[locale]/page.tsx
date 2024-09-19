@@ -47,8 +47,6 @@ export default function HomePage({ params: { locale } }: HomeProps) {
               src={titleImage}
               alt="Picture of the author"
               className="object-contain pt-2"
-              // blurDataURL="data:..." automatically provided
-              // placeholder="blur" // Optional blur-up while loading
             />
           </div>
         </div>

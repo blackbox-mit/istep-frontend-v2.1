@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import image from "@/assets/placeholder/project.png";
 import { useRouter } from "next/navigation";
 import { usePathname } from "next/navigation";
 import { truncate } from "@/utils/truncate";
@@ -25,7 +24,9 @@ const ProjectTeaser = ({ project, idx }: { project: any; idx: number }) => {
     <div className=" bg-white w-full rounded-3xl">
       <div className="relative">
         <Image
-          src={image}
+          src={"/projects" + project.image}
+          width={500}
+          height={500}
           alt={project.title}
           className="rounded-t-3xl max-h-96 h-full w-full object-cover"
         />

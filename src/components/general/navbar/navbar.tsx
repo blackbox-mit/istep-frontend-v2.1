@@ -36,13 +36,7 @@ export default function Navbar() {
       <div className="h-[80px] bg-darkblue inline-flex items-center justify-between w-full pl-4 pr-4">
         <div>
           <Link href={pathname.substring(0, 3)}>
-            <Image
-              src={logo}
-              alt="Picture of the author"
-              height={60}
-              // blurDataURL="data:..." automatically provided
-              // placeholder="blur" // Optional blur-up while loading
-            />
+            <Image src={logo} alt="Picture of the author" height={60} />
           </Link>
         </div>
         <div className="inline-flex items-center height-[80px]">
