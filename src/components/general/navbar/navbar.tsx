@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import logo from "@/assets/general/istep_Logo_weiss.png";
+import logo from "@/assets/general/istep_logo_weiss.png";
 import Dropdown from "@/components/general/dropdown/dropdown";
 import DonateButton from "@/components/general/donateButton/donateButton";
 import BurgerMenu from "@/components/general/burgerMenu/burgerMenu";
