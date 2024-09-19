@@ -55,7 +55,7 @@ export default async function ContactPersonTeaser({ lng }: contactPersonProps) {
             </p>
           </div>
 
-          <div className="w-full flex md:justify-center justify-start">
+          <div className="w-full flex justify-start">
             <Link href={lng + `/about`}>
               <button
                 type="button"

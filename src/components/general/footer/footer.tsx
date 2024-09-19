@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "@/assets/general/logo_2.png";
+import logo from "@/assets/general/istep_Logo_blau.png";
 import DonateButton from "@/components/general/donateButton/donateButton";
 
 export default function footer({ lng }: any) {
