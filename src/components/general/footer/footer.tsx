@@ -3,6 +3,7 @@ import logo from "@/assets/general/logo_2.png";
 import DonateButton from "@/components/general/donateButton/donateButton";
 
 export default function footer({ lng }: any) {
+  const currentYear = new Date().getFullYear();
   return (
     <div className="bg-yellow/60 rounded-t-3xl">
       <div className="container mx-auto md:pt-24 pt-12 pb-8 px-8 lg:px-4">
@@ -32,7 +33,8 @@ export default function footer({ lng }: any) {
         <hr className="h-0.5 my-4 w-full border-0 dark:bg-darkblue mr-2" />
         <div className="mt-4 md:mt-8 font-palanquin flex md:flex-row flex-col justify-between">
           <div>
-            <p>© 2023 iStep. All rights reserved.</p>
+            {/* here */}
+            <p>© {currentYear} iStep. All rights reserved.</p>
           </div>
           <div className="flex flex-col md:flex-row">
             <div className="flex items-center cursor-pointer">
