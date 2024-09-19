@@ -44,7 +44,7 @@ export default async function detailPage({
   return (
     <main>
       <div className="min-h-[calc(100vh-80px)] z-10 w-full pb-8 md:pb-0">
-        <div className="bg-darkblue h-[calc(100vh-80px)]">
+        <div className="bg-darkblue min-h-[calc(100vh-80px)]">
           <div className="container mx-auto md:pt-48 px-8 pt-8 lg:px-4 relative">
             <div className="md:w-2/3 w-full">
               <h1 className="lg:text-h-l text-h-md text-yellow font-palanquin md:text-left text-center">
@@ -69,7 +69,7 @@ export default async function detailPage({
           <ScrollDown />
         </div>
       </div>
-      <div className="pt-48 pb-24" />
+      <div className="md:pt-48 md:pb-24" />
       <div className="container mx-auto py-12 md:mt-36 lg:px-4">
         <div className="flex flex-col">
           {Array.from({ length: loopLength }, (_, index) => (
