@@ -661,6 +661,22 @@
         "whatWeDoText2": "",
         "whatWeDoImage": "/gjader.jpg"
       }
+    },
+    {
+      "title": "Librazhd",
+      "teaser": "tbd ",
+      "moreText": "mehr Lesen",
+      "link": "/librazhd",
+      "image": "/gjader.jpg",
+      "details": {
+        "theLocation": "Der Standort",
+        "theLocationText": "tbd ",
+        "theLocationImage": "/gjader.jpg",
+        "whatWeDo": "Was wir tun",
+        "whatWeDoText": "Seit dem ersten Outreach von iSTEP im September 2023 führen wir im Casa Rozalba Anfängerkurse im Bereich allgemeine Computerkenntnisse und Office Anwendungen durch. Da die Kinder und Frauen des Zentrums oft aus schwierigen Umständen stammen, hilft iSTEP auch mit materieller Unterstützung und stellt den Bewohner:innen Notebooks und Peripheriegeräte zur Verfügung. Bei den Einsätzen vor Ort liegt der Fokus jeweils darauf, Interessierte auf einen technischen Stand zu bringen, der ihnen die Teilnahme an weiterführenden Onlinekursen ermöglicht. ",
+        "whatWeDoText2": "",
+        "whatWeDoImage": "/gjader.jpg"
+      }
     }
   ],
 
