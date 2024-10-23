@@ -24,7 +24,7 @@ const ProjectTeaser = ({ project, idx }: { project: any; idx: number }) => {
     <div className=" bg-white w-full rounded-3xl">
       <div className="relative">
         <Image
-          src={"/projects" + project.image}
+          src={project.image}
           width={500}
           height={500}
           alt={project.title}

@@ -56,7 +56,7 @@ const projectTeaser = ({ project, idx }: projectProps) => {
 
       <div className="w-full md:w-1/2 order-first md:order-last">
         <Image
-          src={"/projects" + project.image}
+          src={project.image}
           width={500}
           height={500}
           alt={project.title}

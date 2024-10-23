@@ -13,11 +13,11 @@ export function generateStaticParams() {
   return [
     { locale: "de", slug: "elbasan" },
     { locale: "de", slug: "lezha" },
-    { locale: "de", slug: "gjadër" },
+    { locale: "de", slug: "gjader" },
     { locale: "de", slug: "librazhd" },
     { locale: "en", slug: "elbasan" },
     { locale: "en", slug: "lezha" },
-    { locale: "en", slug: "gjadër" },
+    { locale: "en", slug: "gjader" },
     { locale: "en", slug: "librazhd" },
   ];
 }
@@ -31,7 +31,7 @@ export default async function detailPage({
   const translation = (
     await import(`../../../../../locales/${locale}/${locale}.json`)
   ).default;
-
+  console.log(slug.toLowerCase());
   const matchedProject = translation.Projects.find(
     (project: any) => project.title.toLowerCase() === slug.toLowerCase()
   );
@@ -83,9 +83,9 @@ export default async function detailPage({
                 {matchedProject.details.theLocationText}
               </p>
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-end">
               <Image
-                src={matchedProject.image}
+                src={matchedProject.details.theLocationImage}
                 alt={`Image of ${matchedProject.title}`}
                 className="md:w-4/5 w-full object-contain h-min rounded-3xl"
                 width={500}
@@ -102,9 +102,9 @@ export default async function detailPage({
           </h3>
 
           <div className="grid md:grid-cols-2 grid-cols-1 mt-6">
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-start">
               <Image
-                src={matchedProject.image}
+                src={matchedProject.details.whatWeDoImage}
                 alt={`Image of ${matchedProject.title}`}
                 className="md:w-4/5 w-full h-min object-contain rounded-3xl"
                 width={500}
