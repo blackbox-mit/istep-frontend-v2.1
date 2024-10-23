@@ -554,6 +554,36 @@
           "Interesse an Computeranwendungen"
         ],
         "moreText": "Mehr Erfahren"
+      },
+      {
+        "title": "Librazhd: Officeanwendungen Basiskurs",
+        "where": "Online",
+        "badge": "Beginner",
+        "descriptionTitle": "Kursbeschreibung",
+        "description": "Der Basiskurs für Officeanwendungen richtet sich an Einsteiger bis Fortgeschrittene und vermittelt grundlegende Computeranwenderkenntnisse, sowie den Umgang mit gängigen Officeanwendungen zur Textverarbeitung und Tabellenkalkulation.",
+        "whatYouLearnTitle": "Was du lernst",
+        "whatYouLearnText": "Die Themen sind sehr verschieden und decken verschiedene Bereiche rund um digitales Arbeiten ab. Es gibt keinen übergreifenden Plan, wann welches Thema behandelt wird, das hängt von den Leitern des jeweiligen Kursdatums ab. Bei Interesse melde ich bei uns und wir erklären dir gerne, was in den aktuellen Kursen gerade behandelt wird. Hier llisten wir Themen auf, die wir bereits behandelt haben, es können aber jeder Zeit noch weitere dazukommen:  ",
+        "whatYouLearnList": [
+          "Verwendung von Discord für Teilnahme an Onlinekursen",
+          "Basiskenntnisse im Umgang mit dem File Explorer und Dateien",
+          "Tabellenkalkulation mit Excel oder LibreOffice Calc ",
+          "Textdateien erstellen und formatieren mit Microsoft Word oder LibreOffice Writer"
+        ],
+        "workpiecesTitle": "Pratkische Arbeiten",
+        "workpiecesList": [
+          "Eine Dateiablage erstellen ",
+          "Eigene Exceldateien anlegen und bearbeiten ",
+          "Eigene Worddateien anlegen und bearbeiten "
+        ],
+        "courseOrganizationTitle": "Kursdurchführung und Anmeldung ",
+        "courseOrganizationText": "Im Moment läuft ein wöchentliches Onlinekursprogramm. Eine Anmeldung ist jederzeit möglich.",
+        "requirementsTitle": "Anforderungen",
+        "requirementsList": [
+          "Zugang zu einem Notebook mit Internetanschluss",
+          "Discordaccount zur Teilnahme an Onlinekursen",
+          "Interesse an Computeranwendungen"
+        ],
+        "moreText": "Mehr Erfahren"
       }
     ],
     "moreCourses": {
