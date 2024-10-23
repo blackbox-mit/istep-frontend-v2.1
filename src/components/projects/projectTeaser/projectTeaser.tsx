@@ -15,9 +15,13 @@ interface projectProps {
 }
 
 const projectTeaser = ({ project, idx }: projectProps) => {
-  const bgColorOptions = ["#F8B343", "#24926F", "#8BBFAC", "#E07200"];
+  const bgColorOptions = ["#bdded4", "#fce1b4", "#bdded4", "#f3c799"];
+  const textColorOptions = ["#24926F", "#F8B343", "#24926F", "#E07200"];
   const bgColorStyle = {
     backgroundColor: bgColorOptions[idx % bgColorOptions.length],
+  };
+  const textColorStyle = {
+    color: textColorOptions[idx % textColorOptions.length],
   };
 
   const pathname = usePathname();
@@ -30,7 +34,8 @@ const projectTeaser = ({ project, idx }: projectProps) => {
       <div className=" w-full md:w-1/2">
         <div className="p-8 md:pt-8 pt-6 font-palanquin">
           <h3
-            className={`text-h-md md:text-h-l mb-2 md:mb-4  text-darkblue           `}
+            style={textColorStyle}
+            className={`text-h-md md:text-h-l mb-2 md:mb-4  `}
           >
             {project.title}
           </h3>

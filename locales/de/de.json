@@ -615,22 +615,6 @@
   },
   "Projects": [
     {
-      "title": "Elbasan",
-      "teaser": "Elbasan ist eine grössere Stadt im Zentrum Albaniens. iSTEP knüpft hier an das bestehende Schulprojekt der Hilfsorganisation A2B (Aid to the Balkans) an. Wir rüsten das Schul- und Tagesstrukturzentrum für benachteiligte Kinder und Jugendliche mit Laptops aus. In fortlaufenden Kursen können die Teilnehmenden Multimedia- und Informatikkenntnisse aufbauen und vertiefen.",
-      "moreText": "mehr Lesen",
-      "link": "/elbasan",
-      "image": "/elbasan.jpg",
-      "details": {
-        "theLocation": "Der Standort",
-        "theLocationText": "Elbasan ist die viertgrösste Stadt in Albanien. In Elbasans Peripherie liegt das A2B Zentrum der gleichnamigen Hilfsorganisation. Es bietet einen Kindergarten an, sowie einen Mittagstisch mit warmen Mahlzeiten für die Kinder und Jugendlichen aus der nahegelegenen Schule. Als ergänzende Tagestruktur führt das Zentrum im Anschluss an die Mittagsmahlzeiten begleitete Hausaufgabenhilfe und Nachhilfeunterricht durch. Obschon sich das Angebot primär an Kinder aus ärmeren Verhältnissen richtet, steht es bewusst auch besser situierten Familien offen. So wird einer Stigmatisierung vorgebeugt und eine für alle Seiten bereichernde Durchmischung ermöglicht. Im Gebäude werden auch Hilfsgüter und Lebensmittel für andere Unterstützungsangebote des Hilfswerks gelagert. iSTEP nutzt die bestehenden Hilfsgütertransporte von A2B um IT-Material nach Albanien zu schicken. ",
-        "theLocationImage": "/elbasan.jpg",
-        "whatWeDo": "Was wir tun",
-        "whatWeDoText": "Seit dem ersten Einsatz im September 2023 führt iSTEP angeknüpft an die Tagesstrukturangebote von A2B regelmässig Onlinekurse für die Kinder des Zentrums durch. Die Kurse finden in einem 14-Tage-Rhythmus statt und sind modular konzipiert. Durch die Kontinuität erreichen wir einen fortschreitenden Lerneffekt und bauen eine Vertrauensbasis mit den Kindern und Jugendlichen auf. Ebenso ermöglicht uns der regelmässige Austausch, die Interessen der Teilnehmenden zu erfassen und sie bei Bedarf individuell zu fördern. ",
-        "whatWeDoText2": "Die Kurse werden von lokalen Übersetzer:innen begleitet, damit auch Kinder ohne grosse Englischkenntnisse Anschluss finden. Das Kursprogramm teilt sich dabei in zwei Themenbereiche auf. Ein Angebot fokussiert sich auf den kreativen Bereich und bringt den Teilnehmenden beispielsweise Designkonzepte, sowie Bild- und Videobearbeitung bei. Das zweite Kursangebot ist auf die Vermittlung von IT-Kenntnissen ausgerichtet. ",
-        "whatWeDoImage": "/elbasan.jpg"
-      }
-    },
-    {
       "title": "Lezha",
       "teaser": "In der Kleinstadt Lezha im Nordwesten Albaniens arbeitet iSTEP mit den lokal tätigen Venerini Sisters zusammen. Wir ergänzen die Bildungsangebote an der von den Venerini Sisters geleiteten High School mit zusätzlichen Informatikvertiefungskursen und unterstützen die Lehrkräfte im IT-Themenfeld. ",
       "moreText": "mehr Lesen",
@@ -646,6 +630,23 @@
         "whatWeDoImage": "/lezha.jpg"
       }
     },
+    {
+      "title": "Elbasan",
+      "teaser": "Elbasan ist eine grössere Stadt im Zentrum Albaniens. iSTEP knüpft hier an das bestehende Schulprojekt der Hilfsorganisation A2B (Aid to the Balkans) an. Wir rüsten das Schul- und Tagesstrukturzentrum für benachteiligte Kinder und Jugendliche mit Laptops aus. In fortlaufenden Kursen können die Teilnehmenden Multimedia- und Informatikkenntnisse aufbauen und vertiefen.",
+      "moreText": "mehr Lesen",
+      "link": "/elbasan",
+      "image": "/elbasan.jpg",
+      "details": {
+        "theLocation": "Der Standort",
+        "theLocationText": "Elbasan ist die viertgrösste Stadt in Albanien. In Elbasans Peripherie liegt das A2B Zentrum der gleichnamigen Hilfsorganisation. Es bietet einen Kindergarten an, sowie einen Mittagstisch mit warmen Mahlzeiten für die Kinder und Jugendlichen aus der nahegelegenen Schule. Als ergänzende Tagestruktur führt das Zentrum im Anschluss an die Mittagsmahlzeiten begleitete Hausaufgabenhilfe und Nachhilfeunterricht durch. Obschon sich das Angebot primär an Kinder aus ärmeren Verhältnissen richtet, steht es bewusst auch besser situierten Familien offen. So wird einer Stigmatisierung vorgebeugt und eine für alle Seiten bereichernde Durchmischung ermöglicht. Im Gebäude werden auch Hilfsgüter und Lebensmittel für andere Unterstützungsangebote des Hilfswerks gelagert. iSTEP nutzt die bestehenden Hilfsgütertransporte von A2B um IT-Material nach Albanien zu schicken. ",
+        "theLocationImage": "/elbasan.jpg",
+        "whatWeDo": "Was wir tun",
+        "whatWeDoText": "Seit dem ersten Einsatz im September 2023 führt iSTEP angeknüpft an die Tagesstrukturangebote von A2B regelmässig Onlinekurse für die Kinder des Zentrums durch. Die Kurse finden in einem 14-Tage-Rhythmus statt und sind modular konzipiert. Durch die Kontinuität erreichen wir einen fortschreitenden Lerneffekt und bauen eine Vertrauensbasis mit den Kindern und Jugendlichen auf. Ebenso ermöglicht uns der regelmässige Austausch, die Interessen der Teilnehmenden zu erfassen und sie bei Bedarf individuell zu fördern. ",
+        "whatWeDoText2": "Die Kurse werden von lokalen Übersetzer:innen begleitet, damit auch Kinder ohne grosse Englischkenntnisse Anschluss finden. Das Kursprogramm teilt sich dabei in zwei Themenbereiche auf. Ein Angebot fokussiert sich auf den kreativen Bereich und bringt den Teilnehmenden beispielsweise Designkonzepte, sowie Bild- und Videobearbeitung bei. Das zweite Kursangebot ist auf die Vermittlung von IT-Kenntnissen ausgerichtet. ",
+        "whatWeDoImage": "/elbasan.jpg"
+      }
+    },
+
     {
       "title": "Gjadër",
       "teaser": "Im kleinen Dorf Gjadër im Umland von Lezha liegt das Jugend- und Hilfszentrum Casa Rozalba I der Venerini Sisters. Dort finden Kinder und Frauen aus schwierigen Umständen ein neues Zuhause. iSTEP ergänzt auch hier das bereits bestehende Bildungsangebot des Zentrums mit Computerkursangeboten. Zusätzlich liefern wir Laptops und anderes Material, um den Frauen und Kindern den Anschluss ans digitale Zeitalter zu ermöglichen. ",
