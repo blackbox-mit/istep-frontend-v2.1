@@ -31,7 +31,7 @@ export default async function detailPage({
   const translation = (
     await import(`../../../../../locales/${locale}/${locale}.json`)
   ).default;
-  console.log(slug.toLowerCase());
+
   const matchedProject = translation.Projects.find(
     (project: any) => project.title.toLowerCase() === slug.toLowerCase()
   );
