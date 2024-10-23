@@ -4,56 +4,56 @@
   },
   "About": {
     "mainTitle": "Bildung für alle.",
-    "subTitle": "Menschen mit erschwertem Zugang zu Bildung mit Wertschätzung individuell fördern und dabei gemeinsam wachsen - das ist das Ziel von iSTEP.",
+    "subTitle": "Menschen mit erschwertem Zugang zu Bildung individuell fördern und dabei gemeinsam wachsen - das ist das Ziel von iSTEP.",
     "whoIs": {
       "title": "Wer ist iSTEP",
       "subTitle": "Die Idee von iSTEP hat ihren Ursprung im Jahr 2015.",
-      "text": "Adrian Burkhalter rief im Rahmen seiner Tätigkeit als Lernbegleiter bei Swisscom das Projekt NGG (Next Generation Give & Grow) ins Leben. Sieben Jahre lang führte er in Zusammenarbeit mit über 300 beteiligten Lernenden IT-Kurse durch, von denen über 500 Asylsuchende profitierten. Nach seiner Pensionierung entwickelte Adrian diese Idee privat weiter und so wurde nach einigen Monaten Aufbauarbeit im Frühsommer 2023 der Verein iSTEP gegründet. Mittlerweile besteht das Team aus 12 Mitgliedern. Zudem arbeiten wir mit verschiedenen Hilfsorganisationen zusammen."
+      "text": "Adrian Burkhalter rief im Rahmen seiner Tätigkeit als Lernbegleiter bei Swisscom das Projekt NGG (Next Generation Give & Grow) ins Leben. Sieben Jahre lang führte er in Zusammenarbeit mit über 300 beteiligten Lernenden IT-Kurse durch, von denen über 500 Asylsuchende profitierten. Nach seiner Pensionierung entwickelte Adrian diese Idee privat weiter und so wurde nach einigen Monaten Aufbauarbeit im Frühsommer 2023 der Verein iSTEP gegründet. Mittlerweile besteht das Team aus sieben Mitgliedern. Zudem arbeiten wir mit verschiedenen Hilfsorganisationen zusammen."
     },
     "teamSwiss": {
       "title": "Team Schweiz",
-      "subTitle": "Wir arbeiten direkt vor Ort in Albanienan diesen zwei Standorten."
+      "subTitle": "Wir arbeiten direkt vor Ort in Albanien an diesen Standorten."
     },
     "teamAlbaniaLezna": {
       "title": "Team Albania, Lezha",
-      "subTitle": "Wir arbeiten direkt vor Ort in Albanien an diesen zwei Standorten."
+      "subTitle": "Wir arbeiten direkt vor Ort in Albanien an diesen Standorten."
     },
     "teamAlbaniaElbasan": {
       "title": "Team Albania, Elbasan A2B",
-      "subTitle": "Wir arbeiten direkt vor Ort in Albanien an diesen zwei Standorten."
+      "subTitle": "Wir arbeiten direkt vor Ort in Albanien an diesen Standorten."
     },
     "ourVision": {
       "title": "Unsere Vision",
-      "subTitle": "Wir arbeiten direkt vor Ort in Albanien an diesen zwei Standorten.",
+      "subTitle": "Wir arbeiten direkt vor Ort in Albanien an diesen Standorten.",
       "enable": {
         "title": "Befähigen",
         "text": "Unsere Multimedia- und IT-Kurse vermitteln den Teilnehmenden eine solide Basis an Office-, Design- und Coding-Kenntnissen, die ihnen den Zugang zum Arbeitsmarkt erleichtern und ihnen das Rüstzeug zur eigenständigen Weiterbildung mit auf den Weg geben."
       },
       "createSpace": {
-        "title": "Create space",
+        "title": "Raum schaffen",
         "text": "Wir schaffen einen Raum für Austausch, Unterstützung und Akzeptanz. Die persönliche Entwicklung und die Förderung von Sozialkompetenz und Teamfähigkeit sind elementare Grundsteine. Er bietet aber auch einen Ort zum Teilen von Erlebnissen, von Alltäglichem und Ausserordentlichem, und zum gemeinsamen Sein."
       }
     },
     "ourValues": {
       "title": "Unsere Werte",
-      "subTitle": "Wir arbeiten direkt vor Ort in Albanien an diesen zwei Standorten.",
+      "subTitle": "Wir arbeiten direkt vor Ort in Albanien an diesen Standorten.",
       "appreciation": {
-        "title": "Respekt",
+        "title": "Wertschätzung",
         "text": "Wir begegnen anderen Menschen mit Freundlichkeit, Respekt und Offenheit. Egal woher eine Person kommt, woran sie glaubt oder wo sie im Leben steht, wir sind für alle Menschen offen, wertschätzend und empathisch."
       },
       "individualSupport": {
-        "title": "Respekt",
+        "title": "Individuell fördern",
         "text": "Bei unseren Aktionen steht der Mensch mit seinen eigenen Erfahrungen im Zentrum. Wir ermöglichen unseren Teilnehmenden eine individuelle Betreuung und achten darauf, sie ihrem Niveau entsprechend zu fördern."
       },
       "growingTogether": {
-        "title": "Respekt",
+        "title": "Gemeinsam wachsen",
         "text": "Unsere Leidenschaft ist es, Menschen neue Perspektiven zu zeigen, ihnen ein Gefühl der Zuversicht zu vermitteln und sie zu motivieren, einen nächsten Schritt zu wagen. Durch den wertvollen Austausch lernen und wachsen wir mit unseren Teilnehmenden mit."
       }
     }
   },
   "Home": {
     "mainTitle": "Bildung für alle.",
-    "subTitle": "Menschen mit erschwertem Zugang zu Bildung mit Wertschätzung individuell fördern und dabei gemeinsam wachsen - das ist das Ziel von iSTEP.",
+    "subTitle": "Menschen mit erschwertem Zugang zu Bildung individuell fördern und dabei gemeinsam wachsen - das ist das Ziel von iSTEP.",
     "whatWeDo": {
       "title": "Was wir tun",
       "subTitle": "Wir suchen gezielt nach Projekten, mit denen wir benachteiligte Menschen nachhaltig unterstützen können.",
@@ -62,7 +62,7 @@
     },
     "ourProjects": {
       "title": "Unsere Projekte",
-      "subTitle": "Wir arbeiten direkt vor Ort in Albanienan diesen zwei Standorten."
+      "subTitle": "Wir arbeiten direkt vor Ort in Albanien an diesen Standorten."
     },
     "contactPerson": {
       "title": "Kontaktperson",
@@ -71,7 +71,7 @@
       "person": {
         "name": "Adrian",
         "text": "Meine Vision besteht darin, mich in andere Menschen, deren Wünsche und Projekte zu investieren. Mit einem neuen Team schlagen wir nun das nächste Kapitel iSTEP auf.",
-        "email": "info@istep.ch",
+        "email": "info@iSTEP.ch",
         "phone": "+41 79 300 02 83"
       }
     },
@@ -83,7 +83,7 @@
     "results": {
       "title": "Ergebnisse",
       "subTitle": "Arbeiten von unsere Kursteilnehmern",
-      "text": "Wir bieten diverse Kurse im Bereich der IT und Multimedia an. Am meisten besucht sind folgende:",
+      "text": "Wir bieten diverse Kurse im Bereich der IT und Multimedia an. Am meisten besucht sind folgende :Wir bieten diverse Kurse im Bereich der IT und Multimedia an. Am meisten besucht sind folgende:",
       "buttonText": "mehr Erfahren"
     },
     "blog": {
@@ -187,8 +187,7 @@
           "/blog/07_CreativeStepsMastered/Bild_3.jpg",
           "/blog/07_CreativeStepsMastered/Bild_4.jpg",
           "/blog/07_CreativeStepsMastered/Bild_5.jpg",
-          "/blog/07_CreativeStepsMastered/Bild_6.jpg",
-          "/blog/07_CreativeStepsMastered/Bild_7.jpg"
+          "/blog/07_CreativeStepsMastered/Bild_6.jpg"
         ]
       },
       {
@@ -279,93 +278,7 @@
       }
     ]
   },
-  "ComputerScienceCourses": {
-    "mainTitle": "IT/Computer Science",
-    "subTitle": "TBD Text",
-    "coursesTitle": "Unsere Kurse",
-    "beginner": "Beginner",
-    "advanced": "Advanced",
-    "beginnerToolTip": "Kurzer Beschrieb was Beginner bedeutet",
-    "advancedToolTip": "Kurzer Beschrieb was Advanced bedeutet",
-    "ourCourses": {
-      "title": "Unsere Kurse",
-      "beginner": "Beginner",
-      "beginnerToolTip": "Kurzer Beschrieb was Beginner bedeutet",
-      "advanced": "Advanced",
-      "advancedToolTop": "Kurzer Beschrieb was Beginner bedeutet",
-      "toolTopActive": "true"
-    },
-    "courses": [
-      {
-        "title": "Lezha High School:\nWeb Development Blockkurs",
-        "where": "Online- und Vorortlektionen",
-        "badge": "Beginner ?",
-        "descriptionTitle": "Kursbeschreibung",
-        "description": "Der Web Development Blockkurs führt dich in die Grundlagen der Webentwicklung ein. Du eignest dir Grundkenntnisse in HTML, CSS und JavaScript an, die es dir ermöglichen, interaktive Webseiten und Webapplikationen zu bauen. ",
-        "whatYouLearnTitle": "Was du lernst",
-        "whatYouLearnText": "",
-        "whatYouLearnList": [
-          "Webseitengrundgerüst mit HTML erstellen",
-          "Navigation von mehrseitigen Webseiten implementieren",
-          "Webseiten formatieren und designen mit CSS",
-          "Interaktive Elemente und Webseitenlogik programmieren mit JavaScript"
-        ],
-        "workpiecesTitle": "Werkstücke",
-        "workpiecesList": [
-          "Du erstellst deine eigene HTML & CSS Webseite",
-          "Du erarbeitest als Abschlussprojekt eine interaktive Webseite"
-        ],
-        "courseOrganizationTitle": "Kursdurchführung und Anmeldung ",
-        "courseOrganizationText": "Dieser Kurs wird als Blockkurs in einer bestimmten Anzahl Online- und Vorortlektionen durchgeführt. Die nächste Iteration findet voraussichtlich vom Januar-April 2025 statt. Eine offizielle Anmeldeausschreibung erfolgt Ende 2024. Bei Interesse kann man sich jederzeit Voranmelden.",
-        "requirementsTitle": "Anforderungen",
-        "requirementsList": [
-          "Gute Computeranwenderkenntnisse",
-          "Ein eigenes Notebook und Internetanschluss zuhause ",
-          "Discordaccount für die Teilnahme an den Onlinesegmenten ",
-          "Interesse an Webentwicklung und Programmierung "
-        ],
-        "moreText": "Mehr Erfahren"
-      },
-      {
-        "title": "A2B Elbasan: IT Online Course",
-        "where": "Online",
-        "badge": "Beginner ?",
-        "descriptionTitle": "Kursbeschreibung",
-        "description": "Der IT Online-Kurs ist ideal für dich, wenn du dich für Computer begeisterst und egal welches Vorwissen du hast. In diesem Kurs wirst du Schritt für Schritt durch die Grundlagen der Entwicklung von Applikationen, Webseiten und kleinen Spielen geführt – von der Planung über die Umsetzung bis hin zur Veröffentlichung. Zusätzlich erwirbst du Kenntnisse über den allgemeinen Computereinsatz und Netzwerktechnologien. Dieser Kurs ist perfekt dafür geeignet, dein Interesse an der Technologie in praktisches und anwendbares Wissen umzuwandeln.",
-        "whatYouLearnTitle": "Was du lernst",
-        "whatYouLearnList": [
-          "Backend- und Frontendentwicklung von der Planung und Umsetzung bis hin zur Veröffentlichung",
-          "Kleine Spiele programmieren ",
-          "Webseiten und Webapplikationen programmieren ",
-          "Wie ist ein Computer aufgebaut "
-        ],
-        "workpiecesTitle": "Werkstücke",
-        "workpiecesList": [
-          "Effizientes Lernen",
-          "Lernen mit dem Tool Obsidian zu arbeiten, das heisst, Notizen erstellen (Adrian)",
-          "Erarbeiten der iSTEP-Guideline für das Durchführen der Kurse",
-          "Einfache Webseiten mit HTML, CSS und JavaScript erstellen",
-          "Aufbau und Inhalt von Webseiten analysieren",
-          "Wireframes erstellen",
-          "Rollen von Client und Server verstehen",
-          "Schere/Stein/Papier mit Applikation mit PHP erstellen"
-        ],
-        "courseOrganizationTitle": "Kursdurchführung und Anmeldung ",
-        "courseOrganizationText": "Die Kurse finden fortlaufend alle zwei Wochen an einem Samstag von 10:00-14:00 statt. Eine Anmeldung ist jederzeit möglich.",
-        "requirementsTitle": "Anforderungen",
-        "requirementsList": [
-          "Interesse am Programmieren",
-          "Eine gute Portion Motivation ",
-          "Grundlegende Computerkenntnisse von Vorteil aber nicht zwingend nötig"
-        ],
-        "moreText": "Mehr Erfahren"
-      }
-    ],
-    "moreCourses": {
-      "title": "Weitere Kurse",
-      "subTitle": "Wir haben noch viele weitere spannende Kurse im Angebot"
-    }
-  },
+
   "Contact": {
     "title": "Kontaktiere Uns",
     "subTitle": "Lorem Ipsum",
@@ -388,7 +301,7 @@
   },
   "Courses": [
     {
-      "title": "IT / Computer science",
+      "title": "IT / Computer Science",
       "moreText": "mehr Lesen",
       "backgroundColor": "#E07200",
       "imagePosition": "justify-start",
@@ -418,8 +331,22 @@
   ],
 
   "Donate": {
-    "mainTitle": "Bildung für alle.",
-    "subTitle": "Bildung für alle."
+    "mainTitle": "Spenden",
+    "donateQR": {
+      "title": "QR-Code",
+      "image": "/donate/QR-Code.png"
+    },
+    "donateBank": {
+      "title": "Bankverbindung",
+      "IBAN": "CH68 0900 0000 1617 1693 4",
+      "name": "iSTEP",
+      "address": "Parkettstrasse 36",
+      "address2": "3432 Lützelflüh-Goldbach BE"
+    },
+    "donateTwint": {
+      "title": "Twint",
+      "image": "/donate/QR-Code.png"
+    }
   },
   "General": {
     "navbar": {
@@ -441,27 +368,114 @@
       "impressum": "Impressum"
     }
   },
-  "MultimediaCourses": {
-    "mainTitle": "Mutlimedia",
-    "subTitle": "TBD Text",
+
+  "ComputerScienceCourses": {
+    "mainTitle": "IT/Computer Science",
+    "subTitle": "Unsere Kurse im IT-Bereich",
     "coursesTitle": "Unsere Kurse",
     "beginner": "Beginner",
     "advanced": "Advanced",
-    "beginnerToolTip": "Kurzer Beschrieb was Beginner bedeutet",
-    "advancedToolTip": "Kurzer Beschrieb was Advanced bedeutet",
+    "beginnerToolTip": "Keine Vorkenntnisse erforderlich. Anwednerkenntnisse werden während des Kurses erworben.",
+    "advancedToolTip": "Fortgeschrittene Anwenderkenntnisse sind Voraussetzung für den Kursbesuch.",
     "ourCourses": {
       "title": "Unsere Kurse",
       "beginner": "Beginner",
-      "beginnerToolTip": "Kurzer Beschrieb was Beginner bedeutet",
+      "beginnerToolTip": "Keine Vorkenntnisse erforderlich. Anwednerkenntnisse werden während des Kurses erworben.",
       "advanced": "Advanced",
-      "advancedToolTop": "Kurzer Beschrieb was Beginner bedeutet",
+      "advancedToolTop": "Fortgeschrittene Anwenderkenntnisse sind Voraussetzung für den Kursbesuch.",
+      "toolTopActive": "true"
+    },
+    "courses": [
+      {
+        "title": "Lezha High School:\nWeb Development Blockkurs",
+        "where": "Online- und Vorortlektionen",
+        "badge": "Advanced",
+        "descriptionTitle": "Kursbeschreibung",
+        "description": "Der Web Development Blockkurs führt dich in die Grundlagen der Webentwicklung ein. Du eignest dir Grundkenntnisse in HTML, CSS und JavaScript an, die es dir ermöglichen, interaktive Webseiten und Webapplikationen zu bauen. ",
+        "whatYouLearnTitle": "Was du lernst",
+        "whatYouLearnText": "",
+        "whatYouLearnList": [
+          "Webseitengrundgerüst mit HTML erstellen",
+          "Navigation von mehrseitigen Webseiten implementieren",
+          "Webseiten formatieren und designen mit CSS",
+          "Interaktive Elemente und Webseitenlogik programmieren mit JavaScript"
+        ],
+        "workpiecesTitle": "Pratkische Arbeiten",
+        "workpiecesList": [
+          "Du erstellst deine eigene HTML & CSS Webseite",
+          "Du erarbeitest als Abschlussprojekt eine interaktive Webseite"
+        ],
+        "courseOrganizationTitle": "Kursdurchführung und Anmeldung ",
+        "courseOrganizationText": "Dieser Kurs wird als Blockkurs in einer bestimmten Anzahl Online- und Vorortlektionen durchgeführt. Die nächste Iteration findet voraussichtlich vom Januar-April 2025 statt. Eine offizielle Anmeldeausschreibung erfolgt Ende 2024. Bei Interesse kann man sich jederzeit Voranmelden.",
+        "requirementsTitle": "Anforderungen",
+        "requirementsList": [
+          "Gute Computeranwenderkenntnisse",
+          "Ein eigenes Notebook und Internetanschluss zuhause ",
+          "Discordaccount für die Teilnahme an den Onlinesegmenten ",
+          "Interesse an Webentwicklung und Programmierung "
+        ],
+        "moreText": "Mehr Erfahren"
+      },
+      {
+        "title": "A2B Elbasan: IT Online Course",
+        "where": "Online",
+        "badge": "Advanced",
+        "descriptionTitle": "Kursbeschreibung",
+        "description": "Der IT Online-Kurs ist ideal für dich, wenn du dich für Computer begeisterst und egal welches Vorwissen du hast. In diesem Kurs wirst du Schritt für Schritt durch die Grundlagen der Entwicklung von Applikationen, Webseiten und kleinen Spielen geführt – von der Planung über die Umsetzung bis hin zur Veröffentlichung. Zusätzlich erwirbst du Kenntnisse über den allgemeinen Computereinsatz und Netzwerktechnologien. Dieser Kurs ist perfekt dafür geeignet, dein Interesse an der Technologie in praktisches und anwendbares Wissen umzuwandeln.",
+        "whatYouLearnTitle": "Was du lernst",
+        "whatYouLearnList": [
+          "Backend- und Frontendentwicklung von der Planung und Umsetzung bis hin zur Veröffentlichung",
+          "Kleine Spiele programmieren ",
+          "Webseiten und Webapplikationen programmieren ",
+          "Wie ist ein Computer aufgebaut "
+        ],
+        "workpiecesTitle": "Pratkische Arbeiten",
+        "workpiecesList": [
+          "Effizientes Lernen",
+          "Lernen mit dem Notizentool Obsidian zu arbeiten",
+          "Einfache Webseiten mit HTML, CSS und JavaScript erstellen",
+          "Aufbau und Inhalt von Webseiten analysieren",
+          "Wireframes erstellen",
+          "Rollen von Client und Server verstehen",
+          "Schere/Stein/Papier mit Applikation mit PHP erstellen"
+        ],
+        "courseOrganizationTitle": "Kursdurchführung und Anmeldung ",
+        "courseOrganizationText": "Die Kurse finden fortlaufend alle zwei Wochen an einem Samstag von 10:00-14:00 statt. Eine Anmeldung ist jederzeit möglich.",
+        "requirementsTitle": "Anforderungen",
+        "requirementsList": [
+          "Interesse am Programmieren",
+          "Eine gute Portion Motivation ",
+          "Grundlegende Computerkenntnisse von Vorteil aber nicht zwingend nötig"
+        ],
+        "moreText": "Mehr Erfahren"
+      }
+    ],
+    "moreCourses": {
+      "title": "Weitere Kurse",
+      "subTitle": "Wir haben noch viele weitere spannende Kurse im Angebot"
+    }
+  },
+  "MultimediaCourses": {
+    "mainTitle": "Multimedia",
+    "subTitle": "Unsere Kurse im Multimediabereich (Design, Foto, Video)",
+    "coursesTitle": "Unsere Kurse",
+    "beginner": "Beginner",
+    "advanced": "Advanced",
+    "beginnerToolTip": "Keine Vorkenntnisse erforderlich. Anwednerkenntnisse werden während des Kurses erworben.",
+    "advancedToolTip": "Fortgeschrittene Anwenderkenntnisse sind Voraussetzung für den Kursbesuch.",
+    "ourCourses": {
+      "title": "Unsere Kurse",
+      "beginner": "Beginner",
+      "beginnerToolTip": "Keine Vorkenntnisse erforderlich. Anwednerkenntnisse werden während des Kurses erworben.",
+      "advanced": "Advanced",
+      "advancedToolTop": "Keine Vorkenntnisse erforderlich. Anwednerkenntnisse werden während des Kurses erworben.",
       "toolTopActive": "true"
     },
     "courses": [
       {
         "title": "A2B Elbasan: Creative Online Course ",
         "where": "Online",
-        "badge": "Beginner",
+        "badge": "Advanced",
         "descriptionTitle": "Kursbeschreibung",
         "description": "Der Multimedia-Kurs ist ideal für dich, wenn du dich für kreative Arbeiten am Computer begeisterst - egal welches Vorwissen du hast. In diesem Kurs lernst du Schritt für Schritt alles Wichtige von den Computer-Nutzer-Basics bis hin zur Nutzung gängiger Applikationen wie Office 365. Du tauchst in die Welt der Multimedia ein und erfährst, wie du mit verschiedenen Programmen beeindruckende Projekte umsetzen kannst.",
         "whatYouLearnTitle": "Was du lernst",
@@ -473,22 +487,11 @@
           "Fotografie mit Darktable: Du lernst die drei grundlegenden Einstellungen einer Kamera kennen, verschiedene Bildeinstellungen und Prinzipien für ein ansprechendes Bild. Gemachte Fotos lernst du mit Darktable zu bearbeiten.",
           "Videografie mit DaVinci Resolve: Du lernst etwas über Filmgeschichte und wie Filme entstehen. Du schreibst unter Anleitung ein Script, machst ein Storyboard und setzt dieses filmisch um. Das kann mit Kamera oder Handy passieren. Die Bearbeitung und der Zusammenschnitt des Films werden mit DaVinci Resolve gemacht."
         ],
-        "workpiecesTitle": "Werkstücke",
+        "workpiecesTitle": "Pratkische Arbeiten",
         "workpiecesList": [
-          "Bedienungsgrundlagen: Wie bediene ich einen Windows-Computer?",
-          "Internet Security: Wie kann ich mich und meine Daten im Internet schützen?",
-          "Filmgeschichte: Wie entstand der Film von früher und heute?",
-          "Kameraeinstellungen: Was sind gängige Perspektiven der Kamera?",
-          "Script schreiben: Schreibe deine Geschichte so, dass sie spannend ist und gut verfilmt werden kann ",
-          "Storyboard zeichnen: Der visuelle Plan, wie gefilmt werden muss",
-          "Rollenverteilung: Was gibt es am Filmset für Rollen? Beispiele sind Regisseur, Kamera, Licht, Maske, ...",
-          "Filmen: Mit Handy oder Kamera ",
-          "Davinci Resolve: Zusammenschneiden und Hinterlegen mit Sound",
-          "Export des fertigen Videos",
-          "Typografie (Schriftenlehre): Fachbegriffe, warum ist eine gute Schriftahl wichtig, wie und wo finde ich eine gute Schrift?",
-          "Farbenlehre: Farbpdsychologie, Farbenrad, Kontraste ",
-          "Methoden zur Ideenfindung: Moodboarding, Inspration finden, Skizzieren",
-          "Flyer gestalten: Kombination von allem oben vom leeren Papier bis zum fertigen Flyer "
+          "Selbstgestalteter Flyer",
+          "Storyboards zeichnen",
+          "Film produzieren: Script schreiben, filmen, schneiden, Sound hinterlegen, exportieren."
         ],
         "courseOrganizationTitle": "Kursdurchführung und Anmeldung ",
         "courseOrganizationText": "Die Kurse finden fortlaufend alle zwei Wochen an einem Samstag von 10:00-14:00 statt. Eine Anmeldung ist jederzeit möglich. Da manche Themen aber über mehrere Samstage laufen, kann es sein, dass du bei deiner Anmeldung im Selbststudium das Material von vergangenen Daten selbst anschauen musst. So verpasst du keine wichtigen Informationen, wenn du mitten in ein Thema einsteigst. Bei Fragen darfst du dich gerne bei den Kursleitern melden.",
@@ -509,18 +512,18 @@
   },
   "OfficeCourses": {
     "mainTitle": "Office",
-    "subTitle": "TBD Text",
+    "subTitle": "Kurse für office Anwendungen",
     "coursesTitle": "Unsere Kurse",
     "beginner": "Beginner",
     "advanced": "Advanced",
-    "beginnerToolTip": "Kurzer Beschrieb was Beginner bedeutet",
-    "advancedToolTip": "Kurzer Beschrieb was Advanced bedeutet",
+    "beginnerToolTip": "Keine Vorkenntnisse erforderlich. Anwednerkenntnisse werden während des Kurses erworben.",
+    "advancedToolTip": "Fortgeschrittene Anwenderkenntnisse sind Voraussetzung für den Kursbesuch.",
     "ourCourses": {
       "title": "Unsere Kurse",
       "beginner": "Beginner",
-      "beginnerToolTip": "Kurzer Beschrieb was Beginner bedeutet",
+      "beginnerToolTip": "Keine Vorkenntnisse erforderlich. Anwednerkenntnisse werden während des Kurses erworben.",
       "advanced": "Advanced",
-      "advancedToolTop": "Kurzer Beschrieb was Beginner bedeutet",
+      "advancedToolTop": "Keine Vorkenntnisse erforderlich. Anwednerkenntnisse werden während des Kurses erworben.",
       "toolTopActive": "true"
     },
     "courses": [
@@ -538,7 +541,37 @@
           "Tabellenkalkulation mit Excel oder LibreOffice Calc ",
           "Textdateien erstellen und formatieren mit Microsoft Word oder LibreOffice Writer"
         ],
-        "workpiecesTitle": "Werkstücke",
+        "workpiecesTitle": "Pratkische Arbeiten",
+        "workpiecesList": [
+          "Eine Dateiablage erstellen ",
+          "Eigene Exceldateien anlegen und bearbeiten ",
+          "Eigene Worddateien anlegen und bearbeiten "
+        ],
+        "courseOrganizationTitle": "Kursdurchführung und Anmeldung ",
+        "courseOrganizationText": "Im Moment läuft ein wöchentliches Onlinekursprogramm. Eine Anmeldung ist jederzeit möglich.",
+        "requirementsTitle": "Anforderungen",
+        "requirementsList": [
+          "Zugang zu einem Notebook mit Internetanschluss",
+          "Discordaccount zur Teilnahme an Onlinekursen",
+          "Interesse an Computeranwendungen"
+        ],
+        "moreText": "Mehr Erfahren"
+      },
+      {
+        "title": "Librazhd: Officeanwendungen Basiskurs",
+        "where": "Online",
+        "badge": "Beginner",
+        "descriptionTitle": "Kursbeschreibung",
+        "description": "Der Basiskurs für Officeanwendungen richtet sich an Einsteiger bis Fortgeschrittene und vermittelt grundlegende Computeranwenderkenntnisse, sowie den Umgang mit gängigen Officeanwendungen zur Textverarbeitung und Tabellenkalkulation.",
+        "whatYouLearnTitle": "Was du lernst",
+        "whatYouLearnText": "Die Themen sind sehr verschieden und decken verschiedene Bereiche rund um digitales Arbeiten ab. Es gibt keinen übergreifenden Plan, wann welches Thema behandelt wird, das hängt von den Leitern des jeweiligen Kursdatums ab. Bei Interesse melde ich bei uns und wir erklären dir gerne, was in den aktuellen Kursen gerade behandelt wird. Hier llisten wir Themen auf, die wir bereits behandelt haben, es können aber jeder Zeit noch weitere dazukommen:  ",
+        "whatYouLearnList": [
+          "Verwendung von Discord für Teilnahme an Onlinekursen",
+          "Basiskenntnisse im Umgang mit dem File Explorer und Dateien",
+          "Tabellenkalkulation mit Excel oder LibreOffice Calc ",
+          "Textdateien erstellen und formatieren mit Microsoft Word oder LibreOffice Writer"
+        ],
+        "workpiecesTitle": "Pratkische Arbeiten",
         "workpiecesList": [
           "Eine Dateiablage erstellen ",
           "Eigene Exceldateien anlegen und bearbeiten ",
@@ -560,122 +593,158 @@
       "subTitle": "Wir haben noch viele weitere spannende Kurse im Angebot"
     }
   },
+  "VariosCourses": {
+    "mainTitle": "Diverse Kurse",
+    "subTitle": "Entdecke hier unser vielfältiges Kursangebot",
+    "coursesTitle": "Unsere Kurse",
+    "beginner": "Beginner",
+    "advanced": "Advanced",
+    "beginnerToolTip": "Keine Vorkenntnisse erforderlich. Anwednerkenntnisse werden während des Kurses erworben.",
+    "advancedToolTip": "Fortgeschrittene Anwenderkenntnisse sind Voraussetzung für den Kursbesuch.",
+    "ourCourses": {
+      "title": "Unsere Kurse",
+      "beginner": "Beginner",
+      "beginnerToolTip": "Keine Vorkenntnisse erforderlich. Anwednerkenntnisse werden während des Kurses erworben.",
+      "advanced": "Advanced",
+      "advancedToolTop": "Keine Vorkenntnisse erforderlich. Anwednerkenntnisse werden während des Kurses erworben.",
+      "toolTopActive": "true",
+      "noCourses": "Leider haben wir im Moment keine diversen Kurse."
+    },
+    "courses": [
+      {
+        "title": "Librazhd: Details Folgen",
+        "where": "",
+        "badge": "Beginner",
+        "descriptionTitle": "Kursbeschreibung",
+        "description": "Details werden in Kürze folgen.",
+        "whatYouLearnTitle": "",
+        "whatYouLearnText": "",
+        "whatYouLearnList": [],
+        "workpiecesTitle": "",
+        "workpiecesList": [],
+        "courseOrganizationTitle": " ",
+        "courseOrganizationText": "",
+        "requirementsTitle": "",
+        "requirementsList": [],
+        "moreText": "Mehr Erfahren"
+      }
+    ],
+    "moreCourses": {
+      "title": "Weitere Kurse",
+      "subTitle": "Wir haben noch viele weitere spannende Kurse im Angebot"
+    }
+  },
   "OurCourses": {
     "mainTitle": "Unsere Kurse",
-    "subTitle": "TBD Text"
+    "subTitle": "Entdecke hier unser vielfältiges Kursangebot"
   },
   "OurProjects": {
     "mainTitle": "Unsere Projekte",
-    "subTitle": "Im Frühsommer 2023 wurd der Verein iSTEP gegründet. Mittlerweile besteht das Team aus sieben Mitgliedern."
+    "subTitle": "Im Frühsommer 2023 wurde der Verein iSTEP gegründet. Mittlerweile besteht das Team aus sieben Mitgliedern."
   },
   "OurTeam": {
     "swissTeam": {
       "title": "Team Schweiz",
-      "subTitle": "Wir arbeiten direkt vor Ort in Albanien an diesen zwei Standorten."
+      "subTitle": "Wir arbeiten direkt vor Ort in Albanien an diesen Standorten."
     },
     "lezhaTeam": {
       "title": "Team Albania, Lezha",
-      "subTitle": "Wir arbeiten direkt vor Ort in Albanien an diesen zwei Standorten."
+      "subTitle": "Wir arbeiten direkt vor Ort in Albanien an diesen Standorten."
     },
     "elbasanTeam": {
       "title": "Team Albania, Elbasan A2B",
-      "subTitle": "Wir arbeiten direkt vor Ort in Albanien an diesen zwei Standorten."
+      "subTitle": "Wir arbeiten direkt vor Ort in Albanien an diesen Standorten."
     }
   },
   "Projects": [
-    {
-      "title": "Elbasan",
-      "teaser": "Elbasan ist eine grössere Stadt im Zentrum Albaniens. iSTEP knüpft hier an das bestehende Schulprojekt der Hilfsorganisation A2B (Aid to the Balkans) an. Wir rüsten das Schul- und Tagesstrukturzentrum für benachteiligte Kinder und Jugendliche mit Laptops aus. In fortlaufenden Kursen können die Teilnehmenden Multimedia- und Informatikkenntnisse aufbauen und vertiefen.",
-      "moreText": "mehr Lesen",
-      "link": "/elbasan",
-      "image": "/placeholder/project.png",
-      "details": {
-        "theLocation": "Der Standort",
-        "theLocationText": "Lezha ist eine beschauliche Kleinstadt im Nordwesten des Landes unweit der schönen Touristenstrände von Shëngjin entfernt. Hier führen die Venerini Sisters eine High School, so wie ein Reintegrationszentrum und Sprungbrett für junge Frauen auf dem Weg ins Erwachsenenleben. Wir arbeiten eng mit lokalen Organisationen und freiwilligen Mithelfer:innen zusammen, um auf bestehenden Projekten aufzubauen. ",
-        "whatWeDo": "Was wir tun",
-        "whatWeDoText": "Seit September 2023 ist iSTEP an der High School in Lezha aktiv und erweitert den IT-Unterricht der Schule mit zusätzlichen Onlinemodulen für Interessierte. Im Januar 2024 startete dann der erste Pilot für einen Webentwicklungsblockkurs. In zwölf Onlinesegmenten und fünf Unterrichtstagen vor Ort wurden den Schülerinnen und Schülern die Grundlagen der Webentwicklung mit HTML, CSS und JavaScript vermittelt. Die Teilnehmenden schlossen den Kurs mit einem eigenen Webseitenprojekt und einer Abschlussprüfung erfolgreich ab. Es ist geplant den Blockkurs im nächsten Schuljahr für die Neuzugänge wieder auszuschreiben.",
-        "whatWeDoText2": "Ebenfalls stehen wir dem IT-Lehrpersonal der High School beratend zur Seite und helfen beim Zusammenstellen von Unterrichtsmaterial. Für die jungen Frauen aus dem Reintegrationscenter Casa Rozalba I bieten wir nach Bedarf allgemeine Computerkursen an, damit sie für den Übertritt ins Erwachsenenleben mit dem nötigen digitalen Rüstzeug gewappnet sind."
-      }
-    },
     {
       "title": "Lezha",
       "teaser": "In der Kleinstadt Lezha im Nordwesten Albaniens arbeitet iSTEP mit den lokal tätigen Venerini Sisters zusammen. Wir ergänzen die Bildungsangebote an der von den Venerini Sisters geleiteten High School mit zusätzlichen Informatikvertiefungskursen und unterstützen die Lehrkräfte im IT-Themenfeld. ",
       "moreText": "mehr Lesen",
       "link": "/lezha",
-      "image": "/placeholder/project.png",
+      "image": "/projects/lezha/lezha.jpg",
       "details": {
         "theLocation": "Der Standort",
-        "theLocationText": "Gjadër ist ein kleines Dorf einige Autofahrminuten von Lezha entfernt. Es ist bekannt für den aufgegebenen Militärflughafen, der heute als Schrottplatz für altes Fluggerät dient. Die verlassene Landebahn, zieht sich quer durch das Dorf und prägt das Ortsbild. Gleich neben dem maroden Startfeld steht das Jugend- und Hilfszentrum Casa Rozalba I der Venerini Sisters. ",
+        "theLocationText": "Lezha ist eine beschauliche Kleinstadt im Nordwesten des Landes unweit der schönen Touristenstrände von Shëngjin entfernt. Hier führen die Venerini Sisters eine High School, so wie ein Reintegrationszentrum und Sprungbrett für junge Frauen auf dem Weg ins Erwachsenenleben. Wir arbeiten eng mit lokalen Organisationen und freiwilligen Mithelfer:innen zusammen, um auf bestehenden Projekten aufzubauen.",
+        "theLocationImage": "/projects/lezha/lezha_1.jpg",
         "whatWeDo": "Was wir tun",
-        "whatWeDoText": "Seit dem ersten Outreach von iSTEP im September 2023 führen wir im Casa Rozalba Anfängerkurse im Bereich allgemeine Computerkenntnisse und Office Anwendungen durch. Da die Kinder und Frauen des Zentrums oft aus schwierigen Umständen stammen, hilft iSTEP auch mit materieller Unterstützung und stellt den Bewohner:innen Notebooks und Peripheriegeräte zur Verfügung. Bei den Einsätzen vor Ort liegt der Fokus jeweils darauf, Interessierte auf einen technischen Stand zu bringen, der ihnen die Teilnahme an weiterführenden Onlinekursen ermöglicht.",
-        "whatWeDoText2": ""
+        "whatWeDoText": "Seit September 2023 ist iSTEP an der High School in Lezha aktiv und erweitert den IT-Unterricht der Schule mit zusätzlichen Onlinemodulen für Interessierte. Im Januar 2024 startete dann der erste Pilot für einen Webentwicklungsblockkurs. In zwölf Onlinesegmenten und fünf Unterrichtstagen vor Ort wurden den Schülerinnen und Schülern die Grundlagen der Webentwicklung mit HTML, CSS und JavaScript vermittelt. Die Teilnehmenden schlossen den Kurs mit einem eigenen Webseitenprojekt und einer Abschlussprüfung erfolgreich ab. Es ist geplant den Blockkurs im nächsten Schuljahr für die Neuzugänge wieder auszuschreiben. Ebenfalls stehen wir dem IT-Lehrpersonal der High School beratend zur Seite und helfen beim Zusammenstellen von Unterrichtsmaterial. ",
+        "whatWeDoText2": "Für die jungen Frauen aus dem Reintegrationscenter Casa Rozalba I bieten wir nach Bedarf allgemeine Computerkursen an, damit sie für den Übertritt ins Erwachsenenleben mit dem nötigen digitalen Rüstzeug gewappnet sind. ",
+        "whatWeDoImage": "/projects/lezha/lezha_2.jpg"
+      }
+    },
+    {
+      "title": "Elbasan",
+      "teaser": "Elbasan ist eine grössere Stadt im Zentrum Albaniens. iSTEP knüpft hier an das bestehende Schulprojekt der Hilfsorganisation A2B (Aid to the Balkans) an. Wir rüsten das Schul- und Tagesstrukturzentrum für benachteiligte Kinder und Jugendliche mit Laptops aus. In fortlaufenden Kursen können die Teilnehmenden Multimedia- und Informatikkenntnisse aufbauen und vertiefen.",
+      "moreText": "mehr Lesen",
+      "link": "/elbasan",
+      "image": "/projects/elbasan/elbasan.jpg",
+      "details": {
+        "theLocation": "Der Standort",
+        "theLocationText": "Elbasan ist die viertgrösste Stadt in Albanien. In Elbasans Peripherie liegt das A2B Zentrum der gleichnamigen Hilfsorganisation. Es bietet einen Kindergarten an, sowie einen Mittagstisch mit warmen Mahlzeiten für die Kinder und Jugendlichen aus der nahegelegenen Schule. Als ergänzende Tagestruktur führt das Zentrum im Anschluss an die Mittagsmahlzeiten begleitete Hausaufgabenhilfe und Nachhilfeunterricht durch. Obschon sich das Angebot primär an Kinder aus ärmeren Verhältnissen richtet, steht es bewusst auch besser situierten Familien offen. So wird einer Stigmatisierung vorgebeugt und eine für alle Seiten bereichernde Durchmischung ermöglicht. Im Gebäude werden auch Hilfsgüter und Lebensmittel für andere Unterstützungsangebote des Hilfswerks gelagert. iSTEP nutzt die bestehenden Hilfsgütertransporte von A2B um IT-Material nach Albanien zu schicken. ",
+        "theLocationImage": "/projects/elbasan/elbasan_1.jpg",
+        "whatWeDo": "Was wir tun",
+        "whatWeDoText": "Seit dem ersten Einsatz im September 2023 führt iSTEP angeknüpft an die Tagesstrukturangebote von A2B regelmässig Onlinekurse für die Kinder des Zentrums durch. Die Kurse finden in einem 14-Tage-Rhythmus statt und sind modular konzipiert. Durch die Kontinuität erreichen wir einen fortschreitenden Lerneffekt und bauen eine Vertrauensbasis mit den Kindern und Jugendlichen auf. Ebenso ermöglicht uns der regelmässige Austausch, die Interessen der Teilnehmenden zu erfassen und sie bei Bedarf individuell zu fördern. ",
+        "whatWeDoText2": "Die Kurse werden von lokalen Übersetzer:innen begleitet, damit auch Kinder ohne grosse Englischkenntnisse Anschluss finden. Das Kursprogramm teilt sich dabei in zwei Themenbereiche auf. Ein Angebot fokussiert sich auf den kreativen Bereich und bringt den Teilnehmenden beispielsweise Designkonzepte, sowie Bild- und Videobearbeitung bei. Das zweite Kursangebot ist auf die Vermittlung von IT-Kenntnissen ausgerichtet. ",
+        "whatWeDoImage": "/projects/elbasan/elbasan_2.jpg"
+      }
+    },
+
+    {
+      "title": "Gjader",
+      "teaser": "Im kleinen Dorf Gjadër im Umland von Lezha liegt das Jugend- und Hilfszentrum Casa Rozalba I der Venerini Sisters. Dort finden Kinder und Frauen aus schwierigen Umständen ein neues Zuhause. iSTEP ergänzt auch hier das bereits bestehende Bildungsangebot des Zentrums mit Computerkursangeboten. Zusätzlich liefern wir Laptops und anderes Material, um den Frauen und Kindern den Anschluss ans digitale Zeitalter zu ermöglichen. ",
+      "moreText": "mehr Lesen",
+      "link": "/gjader",
+      "image": "/projects/gjader/gjader.jpg",
+      "details": {
+        "theLocation": "Der Standort",
+        "theLocationText": "Gjadër ist ein kleines Dorf einige Autofahrminuten von Lezha entfernt. Es ist bekannt für den aufgegebenen Militärflughafen, der heute als Schrottplatz für altes Fluggerät dient. Die verlassene Landebahn, zieht sich quer durch das Dorf und prägt das Ortsbild. Gleich neben dem maroden Startfeld steht das Jugend- und Hilfszentrum Casa Rozalba I der Venerini Sisters.  ",
+        "theLocationImage": "/projects/gjader/gjader_1.jpg",
+        "whatWeDo": "Was wir tun",
+        "whatWeDoText": "Seit dem ersten Outreach von iSTEP im September 2023 führen wir im Casa Rozalba Anfängerkurse im Bereich allgemeine Computerkenntnisse und Office Anwendungen durch. Da die Kinder und Frauen des Zentrums oft aus schwierigen Umständen stammen, hilft iSTEP auch mit materieller Unterstützung und stellt den Bewohner:innen Notebooks und Peripheriegeräte zur Verfügung. Bei den Einsätzen vor Ort liegt der Fokus jeweils darauf, Interessierte auf einen technischen Stand zu bringen, der ihnen die Teilnahme an weiterführenden Onlinekursen ermöglicht. ",
+        "whatWeDoText2": "",
+        "whatWeDoImage": "/projects/gjader/gjader_2.jpg"
       }
     },
     {
       "title": "Librazhd",
-      "teaser": "Librazhd ist eine Stadt und eine Gemeinde im Kreis Elbasan im Südosten Albaniens. Während des Einsatzes im April 2024 lernten wir ein Ehepaar kennen, das in Librazhd ehrenamtlich mit einer Arbeit unter Jugendlichen angefangen hat. Im Gespräch realisierten wir schnell, dass sie am Angebot von iSTEP grosses Interesse haben. So führten wir im August 2024 in Librazhd als Pilot einen wöchigen Basiskurs MS-Office durch. Es beteiligten sich 14 Jugendliche zwischen 8-12 Jahren und zeigten für das Thema grosses Interesse. Das Feedback am Ende des Kurses zeigte eindeutig, dass die Jugendlichen an weiteren Kursen interessiert sind. Auch die Leiterschaft bestätigte, dass sie an einer weiteren Zusammenarbeit mit iSTEP sehr interessiert sind. Inzwischen konnten wir den neuen Projektstandort Librazhd mit dem nötigen Start-Material ausrüsten (6 Laptops, Mäuse, Headsets, entsprechende Kabel, Memorysticks) Das Ziel ist, im November 2024 mit den Online-Kursen zu starten.",
+      "teaser": "Librazhd ist eine kleine Stadt in der gleichnamigen Gemeinde im Kreis Elbasan im Südosten Albaniens. Es ist der neueste Standort von iSTEP, der während eines Einsatzes in Elbasan im Jahr 2024 erschlossen wurde. Das Einsatzteam lernte ein Ehepaar kennen, das ehrenamtlich mit Jugendlichen arbeitet. Schnell realisierten wir, dass iSTEP mit Onlinekursen ihr Programm ideal ergänzen könnte.  ",
       "moreText": "mehr Lesen",
       "link": "/librazhd",
-      "image": "/placeholder/project.png",
+      "image": "/projects/librazhd/librazhd.jpg",
       "details": {
         "theLocation": "Der Standort",
-        "theLocationText": "Librazhd liegt im Tal des Flusses Shkumbin. Zehn Kilometer weiter östlich erstreckt sich inmitten der Berge die Grenze zu Nordmazedonien. Die Ortschaft liegt an einer wichtigen Verkehrsachse, welche die Küste Albaniens mit dem Südosten und Nordmazedonien verbindet. In dieser Kleinstadt hat ein Ehepaar ein ehrenamtliches Projekt aufgezogen, das Jugendlichen unter anderem Freizeitangebote anbietet.",
+        "theLocationText": "Librazhd liegt im Tal des Flusses Shkumbin. Zehn Kilometer weiter östlich erstreckt sich inmitten der Berge die Grenze zu Nordmazedonien. Die Ortschaft liegt an einer wichtigen Verkehrsachse, welche die Küste Albaniens mit dem Südosten und Nordmazedonien verbindet. In dieser Kleinstadt hat ein Ehepaar ein ehrenamtliches Projekt aufgezogen, das Jugendlichen unter anderem Freizeitangebote anbietet. ",
+        "theLocationImage": "/projects/librazhd/librazhd_1.jpg",
         "whatWeDo": "Was wir tun",
         "whatWeDoText": "Im Rahmen eines Pilotversuchs im August 2024 führte iSTEP einen einwöchigen MS-Office-Basiskurs mit den Jugendlichen in Librazhd durch. Der Kurs fand grossen Anklang und alle Seiten waren sich einig, dass die Zusammenarbeit mit iSTEP fortgesetzt werden soll. Inzwischen ist der neue Projektstandort mit dem nötigen Startmaterial an Laptops und Peripheriegeräten ausgestattet, damit Librazhd offiziell in das iSTEP Onlinekursprogramm aufgenommen werden kann. Geplant sind fortlaufende Onlinekurse ab November 2024.",
-        "whatWeDoText2": " "
-      }
-    },
-    {
-      "title": "Gjadër",
-      "teaser": "Im kleinen Dorf Gjadër im Umland von Lezha liegt das Jugend- und Hilfszentrum Casa Rozalba I der Venerini Sisters. Dort finden Kinder und Frauen aus schwierigen Umständen ein neues Zuhause. iSTEP ergänzt auch hier das bereits bestehende Bildungsangebot des Zentrums mit Computerkursangeboten. Zusätzlich liefern wir Laptops und anderes Material, um den Frauen und Kindern den Anschluss ans digitale Zeitalter zu ermöglichen. ",
-      "moreText": "mehr Lesen",
-      "link": "/gjader",
-      "image": "/placeholder/project.png",
-      "details": {
-        "theLocation": "Der Standort",
-        "theLocationText": "Elbasan ist die viertgrösste Stadt in Albanien. In Elbasans Peripherie liegt das A2B Zentrum der gleichnamigen Hilfsorganisation. Es bietet einen Kindergarten an, sowie einen Mittagstisch mit warmen Mahlzeiten für die Kinder und Jugendlichen aus der nahegelegenen Schule. Als ergänzende Tagestruktur fürht das Zentrum im Anschluss an die Mittagsmahlzeiten begleitete Hausaufgabenhilfe und Nachhilfeunterricht durch. Obschon sich das Angebot primär an Kinder aus ärmeren Verhältnissen richtet, steht es bewusst auch besser situierten Familien offen. So wird einer Stigmatisierung vorgebeugt und eine für alle Seiten bereichernde Durchmischung ermöglicht. Im Gebäude werden auch Hilfsgüter und Lebensmittel für andere Unterstützungsangebote des Hilfswerks gelagert. iSTEP nutzt die bestehenden Hilfsgütertransporte von A2B um IT-Material nach Albanien zu schicken.",
-        "whatWeDo": "Was wir tun",
-        "whatWeDoText": "Seit dem ersten Einsatz im September 2023 führt iSTEP angeknüpft an die Tagesstrukturangebote von A2B regelmässig Onlinekurse für die Kinder des Zentrums durch. Die Kurse finden in einem 14-Tage-Rhythmus statt und sind modular konzipiert. Durch die Kontinuität erreichen wir einen fortschreitenden Lerneffekt und bauen eine Vertrauensbasis mit den Kindern und Jugendlichen auf. Ebenso ermöglicht uns der regelmässige Austausch, die Interessen der Teilnehmenden zu erfassen und sie bei Bedarf individuell zu fördern.",
-        "whatWeDoText2": "Die Kurse werden von lokalen Übersetzer:innen begleitet, damit auch Kinder ohne grosse Englischkenntnisse Anschluss finden. Das Kursprogramm teilt sich dabei in zwei Themenbereiche auf. Ein Angebot fokussiert sich auf den kreativen Bereich und bringt den Teilnehmenden beispielsweise Designkonzepte, sowie Bild- und Videobearbeitung bei. Das zweite Kursangebot ist auf die Vermittlung von IT-Kenntnissen ausgerichtet. "
+        "whatWeDoText2": "",
+        "whatWeDoImage": "/projects/librazhd/librazhd_2.jpg"
       }
     }
   ],
 
   "Results": [
     {
-      "title": "Fotoghraphie",
+      "title": "Fotografie",
       "moreText": "mehr Lesen",
       "backgroundColor": "#E07200",
       "imagePosition": "justify-center",
-      "link": "results"
+      "link": ""
     },
     {
       "title": "Präsentation",
       "moreText": "mehr Lesen",
       "backgroundColor": "#509D75",
       "imagePosition": "justify-center",
-      "link": "results"
+      "link": ""
     },
     {
-      "title": "Video ",
+      "title": "Video",
       "moreText": "mehr Lesen",
       "backgroundColor": "#F8B344",
       "imagePosition": "justify-center",
-      "link": "results"
-    },
-    {
-      "title": "Video ",
-      "moreText": "mehr Lesen",
-      "backgroundColor": "#F8B344",
-      "imagePosition": "justify-center",
-      "link": "results"
-    },
-    {
-      "title": "Video ",
-      "moreText": "mehr Lesen",
-      "backgroundColor": "#F8B344",
-      "imagePosition": "justify-center",
-      "link": "results"
+      "link": ""
     }
   ],
 
@@ -758,76 +827,9 @@
       },
       {
         "name": "Peki",
-        "text": "Technologie- und IT-Kenntnisse sind eine der wichtigsten Fähigkeiten, die heutzutage erforderlich sind. Mein Wunsch ist es, allen Kindern und Erwachsenen die Möglichkeit zu geben, diese Fähigkeiten zu erwerben und zu entwickeln. In Zusammenarbeit mit ISTEP haben wir die Möglichkeit, dieses Projekt in Elbasan ins Leben zu rufen. Außerdem wollen wir damit Kinder motivieren, zu lernen und ihr Potenzial zu entdecken.",
+        "text": "Technologie- und IT-Kenntnisse sind eine der wichtigsten Fähigkeiten, die heutzutage erforderlich sind. Mein Wunsch ist es, allen Kindern und Erwachsenen die Möglichkeit zu geben, diese Fähigkeiten zu erwerben und zu entwickeln. In Zusammenarbeit mit iSTEP haben wir die Möglichkeit, dieses Projekt in Elbasan ins Leben zu rufen. Außerdem wollen wir damit Kinder motivieren, zu lernen und ihr Potenzial zu entdecken.",
         "moreText": "Mehr Erfahren"
       }
     ]
-  },
-  "VariosCourses": {
-    "mainTitle": "Diverse Kurse",
-    "subTitle": "TBD Text",
-    "coursesTitle": "Unsere Kurse",
-    "beginner": "Beginner",
-    "advanced": "Advanced",
-    "beginnerToolTip": "Kurzer Beschrieb was Beginner bedeutet",
-    "advancedToolTip": "Kurzer Beschrieb was Advanced bedeutet",
-    "ourCourses": {
-      "title": "Unsere Kurse",
-      "beginner": "Beginner",
-      "beginnerToolTip": "Kurzer Beschrieb was Beginner bedeutet",
-      "advanced": "Advanced",
-      "advancedToolTop": "Kurzer Beschrieb was Beginner bedeutet",
-      "toolTopActive": "true",
-      "noCourses": "Leider haben wir im Moment keine diversen Kurse."
-    },
-    "courses": [
-      {
-        "title": "A2B Elbasan: Creative Online Course ",
-        "where": "Online",
-        "badge": "Beginner",
-        "descriptionTitle": "Kursbeschreibung",
-        "description": "Der Multimedia-Kurs ist ideal für dich, wenn du dich für kreative Arbeiten am Computer begeisterst - egal welches Vorwissen du hast. In diesem Kurs lernst du Schritt für Schritt alles Wichtige von den Computer-Nutzer-Basics bis hin zur Nutzung gängiger Applikationen wie Office 365. Du tauchst in die Welt der Multimedia ein und erfährst, wie du mit verschiedenen Programmen beeindruckende Projekte umsetzen kannst.",
-        "whatYouLearnTitle": "Was du lernst",
-        "whatYouLearnText": "Die Themen sind sehr verschieden und decken verschiedene Bereiche rund um digitales Arbeiten ab. Es gibt keinen übergreifenden Plan, wann welches Thema behandelt wird, das hängt von den Leitern des jeweiligen Kursdatums ab. Bei Interesse melde ich bei uns und wir erklären dir gerne, was in den aktuellen Kursen gerade behandelt wird. Hier llisten wir Themen auf, die wir bereits behandelt haben, es können aber jeder Zeit noch weitere dazukommen:  ",
-        "whatYouLearnList": [
-          "Computer-Nutzer-Basics: Einführung in die grundlegende Bedienung und Nutzung deines Computers.",
-          "Office 365: Du lernst die Grundlagen zur Bedienung der wichtigsten Office-Anwendungen Word, Powerpoint und Excel. Je nach dem, was dir zur Verfügung steht, werden die kostenlosen Libreoffice Varianten Writer, Impress und Calc verwendet.  ",
-          "Gestaltung und Design mit Canva: Grundlagen zu Gestaltung (zb. Typografie, Farbenlehre, Layout). Du lernst, was ein ansprechendes Design ausmacht und wie du vom leeren Blatt zum fertig ausgestalteten Design kommst. Die Umsetzung geschieht in Canva, einem Designprogramm, was im Browser und als Applikation verwendet werden kann.  ",
-          "Fotografie mit Darktable: Du lernst die drei grundlegenden Einstellungen einer Kamera kennen, verschiedene Bildeinstellungen und Prinzipien für ein ansprechendes Bild. Gemachte Fotos lernst du mit Darktable zu bearbeiten.",
-          "Videografie mit DaVinci Resolve: Du lernst etwas über Filmgeschichte und wie Filme entstehen. Du schreibst unter Anleitung ein Script, machst ein Storyboard und setzt dieses filmisch um. Das kann mit Kamera oder Handy passieren. Die Bearbeitung und der Zusammenschnitt des Films werden mit DaVinci Resolve gemacht."
-        ],
-        "workpiecesTitle": "Werkstücke",
-        "workpiecesList": [
-          "Bedienungsgrundlagen: Wie bediene ich einen Windows-Computer?",
-          "Internet Security: Wie kann ich mich und meine Daten im Internet schützen?",
-          "Filmgeschichte: Wie entstand der Film von früher und heute?",
-          "Kameraeinstellungen: Was sind gängige Perspektiven der Kamera?",
-          "Script schreiben: Schreibe deine Geschichte so, dass sie spannend ist und gut verfilmt werden kann ",
-          "Storyboard zeichnen: Der visuelle Plan, wie gefilmt werden muss",
-          "Rollenverteilung: Was gibt es am Filmset für Rollen? Beispiele sind Regisseur, Kamera, Licht, Maske, ...",
-          "Filmen: Mit Handy oder Kamera ",
-          "Davinci Resolve: Zusammenschneiden und Hinterlegen mit Sound",
-          "Export des fertigen Videos",
-          "Typografie (Schriftenlehre): Fachbegriffe, warum ist eine gute Schriftahl wichtig, wie und wo finde ich eine gute Schrift?",
-          "Farbenlehre: Farbpdsychologie, Farbenrad, Kontraste ",
-          "Methoden zur Ideenfindung: Moodboarding, Inspration finden, Skizzieren",
-          "Flyer gestalten: Kombination von allem oben vom leeren Papier bis zum fertigen Flyer "
-        ],
-        "courseOrganizationTitle": "Kursdurchführung und Anmeldung ",
-        "courseOrganizationText": "Die Kurse finden fortlaufend alle zwei Wochen an einem Samstag von 10:00-14:00 statt. Eine Anmeldung ist jederzeit möglich. Da manche Themen aber über mehrere Samstage laufen, kann es sein, dass du bei deiner Anmeldung im Selbststudium das Material von vergangenen Daten selbst anschauen musst. So verpasst du keine wichtigen Informationen, wenn du mitten in ein Thema einsteigst. Bei Fragen darfst du dich gerne bei den Kursleitern melden.",
-        "requirementsTitle": "Anforderungen",
-        "requirementsList": [
-          "Freude am Umgang mit Computern",
-          "Interesse an kreativem Arbeiten ",
-          "Grundlegende Computerkenntnisse von Vorteil aber nicht zwingend nötig  ",
-          "Für gewisse Themen sind ein Handy für Aufnahmen oder eine E-Mail-Adresse für die Registration bei einem Comuterprogramm notwendig. Dies wird dir im Voraus mitgeteilt, falls du dies nicht hast, finden wir gemeinsam eine Lösung. "
-        ],
-        "moreText": "Mehr Erfahren"
-      }
-    ],
-    "moreCourses": {
-      "title": "Weitere Kurse",
-      "subTitle": "Wir haben noch viele weitere spannende Kurse im Angebot"
-    }
   }
 }
