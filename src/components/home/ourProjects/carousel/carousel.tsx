@@ -20,11 +20,11 @@ export default function carousel({ projects }: { projects: any }) {
     },
     // when window width is >= 768px
     768: {
-      slidesPerView: 3,
+      slidesPerView: 3.2,
       spaceBetween: 40,
     },
     1440: {
-      slidesPerView: 3,
+      slidesPerView: 2.8,
       spaceBetween: 40,
     },
   };
@@ -34,8 +34,8 @@ export default function carousel({ projects }: { projects: any }) {
       breakpoints={breakpoints}
       //slidesPerView={1.2}
       spaceBetween={20}
-      initialSlide={1}
-      centeredSlides={true}
+      initialSlide={0}
+      centeredSlides={false}
       loop={false}
       modules={[Navigation]}
       className="w-full"

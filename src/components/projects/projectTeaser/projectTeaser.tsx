@@ -15,7 +15,7 @@ interface projectProps {
 }
 
 const projectTeaser = ({ project, idx }: projectProps) => {
-  const bgColorOptions = ["#f2c494", "#fcdfb1", "#a4d1c3"];
+  const bgColorOptions = ["#F8B343", "#24926F", "#8BBFAC", "#E07200"];
   const bgColorStyle = {
     backgroundColor: bgColorOptions[idx % bgColorOptions.length],
   };
@@ -30,9 +30,7 @@ const projectTeaser = ({ project, idx }: projectProps) => {
       <div className=" w-full md:w-1/2">
         <div className="p-8 md:pt-8 pt-6 font-palanquin">
           <h3
-            className={`text-h-md md:text-h-l mb-2 md:mb-4  text-${
-              ["orange", "yellow", "green"][idx % 3]
-            }`}
+            className={`text-h-md md:text-h-l mb-2 md:mb-4  text-darkblue           `}
           >
             {project.title}
           </h3>

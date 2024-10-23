@@ -13,10 +13,12 @@ export function generateStaticParams() {
   return [
     { locale: "de", slug: "elbasan" },
     { locale: "de", slug: "lezha" },
-    { locale: "de", slug: "gjader" },
+    { locale: "de", slug: "gjadër" },
+    { locale: "de", slug: "librazhd" },
     { locale: "en", slug: "elbasan" },
     { locale: "en", slug: "lezha" },
-    { locale: "en", slug: "gjader" },
+    { locale: "en", slug: "gjadër" },
+    { locale: "en", slug: "librazhd" },
   ];
 }
 

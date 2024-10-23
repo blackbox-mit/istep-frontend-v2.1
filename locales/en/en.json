@@ -553,36 +553,6 @@
           "Interesse an Computeranwendungen"
         ],
         "moreText": "Mehr Erfahren"
-      },
-      {
-        "title": "Lezha Casa Rozalba 2: Officeanwendungen Basiskurs  ",
-        "where": "Online",
-        "badge": "Beginner",
-        "descriptionTitle": "Kursbeschreibung",
-        "description": "Der Basiskurs für Officeanwendungen richtet sich an Einsteiger bis Fortgeschrittene und vermittelt grundlegende Computeranwenderkenntnisse, sowie den Umgang mit gängigen Officeanwendungen zur Textverarbeitung und Tabellenkalkulation. ",
-        "whatYouLearnTitle": "Was du lernst",
-        "whatYouLearnText": "Die Themen sind sehr verschieden und decken verschiedene Bereiche rund um digitales Arbeiten ab. Es gibt keinen übergreifenden Plan, wann welches Thema behandelt wird, das hängt von den Leitern des jeweiligen Kursdatums ab. Bei Interesse melde ich bei uns und wir erklären dir gerne, was in den aktuellen Kursen gerade behandelt wird. Hier llisten wir Themen auf, die wir bereits behandelt haben, es können aber jeder Zeit noch weitere dazukommen:  ",
-        "whatYouLearnList": [
-          "Verwendung von Discord für Teilnahme an Onlinekursen ",
-          "Basiskenntnisse im Umgang mit dem File Explorer und Dateien ",
-          "Tabellenkalkulation mit Excel oder LibreOffice Calc ",
-          "Textdateien erstellen und formatieren mit Microsoft Word oder LibreOffice Writer"
-        ],
-        "workpiecesTitle": "Werkstücke",
-        "workpiecesList": [
-          "Eine Dateiablage erstellen",
-          "Eigene Exceldateien anlegen und bearbeiten",
-          "Eigene Worddateien anlegen und bearbeiten"
-        ],
-        "courseOrganizationTitle": "Kursdurchführung und Anmeldung ",
-        "courseOrganizationText": "Aufgrund von fehlenden Anmeldungen läuft derzeit kein Kurs. Bei genügend Interessenten wird ein regelmässiges Onlinekursprogramm stattfinden.",
-        "requirementsTitle": "Anforderungen",
-        "requirementsList": [
-          "Zugang zu einem Notebook mit Internetanschluss",
-          "Discordaccount zur Teilnahme an Onlinekursen",
-          "Interesse an Computeranwendungen"
-        ],
-        "moreText": "Mehr Erfahren"
       }
     ],
     "moreCourses": {
@@ -639,6 +609,20 @@
         "whatWeDo": "Was wir tun",
         "whatWeDoText": "Seit dem ersten Outreach von iSTEP im September 2023 führen wir im Casa Rozalba Anfängerkurse im Bereich allgemeine Computerkenntnisse und Office Anwendungen durch. Da die Kinder und Frauen des Zentrums oft aus schwierigen Umständen stammen, hilft iSTEP auch mit materieller Unterstützung und stellt den Bewohner:innen Notebooks und Peripheriegeräte zur Verfügung. Bei den Einsätzen vor Ort liegt der Fokus jeweils darauf, Interessierte auf einen technischen Stand zu bringen, der ihnen die Teilnahme an weiterführenden Onlinekursen ermöglicht.",
         "whatWeDoText2": ""
+      }
+    },
+    {
+      "title": "Librazhd",
+      "teaser": "Librazhd ist eine Stadt und eine Gemeinde im Kreis Elbasan im Südosten Albaniens. Während des Einsatzes im April 2024 lernten wir ein Ehepaar kennen, das in Librazhd ehrenamtlich mit einer Arbeit unter Jugendlichen angefangen hat. Im Gespräch realisierten wir schnell, dass sie am Angebot von iSTEP grosses Interesse haben. So führten wir im August 2024 in Librazhd als Pilot einen wöchigen Basiskurs MS-Office durch. Es beteiligten sich 14 Jugendliche zwischen 8-12 Jahren und zeigten für das Thema grosses Interesse. Das Feedback am Ende des Kurses zeigte eindeutig, dass die Jugendlichen an weiteren Kursen interessiert sind. Auch die Leiterschaft bestätigte, dass sie an einer weiteren Zusammenarbeit mit iSTEP sehr interessiert sind. Inzwischen konnten wir den neuen Projektstandort Librazhd mit dem nötigen Start-Material ausrüsten (6 Laptops, Mäuse, Headsets, entsprechende Kabel, Memorysticks) Das Ziel ist, im November 2024 mit den Online-Kursen zu starten.",
+      "moreText": "mehr Lesen",
+      "link": "/librazhd",
+      "image": "/placeholder/project.png",
+      "details": {
+        "theLocation": "Der Standort",
+        "theLocationText": "Librazhd liegt im Tal des Flusses Shkumbin. Zehn Kilometer weiter östlich erstreckt sich inmitten der Berge die Grenze zu Nordmazedonien. Die Ortschaft liegt an einer wichtigen Verkehrsachse, welche die Küste Albaniens mit dem Südosten und Nordmazedonien verbindet. In dieser Kleinstadt hat ein Ehepaar ein ehrenamtliches Projekt aufgezogen, das Jugendlichen unter anderem Freizeitangebote anbietet.",
+        "whatWeDo": "Was wir tun",
+        "whatWeDoText": "Im Rahmen eines Pilotversuchs im August 2024 führte iSTEP einen einwöchigen MS-Office-Basiskurs mit den Jugendlichen in Librazhd durch. Der Kurs fand grossen Anklang und alle Seiten waren sich einig, dass die Zusammenarbeit mit iSTEP fortgesetzt werden soll. Inzwischen ist der neue Projektstandort mit dem nötigen Startmaterial an Laptops und Peripheriegeräten ausgestattet, damit Librazhd offiziell in das iSTEP Onlinekursprogramm aufgenommen werden kann. Geplant sind fortlaufende Onlinekurse ab November 2024.",
+        "whatWeDoText2": " "
       }
     },
     {
