@@ -19,7 +19,7 @@ export default async function detailPage({
   ).default;
   const course = translation.VariosCourses.courses[id];
   return (
-    <main className="">
+    <main className="min-h-[calc(100vh-400px)]">
       <div className="bg-darkblue pb-16">
         <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4 ">
           <div className="rounded-full bg-yellow p-2 w-36 text-p-sm text-darkblue font-bold font-palanquin mb-8">

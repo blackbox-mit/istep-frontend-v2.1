@@ -278,92 +278,7 @@
       }
     ]
   },
-  "ComputerScienceCourses": {
-    "mainTitle": "IT/Computer Science",
-    "subTitle": "Unsere Kurse im IT-Bereich",
-    "coursesTitle": "Unsere Kurse",
-    "beginner": "Beginner",
-    "advanced": "Advanced",
-    "beginnerToolTip": "Keine Vorkenntnisse erforderlich. Anwednerkenntnisse werden während des Kurses erworben.",
-    "advancedToolTip": "Fortgeschrittene Anwenderkenntnisse sind Voraussetzung für den Kursbesuch.",
-    "ourCourses": {
-      "title": "Unsere Kurse",
-      "beginner": "Beginner",
-      "beginnerToolTip": "Keine Vorkenntnisse erforderlich. Anwednerkenntnisse werden während des Kurses erworben.",
-      "advanced": "Advanced",
-      "advancedToolTop": "Fortgeschrittene Anwenderkenntnisse sind Voraussetzung für den Kursbesuch.",
-      "toolTopActive": "true"
-    },
-    "courses": [
-      {
-        "title": "Lezha High School:\nWeb Development Blockkurs",
-        "where": "Online- und Vorortlektionen",
-        "badge": "Advanced",
-        "descriptionTitle": "Kursbeschreibung",
-        "description": "Der Web Development Blockkurs führt dich in die Grundlagen der Webentwicklung ein. Du eignest dir Grundkenntnisse in HTML, CSS und JavaScript an, die es dir ermöglichen, interaktive Webseiten und Webapplikationen zu bauen. ",
-        "whatYouLearnTitle": "Was du lernst",
-        "whatYouLearnText": "",
-        "whatYouLearnList": [
-          "Webseitengrundgerüst mit HTML erstellen",
-          "Navigation von mehrseitigen Webseiten implementieren",
-          "Webseiten formatieren und designen mit CSS",
-          "Interaktive Elemente und Webseitenlogik programmieren mit JavaScript"
-        ],
-        "workpiecesTitle": "Pratkische Arbeiten",
-        "workpiecesList": [
-          "Du erstellst deine eigene HTML & CSS Webseite",
-          "Du erarbeitest als Abschlussprojekt eine interaktive Webseite"
-        ],
-        "courseOrganizationTitle": "Kursdurchführung und Anmeldung ",
-        "courseOrganizationText": "Dieser Kurs wird als Blockkurs in einer bestimmten Anzahl Online- und Vorortlektionen durchgeführt. Die nächste Iteration findet voraussichtlich vom Januar-April 2025 statt. Eine offizielle Anmeldeausschreibung erfolgt Ende 2024. Bei Interesse kann man sich jederzeit Voranmelden.",
-        "requirementsTitle": "Anforderungen",
-        "requirementsList": [
-          "Gute Computeranwenderkenntnisse",
-          "Ein eigenes Notebook und Internetanschluss zuhause ",
-          "Discordaccount für die Teilnahme an den Onlinesegmenten ",
-          "Interesse an Webentwicklung und Programmierung "
-        ],
-        "moreText": "Mehr Erfahren"
-      },
-      {
-        "title": "A2B Elbasan: IT Online Course",
-        "where": "Online",
-        "badge": "Advanced",
-        "descriptionTitle": "Kursbeschreibung",
-        "description": "Der IT Online-Kurs ist ideal für dich, wenn du dich für Computer begeisterst und egal welches Vorwissen du hast. In diesem Kurs wirst du Schritt für Schritt durch die Grundlagen der Entwicklung von Applikationen, Webseiten und kleinen Spielen geführt – von der Planung über die Umsetzung bis hin zur Veröffentlichung. Zusätzlich erwirbst du Kenntnisse über den allgemeinen Computereinsatz und Netzwerktechnologien. Dieser Kurs ist perfekt dafür geeignet, dein Interesse an der Technologie in praktisches und anwendbares Wissen umzuwandeln.",
-        "whatYouLearnTitle": "Was du lernst",
-        "whatYouLearnList": [
-          "Backend- und Frontendentwicklung von der Planung und Umsetzung bis hin zur Veröffentlichung",
-          "Kleine Spiele programmieren ",
-          "Webseiten und Webapplikationen programmieren ",
-          "Wie ist ein Computer aufgebaut "
-        ],
-        "workpiecesTitle": "Pratkische Arbeiten",
-        "workpiecesList": [
-          "Effizientes Lernen",
-          "Lernen mit dem Notizentool Obsidian zu arbeiten",
-          "Einfache Webseiten mit HTML, CSS und JavaScript erstellen",
-          "Aufbau und Inhalt von Webseiten analysieren",
-          "Wireframes erstellen",
-          "Rollen von Client und Server verstehen",
-          "Schere/Stein/Papier mit Applikation mit PHP erstellen"
-        ],
-        "courseOrganizationTitle": "Kursdurchführung und Anmeldung ",
-        "courseOrganizationText": "Die Kurse finden fortlaufend alle zwei Wochen an einem Samstag von 10:00-14:00 statt. Eine Anmeldung ist jederzeit möglich.",
-        "requirementsTitle": "Anforderungen",
-        "requirementsList": [
-          "Interesse am Programmieren",
-          "Eine gute Portion Motivation ",
-          "Grundlegende Computerkenntnisse von Vorteil aber nicht zwingend nötig"
-        ],
-        "moreText": "Mehr Erfahren"
-      }
-    ],
-    "moreCourses": {
-      "title": "Weitere Kurse",
-      "subTitle": "Wir haben noch viele weitere spannende Kurse im Angebot"
-    }
-  },
+
   "Contact": {
     "title": "Kontaktiere Uns",
     "subTitle": "Lorem Ipsum",
@@ -451,6 +366,93 @@
       "copyright": "Alle Rechte vorbehalten.",
       "statuten": "Statuten",
       "impressum": "Impressum"
+    }
+  },
+
+  "ComputerScienceCourses": {
+    "mainTitle": "IT/Computer Science",
+    "subTitle": "Unsere Kurse im IT-Bereich",
+    "coursesTitle": "Unsere Kurse",
+    "beginner": "Beginner",
+    "advanced": "Advanced",
+    "beginnerToolTip": "Keine Vorkenntnisse erforderlich. Anwednerkenntnisse werden während des Kurses erworben.",
+    "advancedToolTip": "Fortgeschrittene Anwenderkenntnisse sind Voraussetzung für den Kursbesuch.",
+    "ourCourses": {
+      "title": "Unsere Kurse",
+      "beginner": "Beginner",
+      "beginnerToolTip": "Keine Vorkenntnisse erforderlich. Anwednerkenntnisse werden während des Kurses erworben.",
+      "advanced": "Advanced",
+      "advancedToolTop": "Fortgeschrittene Anwenderkenntnisse sind Voraussetzung für den Kursbesuch.",
+      "toolTopActive": "true"
+    },
+    "courses": [
+      {
+        "title": "Lezha High School:\nWeb Development Blockkurs",
+        "where": "Online- und Vorortlektionen",
+        "badge": "Advanced",
+        "descriptionTitle": "Kursbeschreibung",
+        "description": "Der Web Development Blockkurs führt dich in die Grundlagen der Webentwicklung ein. Du eignest dir Grundkenntnisse in HTML, CSS und JavaScript an, die es dir ermöglichen, interaktive Webseiten und Webapplikationen zu bauen. ",
+        "whatYouLearnTitle": "Was du lernst",
+        "whatYouLearnText": "",
+        "whatYouLearnList": [
+          "Webseitengrundgerüst mit HTML erstellen",
+          "Navigation von mehrseitigen Webseiten implementieren",
+          "Webseiten formatieren und designen mit CSS",
+          "Interaktive Elemente und Webseitenlogik programmieren mit JavaScript"
+        ],
+        "workpiecesTitle": "Pratkische Arbeiten",
+        "workpiecesList": [
+          "Du erstellst deine eigene HTML & CSS Webseite",
+          "Du erarbeitest als Abschlussprojekt eine interaktive Webseite"
+        ],
+        "courseOrganizationTitle": "Kursdurchführung und Anmeldung ",
+        "courseOrganizationText": "Dieser Kurs wird als Blockkurs in einer bestimmten Anzahl Online- und Vorortlektionen durchgeführt. Die nächste Iteration findet voraussichtlich vom Januar-April 2025 statt. Eine offizielle Anmeldeausschreibung erfolgt Ende 2024. Bei Interesse kann man sich jederzeit Voranmelden.",
+        "requirementsTitle": "Anforderungen",
+        "requirementsList": [
+          "Gute Computeranwenderkenntnisse",
+          "Ein eigenes Notebook und Internetanschluss zuhause ",
+          "Discordaccount für die Teilnahme an den Onlinesegmenten ",
+          "Interesse an Webentwicklung und Programmierung "
+        ],
+        "moreText": "Mehr Erfahren"
+      },
+      {
+        "title": "A2B Elbasan: IT Online Course",
+        "where": "Online",
+        "badge": "Advanced",
+        "descriptionTitle": "Kursbeschreibung",
+        "description": "Der IT Online-Kurs ist ideal für dich, wenn du dich für Computer begeisterst und egal welches Vorwissen du hast. In diesem Kurs wirst du Schritt für Schritt durch die Grundlagen der Entwicklung von Applikationen, Webseiten und kleinen Spielen geführt – von der Planung über die Umsetzung bis hin zur Veröffentlichung. Zusätzlich erwirbst du Kenntnisse über den allgemeinen Computereinsatz und Netzwerktechnologien. Dieser Kurs ist perfekt dafür geeignet, dein Interesse an der Technologie in praktisches und anwendbares Wissen umzuwandeln.",
+        "whatYouLearnTitle": "Was du lernst",
+        "whatYouLearnList": [
+          "Backend- und Frontendentwicklung von der Planung und Umsetzung bis hin zur Veröffentlichung",
+          "Kleine Spiele programmieren ",
+          "Webseiten und Webapplikationen programmieren ",
+          "Wie ist ein Computer aufgebaut "
+        ],
+        "workpiecesTitle": "Pratkische Arbeiten",
+        "workpiecesList": [
+          "Effizientes Lernen",
+          "Lernen mit dem Notizentool Obsidian zu arbeiten",
+          "Einfache Webseiten mit HTML, CSS und JavaScript erstellen",
+          "Aufbau und Inhalt von Webseiten analysieren",
+          "Wireframes erstellen",
+          "Rollen von Client und Server verstehen",
+          "Schere/Stein/Papier mit Applikation mit PHP erstellen"
+        ],
+        "courseOrganizationTitle": "Kursdurchführung und Anmeldung ",
+        "courseOrganizationText": "Die Kurse finden fortlaufend alle zwei Wochen an einem Samstag von 10:00-14:00 statt. Eine Anmeldung ist jederzeit möglich.",
+        "requirementsTitle": "Anforderungen",
+        "requirementsList": [
+          "Interesse am Programmieren",
+          "Eine gute Portion Motivation ",
+          "Grundlegende Computerkenntnisse von Vorteil aber nicht zwingend nötig"
+        ],
+        "moreText": "Mehr Erfahren"
+      }
+    ],
+    "moreCourses": {
+      "title": "Weitere Kurse",
+      "subTitle": "Wir haben noch viele weitere spannende Kurse im Angebot"
     }
   },
   "MultimediaCourses": {
@@ -583,6 +585,47 @@
           "Discordaccount zur Teilnahme an Onlinekursen",
           "Interesse an Computeranwendungen"
         ],
+        "moreText": "Mehr Erfahren"
+      }
+    ],
+    "moreCourses": {
+      "title": "Weitere Kurse",
+      "subTitle": "Wir haben noch viele weitere spannende Kurse im Angebot"
+    }
+  },
+  "VariosCourses": {
+    "mainTitle": "Diverse Kurse",
+    "subTitle": "Entdecke hier unser vielfältiges Kursangebot",
+    "coursesTitle": "Unsere Kurse",
+    "beginner": "Beginner",
+    "advanced": "Advanced",
+    "beginnerToolTip": "Keine Vorkenntnisse erforderlich. Anwednerkenntnisse werden während des Kurses erworben.",
+    "advancedToolTip": "Fortgeschrittene Anwenderkenntnisse sind Voraussetzung für den Kursbesuch.",
+    "ourCourses": {
+      "title": "Unsere Kurse",
+      "beginner": "Beginner",
+      "beginnerToolTip": "Keine Vorkenntnisse erforderlich. Anwednerkenntnisse werden während des Kurses erworben.",
+      "advanced": "Advanced",
+      "advancedToolTop": "Keine Vorkenntnisse erforderlich. Anwednerkenntnisse werden während des Kurses erworben.",
+      "toolTopActive": "true",
+      "noCourses": "Leider haben wir im Moment keine diversen Kurse."
+    },
+    "courses": [
+      {
+        "title": "Librazhd: Details Folgen",
+        "where": "",
+        "badge": "Beginner",
+        "descriptionTitle": "Kursbeschreibung",
+        "description": "Details werden in Kürze folgen.",
+        "whatYouLearnTitle": "",
+        "whatYouLearnText": "",
+        "whatYouLearnList": [],
+        "workpiecesTitle": "",
+        "workpiecesList": [],
+        "courseOrganizationTitle": " ",
+        "courseOrganizationText": "",
+        "requirementsTitle": "",
+        "requirementsList": [],
         "moreText": "Mehr Erfahren"
       }
     ],
@@ -788,61 +831,5 @@
         "moreText": "Mehr Erfahren"
       }
     ]
-  },
-  "VariosCourses": {
-    "mainTitle": "Diverse Kurse",
-    "subTitle": "Entdecke hier unser vielfältiges Kursangebot",
-    "coursesTitle": "Unsere Kurse",
-    "beginner": "Beginner",
-    "advanced": "Advanced",
-    "beginnerToolTip": "Keine Vorkenntnisse erforderlich. Anwednerkenntnisse werden während des Kurses erworben.",
-    "advancedToolTip": "Fortgeschrittene Anwenderkenntnisse sind Voraussetzung für den Kursbesuch.",
-    "ourCourses": {
-      "title": "Unsere Kurse",
-      "beginner": "Beginner",
-      "beginnerToolTip": "Keine Vorkenntnisse erforderlich. Anwednerkenntnisse werden während des Kurses erworben.",
-      "advanced": "Advanced",
-      "advancedToolTop": "Keine Vorkenntnisse erforderlich. Anwednerkenntnisse werden während des Kurses erworben.",
-      "toolTopActive": "true",
-      "noCourses": "Leider haben wir im Moment keine diversen Kurse."
-    },
-    "courses": [
-      {
-        "title": "A2B Elbasan: Creative Online Course ",
-        "where": "Online",
-        "badge": "Advanced",
-        "descriptionTitle": "Kursbeschreibung",
-        "description": "Der Multimedia-Kurs ist ideal für dich, wenn du dich für kreative Arbeiten am Computer begeisterst - egal welches Vorwissen du hast. In diesem Kurs lernst du Schritt für Schritt alles Wichtige von den Computer-Nutzer-Basics bis hin zur Nutzung gängiger Applikationen wie Office 365. Du tauchst in die Welt der Multimedia ein und erfährst, wie du mit verschiedenen Programmen beeindruckende Projekte umsetzen kannst.",
-        "whatYouLearnTitle": "Was du lernst",
-        "whatYouLearnText": "Die Themen sind sehr verschieden und decken verschiedene Bereiche rund um digitales Arbeiten ab. Es gibt keinen übergreifenden Plan, wann welches Thema behandelt wird, das hängt von den Leitern des jeweiligen Kursdatums ab. Bei Interesse melde ich bei uns und wir erklären dir gerne, was in den aktuellen Kursen gerade behandelt wird. Hier llisten wir Themen auf, die wir bereits behandelt haben, es können aber jeder Zeit noch weitere dazukommen:  ",
-        "whatYouLearnList": [
-          "Computer-Nutzer-Basics: Einführung in die grundlegende Bedienung und Nutzung deines Computers.",
-          "Office 365: Du lernst die Grundlagen zur Bedienung der wichtigsten Office-Anwendungen Word, Powerpoint und Excel. Je nach dem, was dir zur Verfügung steht, werden die kostenlosen Libreoffice Varianten Writer, Impress und Calc verwendet.  ",
-          "Gestaltung und Design mit Canva: Grundlagen zu Gestaltung (zb. Typografie, Farbenlehre, Layout). Du lernst, was ein ansprechendes Design ausmacht und wie du vom leeren Blatt zum fertig ausgestalteten Design kommst. Die Umsetzung geschieht in Canva, einem Designprogramm, was im Browser und als Applikation verwendet werden kann.  ",
-          "Fotografie mit Darktable: Du lernst die drei grundlegenden Einstellungen einer Kamera kennen, verschiedene Bildeinstellungen und Prinzipien für ein ansprechendes Bild. Gemachte Fotos lernst du mit Darktable zu bearbeiten.",
-          "Videografie mit DaVinci Resolve: Du lernst etwas über Filmgeschichte und wie Filme entstehen. Du schreibst unter Anleitung ein Script, machst ein Storyboard und setzt dieses filmisch um. Das kann mit Kamera oder Handy passieren. Die Bearbeitung und der Zusammenschnitt des Films werden mit DaVinci Resolve gemacht."
-        ],
-        "workpiecesTitle": "Pratkische Arbeiten",
-        "workpiecesList": [
-          "Selbstgestalteter Flyer",
-          "Storyboards zeichnen",
-          "Film produzieren: Script schreiben, filmen, schneiden, Sound hinterlegen, exportieren."
-        ],
-        "courseOrganizationTitle": "Kursdurchführung und Anmeldung ",
-        "courseOrganizationText": "Die Kurse finden fortlaufend alle zwei Wochen an einem Samstag von 10:00-14:00 statt. Eine Anmeldung ist jederzeit möglich. Da manche Themen aber über mehrere Samstage laufen, kann es sein, dass du bei deiner Anmeldung im Selbststudium das Material von vergangenen Daten selbst anschauen musst. So verpasst du keine wichtigen Informationen, wenn du mitten in ein Thema einsteigst. Bei Fragen darfst du dich gerne bei den Kursleitern melden.",
-        "requirementsTitle": "Anforderungen",
-        "requirementsList": [
-          "Freude am Umgang mit Computern",
-          "Interesse an kreativem Arbeiten ",
-          "Grundlegende Computerkenntnisse von Vorteil aber nicht zwingend nötig  ",
-          "Für gewisse Themen sind ein Handy für Aufnahmen oder eine E-Mail-Adresse für die Registration bei einem Comuterprogramm notwendig. Dies wird dir im Voraus mitgeteilt, falls du dies nicht hast, finden wir gemeinsam eine Lösung. "
-        ],
-        "moreText": "Mehr Erfahren"
-      }
-    ],
-    "moreCourses": {
-      "title": "Weitere Kurse",
-      "subTitle": "Wir haben noch viele weitere spannende Kurse im Angebot"
-    }
   }
 }

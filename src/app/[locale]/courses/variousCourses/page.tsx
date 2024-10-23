@@ -1,6 +1,6 @@
 import Image from "next/image";
 import titleImage from "@/assets/home/titleImage.png";
-import CoursesOverviewMultimedia from "@/components/courses/coursesOverview/coursesOverviewMultimedia";
+import CoursesOverviewVariousCourses from "@/components/courses/coursesOverview/coursesOverviewVariousCourses";
 import MoreCoursesCarousel from "@/components/general/moreCoursesCarousel/moreCoursesCarousel";
 
 import { useTranslations } from "next-intl";
@@ -12,7 +12,7 @@ interface detailCoursePageProps {
   };
 }
 
-export default function MultimediaCourses({
+export default function VariousCourses({
   params: { locale },
 }: detailCoursePageProps) {
   unstable_setRequestLocale(locale);
@@ -44,10 +44,10 @@ export default function MultimediaCourses({
       </div>
 
       <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4">
-        {/* <CoursesOverviewMultimedia lng={locale} /> */}
-        <p className="text-h-sm md:text-h-md mt-4 mb-4 md:text-left text-center font-palanquin !font-thin text-darkblue">
+        <CoursesOverviewVariousCourses lng={locale} />
+        {/* <p className="text-h-sm md:text-h-md mt-4 mb-4 md:text-left text-center font-palanquin !font-thin text-darkblue">
           {t("ourCourses.noCourses")}
-        </p>
+        </p> */}
       </div>
       {/* <div className="mb-24">
         <MoreCoursesCarousel />
