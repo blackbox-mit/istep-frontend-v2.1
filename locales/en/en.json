@@ -690,6 +690,50 @@
     "mainTitle": "Unsere Projekte",
     "subTitle": "Im Frühsommer 2023 wurde der Verein iSTEP gegründet. Mittlerweile besteht das Team aus sieben Mitgliedern."
   },
+
+  "OurKnowHow": {
+    "mainTitle": "Unser Wissen",
+    "subTitle": "Menschen mit erschwertem Zugang zu Bildung individuell fördern und dabei gemeinsam wachsen - das ist das Ziel von iSTEP.",
+    "digitalSkills": {
+      "title": "Digitale Skills",
+      "text": "Unsere Helferinnen und Helfer verfügen über ein breites Spektrum an digitalen Skills, die sie in Ausbildungen und im Arbeitsalltag erworben haben. Hier findest du eine kleine Auswahl. "
+    },
+    "elements": [
+      {
+        "title": "Informatik",
+        "list": [
+          "Softwareentwicklung",
+          "Webentwicklung",
+          "Scripting",
+          "Computergrundlagen",
+          "Hardwarekenntnisse ",
+          "Virtualisierung und Containerisierung ",
+          "Netzwerk",
+          "DevOps Tools ",
+          "IT-Security"
+        ]
+      },
+      {
+        "title ": "Multimedia ",
+        "list": ["Webdesign", "Grafiktheorie", "Fotografie", "Videoproduktion"]
+      },
+      {
+        "title ": "Anwenderkenntnisse  ",
+        "list": [
+          "Officeanwendungen (Textverarbeitung), Tabellenkalkulation, Präsentationen) ",
+          "E-Mailprogramme & Webbrowser ",
+          "Windows und Linux ",
+          "Digitale Sicherheit"
+        ]
+      }
+    ],
+    "otherSkills": {
+      "title": "Andere Skills ",
+      "text": "Obschon unser momentaner Fokus auf der digitalen Bildung liegt, sind wir stets offen auch andere hilfreiche Fähigkeiten zu vermitteln. Unsere Freiwilligen können folgendes Wissen weitergeben:",
+      "list": ["Nähen (mit Nähmaschinen)", "Selbstmanagement "]
+    }
+  },
+
   "OurTeam": {
     "swissTeam": {
       "title": "Team Schweiz",
@@ -815,7 +859,7 @@
       },
       {
         "name": "Sven",
-        "text": "",
+        "text": "Nicht jeder hat das Glück in einem Land mit Chancengleichheit geboren zu werden und von einer guten Bildung profitieren zu können. Für mich zählt es zu den grössten Privilegien, mein Wissen an Menschen weiterzugeben, denen solche Chancen verwehrt bleiben. Die Dankbarkeit dieser Menschen erfüllt mich mit Stolz und ist eine ständige Motivation die Vision von iSTEP voranzutreiben.",
         "moreText": "Mehr Erfahren"
       },
       {
