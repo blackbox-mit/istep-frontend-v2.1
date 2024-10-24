@@ -30,35 +30,42 @@ export default function Sidebar({ isOpen, toggleSidebar }: SidebarProps) {
         <div className="text-h-md text-right mr-16 font-normal flex flex-col">
           <Link
             href={pathname.substring(0, 3) + "/projects"}
-            className="mt-6 mb-6"
+            className="mt-4 mb-4"
             onClick={toggleSidebar}
           >
             Usere Projekte
           </Link>
           <Link
             href={pathname.substring(0, 3) + "/about"}
-            className="mt-6 mb-6"
+            className="mt-4 mb-4"
             onClick={toggleSidebar}
           >
             Über Uns
           </Link>
           <Link
+            href={pathname.substring(0, 3) + "/ourKnowHow"}
+            className="mt-4 mb-4"
+            onClick={toggleSidebar}
+          >
+            Unser Knowhow
+          </Link>
+          <Link
             href={pathname.substring(0, 3) + "/courses"}
-            className="mt-6 mb-6"
+            className="mt-4 mb-4"
             onClick={toggleSidebar}
           >
             Kurse
           </Link>
           <Link
             href={pathname.substring(0, 3) + "/blog"}
-            className="mt-6 mb-6"
+            className="mt-4 mb-4"
             onClick={toggleSidebar}
           >
             Blog
           </Link>
           <Link
             href={pathname.substring(0, 3) + "/contact"}
-            className="mt-6 mb-6"
+            className="mt-4 mb-4"
             onClick={toggleSidebar}
           >
             Kontakt

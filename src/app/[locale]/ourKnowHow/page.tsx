@@ -1,9 +1,11 @@
 import Image from "next/image";
 import titleImage from "@/assets/ourKnowHow/titleImage.png";
 import ScrollDown from "@/components/general/scrollDown/scrollDown";
+import DigitalSkills from "@/components/ourKnowHow/digitalSkills/digitalSkills";
 
 import { unstable_setRequestLocale } from "next-intl/server";
 import { useTranslations } from "next-intl";
+import OtherSkills from "@/components/ourKnowHow/otherSkills/otherSkills";
 
 export default function OurKnowHow({
   params: { locale },
@@ -43,9 +45,11 @@ export default function OurKnowHow({
         </div>
       </div>
 
-      <div className="container mx-auto md:pt-18 pt-12 px-8 lg:px-4 ">asd</div>
+      <div className="container mx-auto md:pt-18 pt-12 px-8 lg:px-4 ">
+        <DigitalSkills lng={locale} />
+      </div>
       <div className="container mx-auto md:pt-18 pt-12 px-8 lg:px-4 pb-32">
-        asd
+        <OtherSkills lng={locale} />
       </div>
     </main>
   );
