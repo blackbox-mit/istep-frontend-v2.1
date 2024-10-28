@@ -19,8 +19,8 @@ export default function DonateBankConnection({}: donateBankConnectionProps) {
           <div className="pt-4">
             <p>CH68 0900 0000 1617 1693 4</p>
             <p>iSTEP </p>
-            <p>Weingartenstrasse 6 </p>
-            <p>3417 Rüegsau</p>
+            <p>Parkettstrasse 36</p>
+            <p>3432 Lützelflüh</p>
           </div>
         )}
       </div>

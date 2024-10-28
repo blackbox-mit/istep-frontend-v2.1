@@ -33,7 +33,7 @@ export default function Sidebar({ isOpen, toggleSidebar }: SidebarProps) {
             className="mt-4 mb-4"
             onClick={toggleSidebar}
           >
-            Usere Projekte
+            Unsere Projekte
           </Link>
           <Link
             href={pathname.substring(0, 3) + "/about"}
