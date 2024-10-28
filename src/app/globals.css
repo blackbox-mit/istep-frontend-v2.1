@@ -9,3 +9,13 @@
 body {
   direction: ltr;
 }
+
+.swiper-slide {
+  height: auto !important;
+}
+.swiper-content {
+  height: 100% !important;
+}
+.swiper-wrapper {
+  margin-bottom: 60px;
+}

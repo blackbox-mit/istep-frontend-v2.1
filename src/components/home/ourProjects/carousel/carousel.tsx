@@ -37,11 +37,12 @@ export default function carousel({ projects }: { projects: any }) {
       initialSlide={0}
       centeredSlides={false}
       loop={false}
-      modules={[Navigation]}
+      pagination={true}
+      modules={[Navigation, Pagination]}
       className="w-full"
     >
       {projects.map((project: any, index: number) => (
-        <SwiperSlide key={index}>
+        <SwiperSlide key={index} className={"h-full"}>
           <ProjectTeaser project={project} idx={index} />
         </SwiperSlide>
       ))}
