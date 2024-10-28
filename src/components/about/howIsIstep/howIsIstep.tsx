@@ -33,7 +33,7 @@ export default async function howIsIstep({ lng }: whoIsProps) {
             src={howIs}
             alt="Picture of the author"
             width={400}
-            className="p-4"
+            className="p-4 object-contain"
           />
         </div>
       </div>

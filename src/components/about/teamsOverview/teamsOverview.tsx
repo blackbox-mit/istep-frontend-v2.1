@@ -27,7 +27,7 @@ const imageTeamSwiss = [
   ImageMichelle,
   ImageOlivia,
   ImageMaxim,
-  ImageAlexandra,
+  //ImageAlexandra,
   ImageYannic,
   ImageDeborah,
 ];
