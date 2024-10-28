@@ -5,15 +5,15 @@ export default async function OtherSkills({ lng }: any) {
   return (
     <>
       <div>
-        <div className="font-palanquin text-orange">
-          <h3 className="text-h-md md:text-h-lg ">
+        <div className="font-palanquin ">
+          <h3 className="text-h-md md:text-h-lg text-orange">
             {translation.OurKnowHow.otherSkills.title}
           </h3>
 
-          <p className="text-p-lg md:text-h-sm font-thin ">
+          <p className="text-p-lg md:text-h-sm font-thin text-orange">
             {translation.OurKnowHow.otherSkills.text}
           </p>
-          <div className="mt-5">
+          <div className="mt-5 text-darkblue">
             {translation.OurKnowHow.otherSkills.list.map(
               (item: string, index: number) => (
                 <p className="text-p-sm md:text-p-lg font-thin " key={index}>
