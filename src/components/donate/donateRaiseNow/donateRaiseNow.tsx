@@ -18,17 +18,33 @@ export default function DonateRaiseNow({}: donateRaiseNowProps) {
           } `}
           onClick={() => setOpen(!open)}
         >
-          <p className="text-h-sm ">Donate RaiseNow</p>
+          <p className="text-h-sm mb-1">Donate RaiseNow</p>
 
           <ChevronDownIcon aria-hidden="true" className="w-12" />
         </div>
         {open && (
-          <iframe
-            src="https://donate.raisenow.io/zbvxd"
-            width="100%"
-            height="1400px"
-            frameBorder="0"
-          ></iframe>
+          <div>
+            <div>
+              <p>
+                Die Spenden für iSTEP werden über die Plattform von RaiseNow,
+                bzw. FairGive verarbeitet. (RaiseNow bietet rundum Lösungen für
+                Non-Profit-Organisationen). Als Verein iSTEP sind wir
+                steuerbefreit.
+              </p>
+              <a
+                href="https://www.raisenow.com/"
+                className="font-bold underline"
+              >
+                RaiseNow
+              </a>
+            </div>
+            <iframe
+              src="https://donate.raisenow.io/zbvxd"
+              width="100%"
+              height="1400px"
+              frameBorder="0"
+            ></iframe>
+          </div>
         )}
       </div>
     </>
