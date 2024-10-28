@@ -51,8 +51,8 @@ const ProjectTeaser = ({ project, idx }: { project: any; idx: number }) => {
           onClick={() =>
             router.push(
               pathname.substring(0, 3) +
-                "/projects/" +
-                project.title.toLowerCase()
+                "/projects" +
+                project.link.toLowerCase()
             )
           }
           className={`rounded-full ${bgColor} mt-4 ml-5 px-10 py-2.5 text-sm font-semibold text-white focus-visible:outline hover:scale-105 transition-all duration-300`}

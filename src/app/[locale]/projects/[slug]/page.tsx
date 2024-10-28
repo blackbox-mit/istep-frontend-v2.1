@@ -33,7 +33,7 @@ export default async function detailPage({
   ).default;
 
   const matchedProject = translation.Projects.find(
-    (project: any) => project.title.toLowerCase() === slug.toLowerCase()
+    (project: any) => project.link.toLowerCase() === "/" + slug.toLowerCase()
   );
 
   if (!matchedProject) {
@@ -42,9 +42,9 @@ export default async function detailPage({
 
   return (
     <main>
-      <div className="min-h-[calc(100vh-80px)] z-10 w-full pb-8 md:-pd-0 ">
-        <div className="bg-darkblue h-[calc(100vh-80px)]">
-          <div className="container mx-auto md:pt-48 px-8 pt-8 lg:px-4 relative">
+      <div className=" z-10 w-full pb-8 md:-pd-0 ">
+        <div className="bg-darkblue min-h-[calc(100vh-80px)] pb-12 relative">
+          <div className="container mx-auto md:pt-48 px-8 pt-8 lg:px-4 ">
             <div className="md:w-2/3 w-full">
               <h1 className="lg:text-h-xl  text-h-l  text-yellow font-palanquin md:text-left text-center">
                 {matchedProject.title}
@@ -54,23 +54,23 @@ export default async function detailPage({
               </p>
             </div>
           </div>
-          <div className="container mx-auto md:py-12 py-6 md:mt-36 lg:px-4 ">
-            <div className="w-full justify-end flex md:px-0 px-8">
-              <Image
-                src={matchedProject.image}
-                alt={`Image of ${matchedProject.title}`}
-                className="h-full object-contain md:w-1/2 w-full md:mr-16 z-20  rounded-3xl"
-                width={500}
-                height={300}
-              />
-            </div>
+          {/* <div className="mb-48"></div> */}
+
+          <div className="w-full justify-end flex md:px-0 px-8 ">
+            <Image
+              src={matchedProject.image}
+              alt={`Image of ${matchedProject.title}`}
+              className="h-full object-contain md:w-1/2 w-full md:mr-16 z-20 mt-4 rounded-3xl"
+              width={500}
+              height={300}
+            />
           </div>
           <div className="hidden md:block">
             <ScrollDown />
           </div>
         </div>
       </div>
-      <div className="md:pt-36 md:pb-12" />
+      {/* <div className="md:pt-36 md:pb-12" /> */}
       <div className="container mx-auto md:pt-18 pt-12 px-8 lg:px-4 ">
         <div className="text-orange font-palanquin ">
           <h3 className="text-h-md md:text-h-lg font-thin ">
