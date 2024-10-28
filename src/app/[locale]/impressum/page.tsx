@@ -6,10 +6,10 @@ export default function Impressum() {
         <div className="md:mt-8 mt-4 font-palanquin text-darkblue">
           <p className="md:text-h-sm text-h-xs">iSTEP</p>
           <p className="md:text-h-xs text-p-lg !font-thin mt-2">
-            Weingartenstrasse 6
+            Parkettstrasse 36
           </p>
           <p className="md:text-h-xs text-p-lg !font-thin mb-4">
-            3417, Rüegsau
+            3432 Lützelflüh
           </p>
           <a
             className="md:text-h-xs text-p-lg !font-thin underline"
