@@ -5,11 +5,16 @@ import { usePathname } from "next/navigation";
 import { truncate } from "@/utils/truncate";
 
 const getGradient = (idx: number) => {
-  const gradient = ["from-green ", "from-yellow ", "from-green", "from-orange"];
+  const gradient = [
+    "from-green ",
+    "from-yellow ",
+    "from-green/60",
+    "from-orange",
+  ];
   return gradient[idx % gradient.length];
 };
 const getColor = (idx: number) => {
-  const color = ["bg-green ", "bg-yellow ", "bg-green", "bg-orange"];
+  const color = ["bg-green ", "bg-yellow ", "bg-green/60", "bg-orange"];
   return color[idx % color.length];
 };
 
