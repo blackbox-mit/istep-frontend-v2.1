@@ -49,9 +49,9 @@ export default async function Donate({ params: { lng } }: CoursesProps) {
         <div className="mt-4">
           <DonateBankConnection />
         </div>
-        <div className="mt-4">
+        {/* <div className="mt-4">
           <DonateTwint />
-        </div>
+        </div> */}
         <div className="mt-4">
           <DonateRaiseNow />
         </div>

@@ -12,7 +12,7 @@ export default function DonateBankConnection({}: donateBankConnectionProps) {
           className="flex justify-between items-center h-12"
           onClick={() => setOpen(!open)}
         >
-          <p className="text-h-sm ">Donate Bankverbindung</p>
+          <p className="text-h-sm ">Bankverbindung</p>
           <ChevronDownIcon aria-hidden="true" className="w-12" />
         </div>
         {open && (

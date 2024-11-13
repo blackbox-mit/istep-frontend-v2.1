@@ -18,7 +18,7 @@ export default function DonateRaiseNow({}: donateRaiseNowProps) {
           } `}
           onClick={() => setOpen(!open)}
         >
-          <p className="text-h-sm mb-1">Donate RaiseNow</p>
+          <p className="text-h-sm mb-1">RaiseNow</p>
 
           <ChevronDownIcon aria-hidden="true" className="w-12" />
         </div>
