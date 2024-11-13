@@ -2,7 +2,7 @@
 
 import Image, { StaticImageData as NextImageProps } from "next/image";
 import { useState } from "react";
-import QRImage from "@/assets/donate/QR-Rechnung.png";
+import QRImage from "@/assets/donate/QR-Rechnung.jpg";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
 interface donateQRProps {
