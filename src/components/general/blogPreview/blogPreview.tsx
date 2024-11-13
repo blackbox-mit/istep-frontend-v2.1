@@ -7,7 +7,6 @@ export default async function blogPreview({
   title,
   text,
   moreText,
-
   image,
 }: any) {
   unstable_setRequestLocale(lng);
@@ -26,12 +25,12 @@ export default async function blogPreview({
               className={`text-h-sm md:text-h-md  mb-2 md:mb-4`}
               style={{ color: "#25926F" }}
             >
-              {title}
+              {translation.Blog.blogs[0].title}
             </h3>
             <p
               className={`text-p-sm md:text-p-lg text-darkblue font-thin w-full md:w-4/5 mb-2 md:mb-4`}
             >
-              {text}
+              {translation.Blog.blogs[0].text}
             </p>
             <div className="flex items-center cursor-pointer">
               <hr className="h-0.5 my-4 w-4 border-0 dark:bg-darkblue mr-2" />
@@ -39,13 +38,13 @@ export default async function blogPreview({
                 href={"/" + lng + "/blog/" + 0}
                 className="text-p-sm md:text-p-lg !font-bold text-darkblue"
               >
-                {moreText}
+                {translation.Blog.blogs[0].moreText}
               </a>
             </div>
           </div>
           <div className="w-full md:w-1/2 order-first md:order-last">
             <Image
-              src={image}
+              src={translation.Blog.blogs[0].images[0]}
               width={500}
               height={500}
               alt={translation.Blog.blogs[0].title}
