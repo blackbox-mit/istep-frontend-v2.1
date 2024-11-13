@@ -27,7 +27,7 @@ export default function DonateRaiseNow({}: donateRaiseNowProps) {
             <div>
               <p>
                 Die Spenden für iSTEP werden über die Plattform von RaiseNow,
-                bzw. FairGive verarbeitet. (RaiseNow bietet rundum Lösungen für
+                verarbeitet. (RaiseNow bietet rundum Lösungen für
                 Non-Profit-Organisationen). Als Verein iSTEP sind wir
                 steuerbefreit.
               </p>
