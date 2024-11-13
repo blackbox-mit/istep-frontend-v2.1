@@ -42,13 +42,13 @@ const Dropdown = () => {
               </p>
             </Link>
           </div>
-          <div className="text-center">
+          {/* <div className="text-center">
             <Link href="/sq">
               <p className="p-2 hover:bg-orange hover:rounded-[24px] text-white text-p-sm cursor-pointer">
                 ALB
               </p>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
