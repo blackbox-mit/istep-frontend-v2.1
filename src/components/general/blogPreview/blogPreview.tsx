@@ -2,20 +2,13 @@ import Image, { StaticImageData as NextImageProps } from "next/image";
 
 import { unstable_setRequestLocale } from "next-intl/server";
 
-export default async function blogPreview({
-  lng,
-  title,
-  text,
-  moreText,
-  image,
-}: any) {
+export default async function blogPreview({ lng }: any) {
   unstable_setRequestLocale(lng);
   const translation = (await import(`../../../../locales/${lng}/${lng}.json`))
     .default;
 
   return (
     <>
-      {/* todo: dynamic dokument*/}
       <div className="rounded-3xl bg-white">
         <div
           className={`bg-green/20 rounded-3xl font-palanquin flex flex-1 md:flex-row flex-col`}
