@@ -59,9 +59,9 @@ export default async function teamsOverview({ lng }: any) {
         <Team
           team={translation.TeamMember.albaniaLezha}
           image={imageTeamLezha}
-          themeText="rgb(37 196 148)"
+          themeText="rgb(37 146 111)"
           theme="green"
-          color="rgb(37 196 148 / 0)"
+          color="rgb(37 146 111 / 0)"
           intro={translation.OurTeam.lezhaTeam}
         />
       </div>
