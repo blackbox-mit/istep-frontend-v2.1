@@ -42,7 +42,7 @@ export default function HomePage({ params: { locale } }: HomeProps) {
               {t("subTitle")}
             </h2>
           </div>
-          <div className="flex justify-center h-3/5">
+          <div className="flex justify-center h-3/5 mt-8 md:mt-0">
             <Image
               src={titleImage}
               alt="Picture of the author"

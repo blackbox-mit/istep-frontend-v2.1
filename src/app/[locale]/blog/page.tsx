@@ -33,7 +33,9 @@ export default function Blog({ params: { locale } }: BlogProps) {
             <BlogPreview lng={locale} />
           </div>
         </div>
-        <ScrollDown />
+        <div className="hidden md:block">
+          <ScrollDown />
+        </div>
       </div>
 
       <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4">
