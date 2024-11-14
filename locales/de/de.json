@@ -5,7 +5,7 @@
     "whoIs": {
       "title": "Wer ist iSTEP",
       "subTitle": "Die Idee von iSTEP hat ihren Ursprung im Jahr 2015.",
-      "text": "Adrian Burkhalter rief im Rahmen seiner Tätigkeit als Lernbegleiter bei Swisscom das Projekt NGG (Next Generation Give & Grow) ins Leben. Sieben Jahre lang führte er in Zusammenarbeit mit über 300 beteiligten Lernenden IT-Kurse durch, von denen über 500 Asylsuchende profitierten. Nach seiner Pensionierung entwickelte Adrian diese Idee privat weiter und so wurde nach einigen Monaten Aufbauarbeit im Frühsommer 2023 der Verein iSTEP gegründet. Mittlerweile besteht das Team aus sieben Mitgliedern. Zudem arbeiten wir mit verschiedenen Hilfsorganisationen zusammen."
+      "text": "Adrian Burkhalter rief im Rahmen seiner Tätigkeit als Lernbegleiter bei Swisscom das Projekt NGG (Next Generation Give & Grow) ins Leben. Sieben Jahre lang führte er in Zusammenarbeit mit über 300 beteiligten Lernenden IT-Kurse durch, von denen über 500 Asylsuchende profitierten. Nach seiner Pensionierung entwickelte Adrian diese Idee privat weiter und so wurde nach einigen Monaten Aufbauarbeit im Frühsommer 2023 der Verein iSTEP gegründet. Mittlerweile besteht das Team aus 12 Mitgliedern. Zudem arbeiten wir mit verschiedenen Hilfsorganisationen zusammen."
     },
     "teamSwiss": {
       "title": "Team Schweiz",
@@ -351,7 +351,7 @@
 
   "Contact": {
     "title": "Kontaktiere Uns",
-    "subTitle": "Lorem Ipsum",
+    "subTitle": "",
     "form": {
       "lastname": "Nachname",
       "firstname": "Vorname",
@@ -710,7 +710,7 @@
   },
   "OurProjects": {
     "mainTitle": "Unsere Projekte",
-    "subTitle": "Im Frühsommer 2023 wurde der Verein iSTEP gegründet. Mittlerweile besteht das Team aus sieben Mitgliedern."
+    "subTitle": "Im Frühsommer 2023 wurde der Verein iSTEP gegründet. Mittlerweile besteht das Team aus 12 Mitgliedern."
   },
 
   "OurKnowHow": {
@@ -759,15 +759,15 @@
   "OurTeam": {
     "swissTeam": {
       "title": "Team Schweiz",
-      "subTitle": "Wir arbeiten direkt vor Ort in Albanien an diesen Standorten."
+      "subTitle": ""
     },
     "lezhaTeam": {
       "title": "Team Albania, Lezha",
-      "subTitle": "Wir arbeiten direkt vor Ort in Albanien an diesen Standorten."
+      "subTitle": ""
     },
     "elbasanTeam": {
       "title": "Team Albania, Elbasan A2B",
-      "subTitle": "Wir arbeiten direkt vor Ort in Albanien an diesen Standorten."
+      "subTitle": ""
     }
   },
   "Projects": [
@@ -914,6 +914,16 @@
         "name": "Deborah",
         "text": "Meine Überzeugung von der Dringlichkeit sozialer Gerechtigkeit hat mich dazu motiviert, mich iSTEP anzuschließen. Die Zusammenarbeit mit Menschen aus verschiedenen kulturellen Hintergründen erfüllt mich nicht nur mit Freude, sondern ich betrachte sie auch als unverzichtbar, um gemeinsame Ziele zu erreichen. Durch mein Studium im Bereich Design Management International und meine leidenschaftliche Hingabe für Design im Kontext des sozialen Wandels sehe ich in iSTEP eine bedeutsame Gelegenheit, benachteiligten Menschen den Zugang zu Bildung zu erleichtern. ",
         "moreText": "Mehr Erfahren"
+      },
+      {
+        "name": "Marc",
+        "text": "",
+        "moreText": "Mehr Erfahren"
+      },
+      {
+        "name": "Nadine",
+        "text": "",
+        "moreText": "Mehr Erfahren"
       }
     ],
 
@@ -930,11 +940,7 @@
         "text": "Die Arbeit mit der iSTEP hilft mir, einen Beitrag zu leisten und das Leben der Kinder positiv zu beeinflussen.",
         "moreText": "Mehr Erfahren"
       },
-      {
-        "name": "Migena",
-        "text": "Der Grund, warum ich in diesem Team bin, ist, dass ich gerne mit Kindern arbeite und ihnen helfen möchte, mehr Wissen über Computer und Programmieren zu archivieren. 80 % der Kinder sprechen kein Englisch, also helfe ich ihnen, indem ich alles übersetze, was jeder Tutor unterrichtet. Auf diese Weise ist es einfacher für sie, alles zu verstehen.",
-        "moreText": "Mehr Erfahren"
-      },
+
       {
         "name": "Peki",
         "text": "Technologie- und IT-Kenntnisse sind eine der wichtigsten Fähigkeiten, die heutzutage erforderlich sind. Mein Wunsch ist es, allen Kindern und Erwachsenen die Möglichkeit zu geben, diese Fähigkeiten zu erwerben und zu entwickeln. In Zusammenarbeit mit iSTEP haben wir die Möglichkeit, dieses Projekt in Elbasan ins Leben zu rufen. Außerdem wollen wir damit Kinder motivieren, zu lernen und ihr Potenzial zu entdecken.",

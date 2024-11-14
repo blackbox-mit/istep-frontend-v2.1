@@ -2,7 +2,6 @@ import Team from "@/components/about/team/team";
 
 import ImageMatt from "@/assets/aboutUs/teamSwiss/istep_matt.jpg";
 import ImageAdrian from "@/assets/aboutUs/teamSwiss/istep_adrian.jpg";
-import ImageAlexandra from "@/assets/aboutUs/teamSwiss/istep_alexandra.jpg";
 import ImageAline from "@/assets/aboutUs/teamSwiss/istep_aline.jpg";
 import ImageDominic from "@/assets/aboutUs/teamSwiss/istep_dominic.jpg";
 import ImageMaxim from "@/assets/aboutUs/teamSwiss/istep_maxim.png";
@@ -11,11 +10,12 @@ import ImageOlivia from "@/assets/aboutUs/teamSwiss/istep_olivia.jpg";
 import ImageYannic from "@/assets/aboutUs/teamSwiss/istep_yannic.jpg";
 import ImageSven from "@/assets/aboutUs/teamSwiss/istep_sven.jpg";
 import ImageDeborah from "@/assets/aboutUs/teamSwiss/istep_deborah.jpg";
+import ImageMarc from "@/assets/aboutUs/teamSwiss/istep_marc.png";
 
 import ImageIzabela from "@/assets/aboutUs/teamLezha/istep_izabela.jpg";
 
 import ImageFabjan from "@/assets/aboutUs/teamElbasan/istep_fabjan.jpg";
-import ImageMigena from "@/assets/aboutUs/teamElbasan/istep_migena.jpg";
+//import ImageMigena from "@/assets/aboutUs/teamElbasan/istep_migena.jpg";
 import ImagePeki from "@/assets/aboutUs/teamElbasan/istep_peki.jpg";
 
 const imageTeamSwiss = [
@@ -30,9 +30,10 @@ const imageTeamSwiss = [
   //ImageAlexandra,
   ImageYannic,
   ImageDeborah,
+  ImageMarc,
 ];
 const imageTeamLezha = [ImageIzabela];
-const imageTeamElbasan = [ImageFabjan, ImageMigena, ImagePeki];
+const imageTeamElbasan = [ImageFabjan, ImagePeki];
 
 import { unstable_setRequestLocale } from "next-intl/server";
 

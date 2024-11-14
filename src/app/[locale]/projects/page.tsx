@@ -1,6 +1,7 @@
 import Image from "next/image";
 import titleImage from "@/assets/projects/titleImage.png";
 import ProjectOverview from "@/components/projects/projectOverview/projectOverview";
+import ScrollDown from "@/components/general/scrollDown/scrollDown";
 
 import { useTranslations } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
@@ -33,10 +34,13 @@ export default function Projects({ params: { locale } }: ProjectProps) {
               <Image
                 src={titleImage}
                 alt="Picture of the author"
-                className="h-full object-contain "
+                className="h-96 object-contain "
               />
             </div>
           </div>
+        </div>
+        <div className="hidden md:block">
+          <ScrollDown />
         </div>
       </div>
       <ProjectOverview lng={locale} />

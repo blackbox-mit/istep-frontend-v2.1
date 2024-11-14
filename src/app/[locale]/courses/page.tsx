@@ -2,6 +2,8 @@ import Image from "next/image";
 import titleImage from "@/assets/aboutUs/titleImage.png";
 import CoursesOverview from "@/components/courses/coursesOverview/coursesOverview";
 
+import ScrollDown from "@/components/general/scrollDown/scrollDown";
+
 import { useTranslations } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
 
@@ -31,10 +33,13 @@ export default function Courses({
               <Image
                 src={titleImage}
                 alt="Picture of the author"
-                className="h-full object-contain "
+                className="h-96 object-contain "
               />
             </div>
           </div>
+        </div>
+        <div className="hidden md:block">
+          <ScrollDown />
         </div>
       </div>
       <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4">

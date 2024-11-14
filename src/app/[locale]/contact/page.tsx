@@ -32,7 +32,7 @@ export default function Contact({ params: { locale } }: ContactProps) {
               <Image
                 src={titleImage}
                 alt="Picture of the author"
-                className="h-full object-contain "
+                className="h-96 object-contain "
               />
             </div>
           </div>

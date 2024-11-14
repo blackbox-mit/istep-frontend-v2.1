@@ -39,12 +39,14 @@ export default function AboutUs({ params: { locale } }: AboutUsProps) {
               <Image
                 src={titleImage}
                 alt="Picture of the author"
-                className="h-full object-contain "
+                className="h-96 object-contain "
               />
             </div>
           </div>
         </div>
-        <ScrollDown />
+        <div className="hidden md:block">
+          <ScrollDown />
+        </div>
       </div>
 
       <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4">
