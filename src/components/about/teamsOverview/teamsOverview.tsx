@@ -11,6 +11,7 @@ import ImageYannic from "@/assets/aboutUs/teamSwiss/istep_yannic.jpg";
 import ImageSven from "@/assets/aboutUs/teamSwiss/istep_sven.jpg";
 import ImageDeborah from "@/assets/aboutUs/teamSwiss/istep_deborah.jpg";
 import ImageMarc from "@/assets/aboutUs/teamSwiss/istep_marc.png";
+import ImageNadine from "@/assets/aboutUs/teamSwiss/istep_nadine.jpg";
 
 import ImageIzabela from "@/assets/aboutUs/teamLezha/istep_izabela.jpg";
 
@@ -31,6 +32,7 @@ const imageTeamSwiss = [
   ImageYannic,
   ImageDeborah,
   ImageMarc,
+  ImageNadine,
 ];
 const imageTeamLezha = [ImageIzabela];
 const imageTeamElbasan = [ImageFabjan, ImagePeki];
