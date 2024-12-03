@@ -9,12 +9,9 @@
   },
   "Footer": {
     "contactSection": {
-      "title": "Kontakt",
-      "subTitle": "iSTEP",
-      "email": "info@istep.ch"
+      "title": "Kontakt"
     },
     "donation": {
-      "buttonText": "Spenden",
       "text": "Danke für deine Spenden"
     },
     "copyright": "iSTEP. All rights reserved.",
