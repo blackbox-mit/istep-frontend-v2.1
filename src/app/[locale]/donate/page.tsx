@@ -13,6 +13,7 @@ import MultimediaImage from "@/assets/general/coursesIcons/multimedia.png";
 import MSOfficeImage from "@/assets/general/coursesIcons/MS-office.png";
 import DiverseKurse from "@/assets/general/coursesIcons/diverse_kurse.png";
 import { useTranslations } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
 
 interface CoursesProps {
   params: {
@@ -22,6 +23,7 @@ interface CoursesProps {
 
 export default function Donate({ params: { lng } }: CoursesProps) {
   const t = useTranslations("Donate"); // Access translations
+  unstable_setRequestLocale(lng);
   return (
     <main className=" z-10">
       <div className="min-h-[calc(100vh-0px)] bg-darkblue w-full flex items-center pb-8 md:-pd-0">
