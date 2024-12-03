@@ -17,13 +17,14 @@ import { unstable_setRequestLocale } from "next-intl/server";
 
 interface CoursesProps {
   params: {
-    lng: string;
+    locale: string;
   };
 }
 
-export default function Donate({ params: { lng } }: CoursesProps) {
+export default function Donate({ params: { locale } }: CoursesProps) {
+  unstable_setRequestLocale(locale);
   const t = useTranslations("Donate"); // Access translations
-  unstable_setRequestLocale(lng);
+
   return (
     <main className=" z-10">
       <div className="min-h-[calc(100vh-0px)] bg-darkblue w-full flex items-center pb-8 md:-pd-0">
@@ -48,14 +49,12 @@ export default function Donate({ params: { lng } }: CoursesProps) {
       </div>
       <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4">
         <div className="mt-4">
-          <DonateQR lng={lng} />
+          <DonateQR lng={locale} />
         </div>
         <div className="mt-4">
           <DonateBankConnection />
         </div>
-        {/* <div className="mt-4">
-          <DonateTwint />
-        </div> */}
+
         <div className="mt-4">
           <DonateRaiseNow />
         </div>
