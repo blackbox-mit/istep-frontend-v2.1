@@ -2,6 +2,7 @@ import DonateButton from "@/components/general/donateButton/donateButton";
 import { XMarkIcon } from "@heroicons/react/20/solid";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
 
 interface SidebarProps {
   isOpen: boolean;
@@ -10,6 +11,8 @@ interface SidebarProps {
 
 export default function Sidebar({ isOpen, toggleSidebar }: SidebarProps) {
   const pathname = usePathname();
+  const t = useTranslations("Navigation"); // Access translations
+
   return (
     <>
       <div
@@ -33,42 +36,42 @@ export default function Sidebar({ isOpen, toggleSidebar }: SidebarProps) {
             className="mt-4 mb-4"
             onClick={toggleSidebar}
           >
-            Unsere Projekte
+            {t("projects.text")}
           </Link>
           <Link
             href={pathname.substring(0, 3) + "/about"}
             className="mt-4 mb-4"
             onClick={toggleSidebar}
           >
-            Über Uns
+            {t("about.text")}
           </Link>
           <Link
             href={pathname.substring(0, 3) + "/ourKnowHow"}
             className="mt-4 mb-4"
             onClick={toggleSidebar}
           >
-            Unser Knowhow
+            {t("ourKnowHow.text")}
           </Link>
           <Link
             href={pathname.substring(0, 3) + "/courses"}
             className="mt-4 mb-4"
             onClick={toggleSidebar}
           >
-            Kurse
+            {t("courses.text")}
           </Link>
           <Link
             href={pathname.substring(0, 3) + "/blog"}
             className="mt-4 mb-4"
             onClick={toggleSidebar}
           >
-            Blog
+            {t("blog.text")}
           </Link>
           <Link
             href={pathname.substring(0, 3) + "/contact"}
             className="mt-4 mb-4"
             onClick={toggleSidebar}
           >
-            Kontakt
+            {t("contact.text")}
           </Link>
         </div>
       </div>

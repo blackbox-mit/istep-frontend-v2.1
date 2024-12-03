@@ -1,12 +1,12 @@
 {
-  "Navigation": [
-    { "text": "Unsere Projekte", "link": "projects" },
-    { "text": "Über uns", "link": "about" },
-    { "text": "Unser Knowhow", "link": "ourKnowHow" },
-    { "text": "Kurse", "link": "courses" },
-    { "text": "Blog", "link": "blog" },
-    { "text": "Kontakt", "link": "contact" }
-  ],
+  "Navigation": {
+    "projects": { "text": "Unsere Projekte", "link": "projects" },
+    "about": { "text": "Über uns", "link": "about" },
+    "ourKnowHow": { "text": "Unser Knowhow", "link": "ourKnowHow" },
+    "courses": { "text": "Kurse", "link": "courses" },
+    "blog": { "text": "Blog", "link": "blog" },
+    "contact": { "text": "Kontakt", "link": "contact" }
+  },
   "Footer": {
     "contactSection": {
       "title": "Kontakt",
