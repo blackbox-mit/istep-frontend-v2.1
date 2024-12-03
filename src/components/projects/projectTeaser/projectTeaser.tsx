@@ -48,7 +48,7 @@ const projectTeaser = ({ project, idx }: projectProps) => {
               className="text-p-sm md:text-p-lg  !font-bold  text-darkblue"
               href={pathname.substring(0, 3) + "/projects/" + project.link}
             >
-              Mehr erfahren
+              {project.moreText}
             </Link>
           </div>
         </div>
