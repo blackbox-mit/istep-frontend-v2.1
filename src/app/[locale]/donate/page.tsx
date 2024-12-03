@@ -12,6 +12,7 @@ import ITImage from "@/assets/general/coursesIcons/IT.png";
 import MultimediaImage from "@/assets/general/coursesIcons/multimedia.png";
 import MSOfficeImage from "@/assets/general/coursesIcons/MS-office.png";
 import DiverseKurse from "@/assets/general/coursesIcons/diverse_kurse.png";
+import { useTranslations } from "next-intl";
 
 interface CoursesProps {
   params: {
@@ -19,13 +20,14 @@ interface CoursesProps {
   };
 }
 
-export default async function Donate({ params: { lng } }: CoursesProps) {
+export default function Donate({ params: { lng } }: CoursesProps) {
+  const t = useTranslations("Donate"); // Access translations
   return (
     <main className=" z-10">
       <div className="min-h-[calc(100vh-0px)] bg-darkblue w-full flex items-center pb-8 md:-pd-0">
         <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4 ">
           <h1 className="lg:text-h-xl  text-h-l  text-yellow font-palanquin md:text-left text-center">
-            Spenden
+            {t("mainTitle")}
           </h1>
 
           <div className="flex flex-col lg:flex-row">

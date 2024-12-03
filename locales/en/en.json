@@ -433,9 +433,9 @@
       "address": "Parkettstrasse 36",
       "address2": "3432 Lützelflüh-Goldbach BE"
     },
-    "donateTwint": {
-      "title": "Twint",
-      "image": "/donate/QR-Code.png"
+    "donateRaiseNow": {
+      "title": "Kredit / Debitkarte & Twint",
+      "description": "The donations for iSTEP are processed via the RaiseNow platform. (RaiseNow offers all-round solutions for non-profit organizations). As an iSTEP association, we are tax-exempt. Transaction fees are incurred for the execution of the transaction, which are paid to RaiseNow."
     }
   },
   "General": {
