@@ -19,3 +19,14 @@ body {
 .swiper-wrapper {
   margin-bottom: 60px;
 }
+
+.swiper-button-next {
+  color: rgb(224 114 0) !important;
+}
+.swiper-button-prev {
+  color: rgb(224 114 0) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: rgb(224 114 0) !important;
+}

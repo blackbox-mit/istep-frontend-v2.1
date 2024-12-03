@@ -3,12 +3,28 @@ import ProjectTeaser from "@/components/general/projectTeaser/projectTeaser";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
+import { useState, useEffect } from "react";
 
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 export default function carousel({ projects }: { projects: any }) {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    handleResize(); // Check on initial render
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   const breakpoints = {
     1: {
       slidesPerView: 1.2,
@@ -32,12 +48,13 @@ export default function carousel({ projects }: { projects: any }) {
   return (
     <Swiper
       breakpoints={breakpoints}
-      //slidesPerView={1.2}
       spaceBetween={20}
-      initialSlide={0}
-      centeredSlides={false}
-      loop={false}
-      pagination={true}
+      centeredSlides={isMobile}
+      loop={isMobile}
+      pagination={{
+        clickable: true,
+      }}
+      navigation={true}
       modules={[Navigation, Pagination]}
       className="w-full"
     >
