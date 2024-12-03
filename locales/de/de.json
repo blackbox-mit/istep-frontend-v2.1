@@ -1,4 +1,27 @@
 {
+  "Navigation": [
+    { "text": "Unsere Projekte", "link": "projects" },
+    { "text": "Über uns", "link": "about" },
+    { "text": "Unser Knowhow", "link": "ourKnowHow" },
+    { "text": "Kurse", "link": "courses" },
+    { "text": "Blog", "link": "blog" },
+    { "text": "Kontakt", "link": "contact" }
+  ],
+  "Footer": {
+    "contactSection": {
+      "title": "Kontakt",
+      "subTitle": "iSTEP",
+      "email": "info@istep.ch"
+    },
+    "donation": {
+      "buttonText": "Spenden",
+      "text": "Danke für deine Spenden"
+    },
+    "copyright": "iSTEP. All rights reserved.",
+    "impressum": "Impressum",
+    "statuten": "Statuten"
+  },
+  "DonateButton": { "text": "Spenden" },
   "About": {
     "mainTitle": "Bildung für alle.",
     "subTitle": "Menschen mit erschwertem Zugang zu Bildung individuell fördern und dabei gemeinsam wachsen - das ist das Ziel von iSTEP.",
