@@ -973,5 +973,20 @@
         "moreText": "Read More"
       }
     ]
+  },
+  "impressum": {
+    "title": "Legal Notice",
+    "disclaimer": {
+      "title": "Disclaimer",
+      "text": "The author accepts no liability whatsoever for the correctness, accuracy, up-to-dateness, reliability and completeness of the information. Liability claims against the author for damages of a material or immaterial nature arising from access to or use or non-use of the published information, misuse of the connection or technical faults are excluded. All offers are non-binding. The author expressly reserves the right to change, supplement or delete parts of the pages or the entire offer without special notice or to cease publication temporarily or permanently."
+    },
+    "disclaimerForLinks": {
+      "title": "Disclaimer for links",
+      "text": "References and links to third-party websites are outside our area of responsibility. Any responsibility for such websites is rejected. Access to and use of such websites is at the user's own risk."
+    },
+    "copyrights": {
+      "title": "Copyrights",
+      "text": "The copyright and all other rights to content, images, photos or other files on this website belong exclusively to the specifically named rights holders. The written consent of the copyright holder must be obtained in advance for the reproduction of any elements."
+    }
   }
 }
