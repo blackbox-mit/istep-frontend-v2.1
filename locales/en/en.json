@@ -869,21 +869,21 @@
   "Results": [
     {
       "title": "Photography",
-      "moreText": "Read More",
+
       "backgroundColor": "#E07200",
       "imagePosition": "justify-center",
       "link": ""
     },
     {
       "title": "Presentation",
-      "moreText": "Read More",
+
       "backgroundColor": "#509D75",
       "imagePosition": "justify-center",
       "link": ""
     },
     {
       "title": "Video",
-      "moreText": "Read More",
+
       "backgroundColor": "#F8B344",
       "imagePosition": "justify-center",
       "link": ""
