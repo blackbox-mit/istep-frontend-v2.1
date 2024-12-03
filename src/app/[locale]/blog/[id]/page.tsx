@@ -43,7 +43,7 @@ export default async function detailPage({
 
   return (
     <main>
-      <div className="min-h-[calc(100vh-80px)] z-10 w-full pb-8 md:pb-0">
+      <div className="min-h-[calc(100vh-0px)] z-10 w-full pb-8 md:pb-0">
         <div className="bg-darkblue min-h-[calc(100vh-80px)]">
           <div className="container mx-auto md:pt-48 px-8 pt-8 lg:px-4 relative">
             <div className="md:w-2/3 w-full">

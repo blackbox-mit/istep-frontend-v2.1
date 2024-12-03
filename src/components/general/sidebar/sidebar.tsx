@@ -16,7 +16,7 @@ export default function Sidebar({ isOpen, toggleSidebar }: SidebarProps) {
   return (
     <>
       <div
-        className={`transform top-0 right-0 pl-16 md:w-auto w-full h-full md:h-auto font-palanquin  bg-orange text-white fixed  pb-16 rounded-none md:rounded-l-3xl overflow-auto ease-in-out transition-all duration-300 z-30   ${
+        className={`transform top-0 right-0 pl-16 md:w-auto w-full h-full md:h-auto font-palanquin  bg-orange text-white fixed  pb-16 rounded-none md:rounded-l-3xl overflow-auto ease-in-out transition-all duration-300 z-40   ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
