@@ -36,7 +36,7 @@ export default function ComputerScienceCourses({
               <Image
                 src={titleImage}
                 alt="Picture of the author"
-                className="h-full object-contain "
+                className="h-full object-contain h-108"
               />
             </div>
           </div>

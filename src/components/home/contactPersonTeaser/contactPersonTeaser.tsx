@@ -19,7 +19,7 @@ export default async function ContactPersonTeaser({ lng }: contactPersonProps) {
     <div className="md:py-24 py-12   ">
       <div className="font-palanquin text-orange mb-8 md:mb-16">
         <h3 className="text-h-md md:text-h-lg ">{t("title")}</h3>
-        <p className="text-p-lg md:text-h-md font-thin w-full md:w-3/5">
+        <p className="text-p-lg md:text-h-md font-thin  w-9/12">
           {t("subTitle")}
         </p>
       </div>

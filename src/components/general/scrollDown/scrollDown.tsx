@@ -15,7 +15,7 @@ export default function ScrollDown() {
         onClick={scrollDown}
       >
         <ArrowDownIcon
-          className={`h-8 w-5 transform -translate-y-2 ml-[1px] hover:translate-y-0 transition-all duration-300 `}
+          className={`h-9 w-7 transform -translate-y-2 hover:translate-y-0 transition-all duration-300 `}
           aria-hidden="true"
         />
       </div>

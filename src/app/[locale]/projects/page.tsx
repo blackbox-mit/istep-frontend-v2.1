@@ -34,7 +34,7 @@ export default function Projects({ params: { locale } }: ProjectProps) {
               <Image
                 src={titleImage}
                 alt="Picture of the author"
-                className="h-96 object-contain "
+                className="object-contain h-[420px] w-full"
               />
             </div>
           </div>

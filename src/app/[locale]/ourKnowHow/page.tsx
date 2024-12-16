@@ -33,7 +33,7 @@ export default function OurKnowHow({
               <Image
                 src={titleImage}
                 alt="Picture of the author"
-                className="h-96 object-contain "
+                className="h-[420px] w-full object-contain "
               />
             </div>
           </div>

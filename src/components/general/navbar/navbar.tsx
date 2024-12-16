@@ -62,7 +62,7 @@ export default function Navbar() {
       >
         <div>
           <Link href={pathname.substring(0, 3)}>
-            <Image src={logo} alt="Picture of the author" height={60} />
+            <Image src={logo} alt="Picture of the author" height={80} />
           </Link>
         </div>
         <div className="inline-flex items-center height-[80px]">

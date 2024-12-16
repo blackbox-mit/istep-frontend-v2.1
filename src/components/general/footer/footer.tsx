@@ -8,11 +8,11 @@ export default function footer({ lng }: any) {
   const t = useTranslations("Footer"); // Access translations
   return (
     <div className="bg-yellow/60 rounded-t-3xl">
-      <div className="container mx-auto md:pt-24 pt-12 pb-8 px-8 lg:px-4">
+      <div className="container mx-auto pt-12 pb-8 px-8 lg:px-4">
         <Image
           src={logo}
           alt="Picture of the author"
-          className="md:w-36 w-24"
+          className="md:w-48 w-32"
         />
 
         <div className="mt-4 md:mt-8 font-palanquin flex md:flex-row flex-col justify-between ">
@@ -24,7 +24,7 @@ export default function footer({ lng }: any) {
             <a href="mailto:info@istep.ch">info@istep.ch</a>
           </div>
           <div className="flex flex-col md:items-end items-start md:mt-0 mt-4">
-            <p className="text-right mb-4">{t("donation.text")}</p>
+            <p className="text-right mb-4 text-p-lg">{t("donation.text")}</p>
 
             <DonateButton />
           </div>

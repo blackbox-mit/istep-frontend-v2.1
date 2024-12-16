@@ -26,13 +26,13 @@ const Dropdown = () => {
         >
           {isHovered && (
             <Link href={defaultLink}>
-              <p className="p-2 hover:bg-orange hover:rounded-[24px] text-white text-p-sm">
+              <p className="p-2 px-4 hover:bg-orange hover:rounded-[24px] text-white text-p-sm">
                 {defaultLanguage}
               </p>
             </Link>
           )}
           {!isHovered && (
-            <p className="p-2 hover:bg-orange hover:rounded-[24px] text-white text-p-sm">
+            <p className="p-2 px-4 hover:bg-orange hover:rounded-[24px] text-white text-p-sm">
               {defaultLanguage}
             </p>
           )}
@@ -45,7 +45,7 @@ const Dropdown = () => {
         >
           <div className="text-center">
             <Link href={alternateLink}>
-              <p className="p-2 hover:bg-orange hover:rounded-[24px] text-white text-p-sm cursor-pointer">
+              <p className="p-2 px-4 hover:bg-orange hover:rounded-[24px] text-white text-p-sm cursor-pointer">
                 {alternateLanguage}
               </p>
             </Link>

@@ -21,7 +21,9 @@ export default async function OurProjects({ lng }: ourProjectsProps) {
       <div className="md:py-24 py-12">
         <div className=" mb-6 text-orange font-palanquin  container mx-auto px-8 lg:px-4">
           <h3 className="text-h-md md:text-h-lg ">{t("title")}</h3>
-          <p className="text-p-lg md:text-h-md font-thin ">{t("subTitle")}</p>
+          <p className="text-p-lg md:text-h-md font-thin w-9/12">
+            {t("subTitle")}
+          </p>
         </div>
         <div className="md:mt-16 mt-8 container mx-auto px-0 lg:px-4">
           <Carousel projects={projects.Projects} />

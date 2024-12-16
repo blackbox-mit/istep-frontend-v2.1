@@ -36,7 +36,7 @@ export default function MSOfficeCourses({
               <Image
                 src={titleImage}
                 alt="Picture of the author"
-                className="h-full object-contain "
+                className="h-full h-108 object-contain "
               />
             </div>
           </div>

@@ -33,7 +33,7 @@ export default function Courses({
               <Image
                 src={titleImage}
                 alt="Picture of the author"
-                className="h-96 object-contain "
+                className="h-108 object-contain "
               />
             </div>
           </div>
