@@ -36,11 +36,11 @@ export default function carousel({ projects }: { projects: any }) {
     },
     // when window width is >= 768px
     768: {
-      slidesPerView: 3.2,
+      slidesPerView: 3,
       spaceBetween: 40,
     },
     1440: {
-      slidesPerView: 2.8,
+      slidesPerView: 3,
       spaceBetween: 40,
     },
   };

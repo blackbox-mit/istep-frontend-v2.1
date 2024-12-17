@@ -48,7 +48,7 @@ const ProjectTeaser = ({ project, idx }: { project: any; idx: number }) => {
           <div
             className={`inline-block w-3 self-stretch ${bgColor} opacity-100 dark:opacity-50`}
           />
-          <p className="ml-4 ">{teaserText}</p>
+          <p className="ml-4 text-p-lg">{teaserText}</p>
         </div>
 
         <button
