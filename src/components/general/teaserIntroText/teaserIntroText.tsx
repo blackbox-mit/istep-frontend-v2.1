@@ -20,7 +20,7 @@ export default function teaserIntroText({
         {title}
       </h3>
       <p
-        className={`text-p-lg md:text-h-md  font-thin w-full md:w-3/5 mb-2 md:mb-4`}
+        className={`text-p-lg md:text-h-md w-full md:w-3/5 mb-2 md:mb-4`}
         style={{ color: theme }}
       >
         {subTitle}

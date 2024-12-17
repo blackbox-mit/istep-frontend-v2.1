@@ -13,9 +13,7 @@ export default function wahtWeDo({ lng }: { lng: string }) {
     <>
       <div className="text-orange font-palanquin ">
         <h3 className="text-h-md md:text-h-lg "> {t("title")}</h3>
-        <p className="text-p-lg md:text-h-md font-thin w-9/12">
-          {t("subTitle")}
-        </p>
+        <p className="text-p-lg md:text-h-md w-9/12">{t("subTitle")}</p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 font-palanquin mt-4 md:mt-4">
         <p className="text-p-sm md:text-p-lg text-darkblue"> {t("text")}</p>

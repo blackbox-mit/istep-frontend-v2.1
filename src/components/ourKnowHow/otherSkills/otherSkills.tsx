@@ -16,7 +16,7 @@ export default async function OtherSkills({ lng }: any) {
           <div className="mt-5 text-darkblue">
             {translation.OurKnowHow.otherSkills.list.map(
               (item: string, index: number) => (
-                <p className="text-p-sm md:text-p-lg font-thin " key={index}>
+                <p className="text-p-sm md:text-p-lg " key={index}>
                   - {item}
                 </p>
               )

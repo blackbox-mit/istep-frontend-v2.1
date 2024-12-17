@@ -39,7 +39,7 @@ const projectTeaser = ({ project, idx }: projectProps) => {
           >
             {project.title}
           </h3>
-          <p className="text-p-sm md:text-p-lg font-thin mb-2 md:mb-4 text-darkblue">
+          <p className="text-p-sm md:text-p-lg mb-2 md:mb-4 text-darkblue">
             {project.teaser}
           </p>
           <div className="flex items-center cursor-pointer">

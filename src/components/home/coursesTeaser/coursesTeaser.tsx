@@ -24,7 +24,7 @@ export default async function CoursesTeaser({
             <h3 className="text-h-md md:text-h-lg text-orange mb-2 md:mb-4">
               {t("title")}
             </h3>
-            <p className="text-p-lg md:text-h-md text-orange font-thin w-full md:w-3/5 mb-2 md:mb-4">
+            <p className="text-p-lg md:text-h-md text-orange w-full md:w-3/5 mb-2 md:mb-4">
               {t("subTitle")}
             </p>
             <p className="w-full md:w-1/2 mb-2 text-darkblue text-p-sm md:text-p-lg">
@@ -43,6 +43,7 @@ export default async function CoursesTeaser({
                 text={item.moreText}
                 lng={lng}
                 link={"/courses/" + item.link}
+                linkActive={true}
               />
             ))}
           </div>
