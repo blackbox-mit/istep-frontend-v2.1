@@ -55,7 +55,7 @@ export default async function detailPage({
               </p>
             </div>
           </div>
-          <div className="container mx-auto py-12 md:mt-36 lg:px-4">
+          <div className="container mx-auto py-12 md:mt-12 lg:px-4">
             <div className="w-full justify-end flex md:p-0 p-8">
               <Image
                 src={translation.Blog.blogs[id].images[0]}
@@ -69,8 +69,8 @@ export default async function detailPage({
           <ScrollDown />
         </div>
       </div>
-      <div className="md:pt-48 md:pb-24" />
-      <div className="container mx-auto py-12 md:mt-36 lg:px-4">
+      {/* <div className="md:pt-48 md:pb-24" /> */}
+      <div className="container mx-auto py-12 md:mt-16 lg:px-4">
         <div className="flex flex-col">
           {Array.from({ length: loopLength }, (_, index) => (
             <div key={index} className="flex flex-col md:flex-row">

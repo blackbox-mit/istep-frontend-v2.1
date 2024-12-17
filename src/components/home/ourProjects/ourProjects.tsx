@@ -25,7 +25,7 @@ export default async function OurProjects({ lng }: ourProjectsProps) {
             {t("subTitle")}
           </p>
         </div>
-        <div className="md:mt-16 mt-8 container mx-auto px-0 lg:px-4">
+        <div className="md:mt-16 mt-8 container mx-auto px-0 ">
           <Carousel projects={projects.Projects} />
         </div>
       </div>

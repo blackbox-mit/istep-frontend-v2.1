@@ -32,16 +32,16 @@ export default function carousel({ projects }: { projects: any }) {
     },
     480: {
       slidesPerView: 1.3,
-      spaceBetween: 30,
+      spaceBetween: 20,
     },
     // when window width is >= 768px
     768: {
       slidesPerView: 3,
-      spaceBetween: 40,
+      spaceBetween: 20,
     },
     1440: {
       slidesPerView: 3,
-      spaceBetween: 40,
+      spaceBetween: 20,
     },
   };
 
@@ -56,7 +56,7 @@ export default function carousel({ projects }: { projects: any }) {
       }}
       navigation={true}
       modules={[Navigation, Pagination]}
-      className="w-full"
+      className="w-full !px-12"
     >
       {projects.map((project: any, index: number) => (
         <SwiperSlide key={index} className={"h-full"}>
