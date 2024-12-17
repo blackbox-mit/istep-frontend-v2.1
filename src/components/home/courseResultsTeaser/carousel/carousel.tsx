@@ -31,6 +31,7 @@ export default function carousel({ results, lng }: any) {
               text={item.moreText}
               link={"/" + item.link}
               lng={lng}
+              linkActive={false}
             />
           </div>
         ))}
