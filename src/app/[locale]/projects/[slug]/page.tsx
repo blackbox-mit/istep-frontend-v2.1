@@ -61,8 +61,8 @@ export default async function detailPage({
               src={matchedProject.image}
               alt={`Image of ${matchedProject.title}`}
               className="h-full object-contain md:w-1/2 w-full md:mr-16 z-20 mt-4 rounded-3xl"
-              width={500}
-              height={300}
+              width={1920}
+              height={1080}
             />
           </div>
           <div className="hidden md:block">
