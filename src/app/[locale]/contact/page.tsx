@@ -3,6 +3,7 @@ import titleImage from "@/assets/aboutUs/titleImage.png";
 import FormComp from "@/components/contact/form/form";
 import { useTranslations } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
+import ScrollDown from "@/components/general/scrollDown/scrollDown";
 
 interface ContactProps {
   params: {
@@ -35,6 +36,9 @@ export default function Contact({ params: { locale } }: ContactProps) {
                 className="h-108 object-contain "
               />
             </div>
+          </div>
+          <div className="hidden md:block">
+            <ScrollDown />
           </div>
         </div>
       </div>

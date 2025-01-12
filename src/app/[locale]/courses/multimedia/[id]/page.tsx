@@ -17,7 +17,7 @@ export default async function detailPage({
   const translation = (
     await import(`../../../../../../locales/${locale}/${locale}.json`)
   ).default;
-  const course = translation.VariosCourses.courses[id];
+  const course = translation.MultimediaCourses.courses[id];
   return (
     <main className="">
       <div className="bg-darkblue pb-16">

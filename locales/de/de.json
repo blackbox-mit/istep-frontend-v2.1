@@ -20,7 +20,7 @@
   },
   "DonateButton": { "text": "Spenden" },
   "About": {
-    "mainTitle": "Bildung für alle.",
+    "mainTitle": "Bildung für Alle.",
     "subTitle": "Menschen mit erschwertem Zugang zu Bildung individuell fördern und dabei gemeinsam wachsen - das ist das Ziel von iSTEP.",
     "whoIs": {
       "title": "Wer ist iSTEP",
@@ -69,7 +69,7 @@
     }
   },
   "Home": {
-    "mainTitle": "Bildung für alle.",
+    "mainTitle": "Bildung für Alle.",
     "subTitle": "Menschen mit erschwertem Zugang zu Bildung individuell fördern und dabei gemeinsam wachsen - das ist das Ziel von iSTEP.",
     "whatWeDo": {
       "title": "Was wir tun",
@@ -569,7 +569,7 @@
     },
     "courses": [
       {
-        "title": "A2B Elbasan: Creative Online Course ",
+        "title": "A2B Elbasan: Creative Online Course",
         "where": "Online",
         "badge": "Advanced",
         "descriptionTitle": "Kursbeschreibung",
