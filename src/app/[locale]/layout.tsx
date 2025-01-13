@@ -29,8 +29,13 @@ export default async function RootLayout({
   children,
   params: { locale },
 }: Props) {
+  if (locale !== "de" && locale !== "en") {
+    notFound();
+  }
+
   unstable_setRequestLocale(locale);
   const messages = require(`../../../locales/${locale}/${locale}.json`);
+
   return (
     <html lang={locale}>
       <body className="h-full">
