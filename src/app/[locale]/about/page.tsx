@@ -23,8 +23,8 @@ export default function AboutUs({ params: { locale } }: AboutUsProps) {
 
   return (
     <main className="">
-      <div className="min-h-[calc(100vh-80px)] mt-[80px] md:mt-0 md:min-h-[calc(100vh-0px)] bg-darkblue w-full flex items-center pb-8 md:-pd-0 relative">
-        <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4 ">
+      <div className="min-h-[calc(100vh-80px)] bg-darkblue w-full pb-8 md:-pb-0 relative">
+        <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4 pt-32 ">
           <h1 className="lg:text-h-xl  text-h-l  text-yellow font-palanquin md:text-left text-center">
             {t("mainTitle")}
           </h1>
