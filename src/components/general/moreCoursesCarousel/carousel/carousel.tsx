@@ -33,6 +33,7 @@ export default function carousel() {
             image={differentCoursesImage}
             lng={"de"}
             link=""
+            linkActive={false}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -44,6 +45,7 @@ export default function carousel() {
             image={differentCoursesImage}
             lng={"de"}
             link=""
+            linkActive={false}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -55,6 +57,7 @@ export default function carousel() {
             image={differentCoursesImage}
             lng={"de"}
             link=""
+            linkActive={false}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -66,6 +69,7 @@ export default function carousel() {
             image={differentCoursesImage}
             lng={"de"}
             link=""
+            linkActive={false}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -77,6 +81,7 @@ export default function carousel() {
             image={differentCoursesImage}
             lng={"de"}
             link=""
+            linkActive={false}
           />
         </SwiperSlide>
       </Swiper>

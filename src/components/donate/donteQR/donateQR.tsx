@@ -2,7 +2,7 @@
 
 import Image, { StaticImageData as NextImageProps } from "next/image";
 import { useState } from "react";
-import QRImage from "@/assets/donate/QR-Rechnung.png";
+import QRImage from "@/assets/donate/QR-Rechnung.jpg";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
 interface donateQRProps {
@@ -28,8 +28,6 @@ export default function DonateQR({ lng }: donateQRProps) {
               src={QRImage}
               alt="Picture of the author "
               className="object-contain pt-2 w-5/6 mt-8"
-              // blurDataURL="data:..." automatically provided
-              // placeholder="blur" // Optional blur-up while loading
             />
           </div>
         )}

@@ -12,20 +12,25 @@ import ITImage from "@/assets/general/coursesIcons/IT.png";
 import MultimediaImage from "@/assets/general/coursesIcons/multimedia.png";
 import MSOfficeImage from "@/assets/general/coursesIcons/MS-office.png";
 import DiverseKurse from "@/assets/general/coursesIcons/diverse_kurse.png";
+import { useTranslations } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
 
 interface CoursesProps {
   params: {
-    lng: string;
+    locale: string;
   };
 }
 
-export default async function Donate({ params: { lng } }: CoursesProps) {
+export default function Donate({ params: { locale } }: CoursesProps) {
+  unstable_setRequestLocale(locale);
+  const t = useTranslations("Donate"); // Access translations
+
   return (
     <main className=" z-10">
-      <div className="min-h-[calc(100vh-80px)] bg-darkblue w-full flex items-center pb-8 md:-pd-0">
+      <div className="min-h-[calc(100vh-80px)] mt-[80px] md:mt-0 md:min-h-[calc(100vh-0px)] bg-darkblue w-full flex items-center pb-8 md:-pd-0">
         <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4 ">
           <h1 className="lg:text-h-xl  text-h-l  text-yellow font-palanquin md:text-left text-center">
-            Spenden
+            {t("mainTitle")}
           </h1>
 
           <div className="flex flex-col lg:flex-row">
@@ -36,7 +41,7 @@ export default async function Donate({ params: { lng } }: CoursesProps) {
               <Image
                 src={titleImage}
                 alt="Picture of the author"
-                className="h-full object-contain "
+                className="h-96 object-contain "
               />
             </div>
           </div>
@@ -44,14 +49,12 @@ export default async function Donate({ params: { lng } }: CoursesProps) {
       </div>
       <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4">
         <div className="mt-4">
-          <DonateQR lng={lng} />
+          <DonateQR lng={locale} />
         </div>
         <div className="mt-4">
           <DonateBankConnection />
         </div>
-        <div className="mt-4">
-          <DonateTwint />
-        </div>
+
         <div className="mt-4">
           <DonateRaiseNow />
         </div>

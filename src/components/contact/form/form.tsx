@@ -1,15 +1,65 @@
-import { unstable_setRequestLocale } from "next-intl/server";
+"use client";
+import { useState } from "react";
 import { useTranslations } from "next-intl";
+import emailjs from "@emailjs/browser";
+import { unstable_setRequestLocale } from "next-intl/server";
 
 interface formProps {
   lng: string;
 }
 
-export default async function from({ lng }: formProps) {
-  unstable_setRequestLocale(lng);
+export default function from({ lng }: formProps) {
   const t = useTranslations("Contact.form");
-  const translation = (await import(`../../../../locales/${lng}/${lng}.json`))
-    .default;
+
+  const [emailSuccess, setEmailSuccess] = useState<boolean | null>(false);
+  const [emailFailed, setEmailFailed] = useState<boolean | null>(false);
+
+  const translation = require(`../../../../locales/${lng}/${lng}.json`);
+
+  const [userInput, setUserInput] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    radio: "",
+    message: "",
+  });
+  const handleChange = (e: any) => {
+    const { name, value } = e.target;
+    setUserInput({
+      ...userInput,
+      [name]: value,
+    });
+  };
+
+  async function handleSubmit(e: any) {
+    e.preventDefault();
+    const serviceID = "service_jq3nxlz";
+    const templateID = "template_omcf3a3";
+    const userID = "9Fwh4_-6GU9R1g5_r";
+
+    try {
+      const emailParams = {
+        user_name: userInput.firstName,
+        user_name2: userInput.lastName,
+        user_email: userInput.email,
+        message: userInput.message,
+      };
+      const res = await emailjs.send(
+        serviceID,
+        templateID,
+        emailParams,
+        userID
+      );
+
+      if (res.status === 200) {
+        setEmailSuccess(true);
+        console.log("Email sent successfully!");
+      }
+    } catch (error) {
+      setEmailFailed(true);
+      console.log("Email sent faild!");
+    }
+  }
 
   return (
     <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4">
@@ -28,14 +78,13 @@ export default async function from({ lng }: formProps) {
         </div>
 
         <form
-          action="#"
-          method="POST"
           className="mx-auto md:mt-16 max-w-xl sm:mt-20 font-palanquin text-darkblue"
+          onSubmit={handleSubmit}
         >
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
             <div>
               <label
-                htmlFor="first-name"
+                htmlFor="firstName"
                 className="block text-sm font-semibold leading-6 text-gray-900"
               >
                 {t("firstname")}
@@ -43,8 +92,9 @@ export default async function from({ lng }: formProps) {
               <div className="mt-2.5">
                 <input
                   type="text"
-                  name="first-name"
-                  id="first-name"
+                  name="firstName"
+                  value={userInput.firstName}
+                  onChange={handleChange}
                   autoComplete="given-name"
                   className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
@@ -52,7 +102,7 @@ export default async function from({ lng }: formProps) {
             </div>
             <div>
               <label
-                htmlFor="last-name"
+                htmlFor="lastName"
                 className="block text-sm font-semibold leading-6 text-gray-900"
               >
                 {t("lastname")}
@@ -60,8 +110,9 @@ export default async function from({ lng }: formProps) {
               <div className="mt-2.5">
                 <input
                   type="text"
-                  name="last-name"
-                  id="last-name"
+                  name="lastName"
+                  value={userInput.lastName}
+                  onChange={handleChange}
                   autoComplete="family-name"
                   className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
@@ -80,6 +131,8 @@ export default async function from({ lng }: formProps) {
                   type="email"
                   name="email"
                   id="email"
+                  value={userInput.email}
+                  onChange={handleChange}
                   autoComplete="email"
                   className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
@@ -97,9 +150,10 @@ export default async function from({ lng }: formProps) {
                 <textarea
                   name="message"
                   id="message"
+                  value={userInput.message}
+                  onChange={handleChange}
                   rows={4}
                   className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                  defaultValue={""}
                 />
               </div>
             </div>
@@ -112,13 +166,14 @@ export default async function from({ lng }: formProps) {
                   (option: string, index: number) => (
                     <div className="flex items-center gap-x-3" key={index}>
                       <input
-                        id="push-everything"
-                        name="push-notifications"
+                        id={`option-${index}`}
+                        name="radioInput"
                         type="radio"
+                        value={option}
                         className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
                       />
                       <label
-                        htmlFor="push-everything"
+                        htmlFor={`option-${index}`}
                         className="block text-sm font-medium leading-6 text-gray-900"
                       >
                         {option}
@@ -132,11 +187,19 @@ export default async function from({ lng }: formProps) {
           <div className="mt-10">
             <button
               type="submit"
-              className="block w-full rounded-md bg-darkblue px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm  hover:bg-darkblue/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="block w-full rounded-md bg-darkblue px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-darkblue/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               {t("buttonText")}
             </button>
           </div>
+          {emailSuccess && (
+            <p className="text-center mt-4 text-green">Email Send</p>
+          )}
+          {emailFailed && (
+            <p className="text-center mt-4 text-green">
+              Email Failed Try Again
+            </p>
+          )}
         </form>
       </div>
     </div>

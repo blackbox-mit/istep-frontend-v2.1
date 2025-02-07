@@ -4,9 +4,9 @@ import CoursePreviewBox from "@/components/coursesDetails/coursePreviewBox/cours
 export default function coursesOverview({ courses, ourCourses }: any) {
   return (
     <>
-      <div className="flex justify-end">
+      {/* <div className="flex justify-end">
         <Filters ourCourses={ourCourses} />
-      </div>
+      </div> */}
 
       <div className="w-full font-palanquin">
         <h3 className="text-h-md md:text-h-lg  mb-6 md:mb-8 text-darkblue">

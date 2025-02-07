@@ -15,16 +15,14 @@ export default function VisionValueElement({
 }: VisionValueElementProps) {
   return (
     <div>
-      <div className={`bg-${theme}  rounded-3xl md:p-8 p-4 font-palanquin md:min-h-80 lg:min-h-80 h-auto`}>
+      <div
+        className={`bg-${theme}  rounded-3xl md:p-8 p-4 font-palanquin md:min-h-80 lg:min-h-80 h-auto`}
+      >
         <div className={`flex flex-1 justify-center `}>
           <Image
             src={image}
             alt="Picture of the author"
             className="object-contain md:w-2/5 w-3/5 aspect-square rounded-3xl max-h-56"
-       
-
-            // blurDataURL="data:..." automatically provided
-            // placeholder="blur" // Optional blur-up while loading
           />
         </div>
 

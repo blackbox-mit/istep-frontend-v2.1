@@ -33,6 +33,7 @@ export default async function coursesOverview({ lng }: projectProps) {
             text={item.moreText}
             lng={"/" + lng}
             link={"/courses/" + item.link}
+            linkActive={true}
           />
         </div>
       ))}

@@ -20,7 +20,7 @@ export default async function howIsIstep({ lng }: whoIsProps) {
             {t("title")}
           </h3>
           <p
-            className={`text-p-lg md:text-h-md text-orange font-thin w-full md:w-4/5 mb-2 md:mb-4`}
+            className={`text-p-lg md:text-h-md text-orange w-full md:w-4/5 mb-2 md:mb-4`}
           >
             {t("subTitle")}
           </p>
@@ -33,9 +33,7 @@ export default async function howIsIstep({ lng }: whoIsProps) {
             src={howIs}
             alt="Picture of the author"
             width={400}
-            className="p-4"
-            // blurDataURL="data:..." automatically provided
-            // placeholder="blur" // Optional blur-up while loading
+            className="p-4 object-contain"
           />
         </div>
       </div>

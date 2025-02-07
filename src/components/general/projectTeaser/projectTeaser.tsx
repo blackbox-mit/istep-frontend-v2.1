@@ -1,16 +1,20 @@
 "use client";
 import Image from "next/image";
-import image from "@/assets/placeholder/project.png";
 import { useRouter } from "next/navigation";
 import { usePathname } from "next/navigation";
 import { truncate } from "@/utils/truncate";
 
 const getGradient = (idx: number) => {
-  const gradient = ["from-green ", "from-orange ", "from-yellow"];
+  const gradient = [
+    "from-green ",
+    "from-yellow ",
+    "from-green/60",
+    "from-orange",
+  ];
   return gradient[idx % gradient.length];
 };
 const getColor = (idx: number) => {
-  const color = ["bg-green ", "bg-orange ", "bg-yellow"];
+  const color = ["bg-green ", "bg-yellow ", "bg-green/60", "bg-orange"];
   return color[idx % color.length];
 };
 
@@ -22,10 +26,12 @@ const ProjectTeaser = ({ project, idx }: { project: any; idx: number }) => {
   const bgColor = getColor(idx);
 
   return (
-    <div className=" bg-white w-full rounded-3xl">
+    <div className=" bg-white w-full rounded-3xl h-full relative mb-16">
       <div className="relative">
         <Image
-          src={image}
+          src={project.image}
+          width={500}
+          height={500}
           alt={project.title}
           className="rounded-t-3xl max-h-96 h-full w-full object-cover"
         />
@@ -37,12 +43,12 @@ const ProjectTeaser = ({ project, idx }: { project: any; idx: number }) => {
           </h4>
         </div>
       </div>
-      <div className="p-5  font-palanquin">
+      <div className="p-5 font-palanquin">
         <div className="flex-1 flex ">
           <div
             className={`inline-block w-3 self-stretch ${bgColor} opacity-100 dark:opacity-50`}
           />
-          <p className="ml-4 ">{teaserText}</p>
+          <p className="ml-4 text-p-lg">{teaserText}</p>
         </div>
 
         <button
@@ -50,11 +56,11 @@ const ProjectTeaser = ({ project, idx }: { project: any; idx: number }) => {
           onClick={() =>
             router.push(
               pathname.substring(0, 3) +
-                "/projects/" +
-                project.title.toLowerCase()
+                "/projects" +
+                project.link.toLowerCase()
             )
           }
-          className={`rounded-full ${bgColor} mt-4 ml-5 px-10 py-2.5 text-sm font-semibold text-white focus-visible:outline hover:scale-105 transition-all duration-300`}
+          className={`rounded-full ${bgColor} absolute bottom-4 mt-4 ml-5 px-10 py-2.5 text-sm font-semibold text-white focus-visible:outline hover:scale-105 transition-all duration-300`}
         >
           {project.moreText}
         </button>

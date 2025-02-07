@@ -1,6 +1,6 @@
 import Image from "next/image";
 import titleImage from "@/assets/home/titleImage.png";
-import CoursesOverviewMultimedia from "@/components/courses/coursesOverview/coursesOverviewMultimedia";
+import CoursesOverviewVariousCourses from "@/components/courses/coursesOverview/coursesOverviewVariousCourses";
 import MoreCoursesCarousel from "@/components/general/moreCoursesCarousel/moreCoursesCarousel";
 
 import { useTranslations } from "next-intl";
@@ -12,7 +12,7 @@ interface detailCoursePageProps {
   };
 }
 
-export default function MultimediaCourses({
+export default function VariousCourses({
   params: { locale },
 }: detailCoursePageProps) {
   unstable_setRequestLocale(locale);
@@ -20,7 +20,7 @@ export default function MultimediaCourses({
 
   return (
     <main>
-      <div className="min-h-[calc(100vh-80px)] bg-darkblue w-full flex items-center pb-8 md:-pd-0">
+      <div className="min-h-[calc(100vh-80px)] mt-[80px] md:mt-0 md:min-h-[calc(100vh-0px)] bg-darkblue w-full flex items-center pb-8 md:-pd-0">
         <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4 ">
           <h1 className="lg:text-h-xl  text-h-l  text-yellow font-palanquin md:text-left text-center">
             {t("mainTitle")}
@@ -44,10 +44,10 @@ export default function MultimediaCourses({
       </div>
 
       <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4">
-        {/* <CoursesOverviewMultimedia lng={locale} /> */}
-        <p className="text-h-sm md:text-h-md mt-4 mb-4 md:text-left text-center font-palanquin !font-thin text-darkblue">
+        <CoursesOverviewVariousCourses lng={locale} />
+        {/* <p className="text-h-sm md:text-h-md mt-4 mb-4 md:text-left text-center font-palanquin !font-thin text-darkblue">
           {t("ourCourses.noCourses")}
-        </p>
+        </p> */}
       </div>
       {/* <div className="mb-24">
         <MoreCoursesCarousel />

@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import projcet from "@/assets/placeholder/project.png";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -11,13 +10,18 @@ interface projectProps {
     teaser: string;
     moreText: string;
     link: string;
+    image: any;
   };
 }
 
 const projectTeaser = ({ project, idx }: projectProps) => {
-  const bgColorOptions = ["#f2c494", "#fcdfb1", "#a4d1c3"];
+  const bgColorOptions = ["#bdded4", "#fce1b4", "#bdded4", "#f3c799"];
+  const textColorOptions = ["#24926F", "#F8B343", "#24926F", "#E07200"];
   const bgColorStyle = {
     backgroundColor: bgColorOptions[idx % bgColorOptions.length],
+  };
+  const textColorStyle = {
+    color: textColorOptions[idx % textColorOptions.length],
   };
 
   const pathname = usePathname();
@@ -30,13 +34,12 @@ const projectTeaser = ({ project, idx }: projectProps) => {
       <div className=" w-full md:w-1/2">
         <div className="p-8 md:pt-8 pt-6 font-palanquin">
           <h3
-            className={`text-h-md md:text-h-l mb-2 md:mb-4  text-${
-              ["orange", "yellow", "green"][idx % 3]
-            }`}
+            style={textColorStyle}
+            className={`text-h-md md:text-h-l mb-2 md:mb-4  `}
           >
             {project.title}
           </h3>
-          <p className="text-p-sm md:text-p-lg font-thin mb-2 md:mb-4 text-darkblue">
+          <p className="text-p-sm md:text-p-lg mb-2 md:mb-4 text-darkblue">
             {project.teaser}
           </p>
           <div className="flex items-center cursor-pointer">
@@ -45,7 +48,7 @@ const projectTeaser = ({ project, idx }: projectProps) => {
               className="text-p-sm md:text-p-lg  !font-bold  text-darkblue"
               href={pathname.substring(0, 3) + "/projects/" + project.link}
             >
-              Mehr erfahren
+              {project.moreText}
             </Link>
           </div>
         </div>
@@ -53,7 +56,9 @@ const projectTeaser = ({ project, idx }: projectProps) => {
 
       <div className="w-full md:w-1/2 order-first md:order-last">
         <Image
-          src={projcet}
+          src={project.image}
+          width={500}
+          height={500}
           alt={project.title}
           className="md:rounded-tr-3xl md:rounded-br-3xl  md:rounded-tl-none rounded-t-3xl md:rounded-bl-none object-cover w-full h-full"
         />

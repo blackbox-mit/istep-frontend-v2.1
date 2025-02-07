@@ -1,8 +1,10 @@
 "use client";
+
 import { ArrowRightIcon } from "@heroicons/react/20/solid";
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
 
 interface DonateButtonProps {
   toggleSidebar?: () => void;
@@ -11,6 +13,7 @@ interface DonateButtonProps {
 const DonateButton = ({ toggleSidebar }: DonateButtonProps) => {
   const [isHovered, setIsHovered] = useState(false);
   const pathname = usePathname();
+  const t = useTranslations("DonateButton"); // Access translations
 
   return (
     <div
@@ -24,7 +27,7 @@ const DonateButton = ({ toggleSidebar }: DonateButtonProps) => {
             isHovered ? "translate-x-[-12px]" : ""
           }`}
         >
-          Spenden
+          {t("text")}
         </p>
       </Link>
 

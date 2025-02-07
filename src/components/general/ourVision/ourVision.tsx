@@ -19,7 +19,7 @@ export default function ourVision({ lng }: ourVisionProps) {
       <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4">
         <div className="font-palanquin  text-orange">
           <h3 className="text-h-md md:text-h-lg  mb-2 md:mb-4">{t("title")}</h3>
-          <p className="text-p-lg md:text-h-md  font-thin w-full md:w-3/5 mb-2 md:mb-4">
+          <p className="text-p-lg md:text-h-md w-full md:w-3/5 mb-2 md:mb-4">
             {t("subTitle")}
           </p>
         </div>

@@ -14,9 +14,9 @@ export default async function coursesOverviewMultimedia({ lng }: projectProps) {
     .default;
   return (
     <>
-      <div className="flex justify-end">
+      {/* <div className="flex justify-end">
         <Filters ourCourses={translation.MultimediaCourses.ourCourses} />
-      </div>
+      </div> */}
 
       <div className="w-full font-palanquin">
         <h3 className="text-h-md md:text-h-lg  mb-6 md:mb-8 text-darkblue">

@@ -3,6 +3,7 @@ import titleImage from "@/assets/aboutUs/titleImage.png";
 import FormComp from "@/components/contact/form/form";
 import { useTranslations } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
+import ScrollDown from "@/components/general/scrollDown/scrollDown";
 
 interface ContactProps {
   params: {
@@ -16,7 +17,7 @@ export default function Contact({ params: { locale } }: ContactProps) {
 
   return (
     <main className=" z-10">
-      <div className="min-h-[calc(100vh-80px)] bg-darkblue w-full flex items-center pb-8 md:-pd-0">
+      <div className="min-h-[calc(100vh-80px)] mt-[80px] md:mt-0 md:min-h-[calc(100vh-0px)] bg-darkblue w-full flex items-center pb-8 md:-pd-0">
         <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4 ">
           <h1 className="lg:text-h-xl  text-h-l  text-yellow font-palanquin md:text-left text-center">
             {t("title")}
@@ -32,9 +33,12 @@ export default function Contact({ params: { locale } }: ContactProps) {
               <Image
                 src={titleImage}
                 alt="Picture of the author"
-                className="h-full object-contain "
+                className="h-108 object-contain "
               />
             </div>
+          </div>
+          <div className="hidden md:block">
+            <ScrollDown />
           </div>
         </div>
       </div>

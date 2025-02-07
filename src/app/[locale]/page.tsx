@@ -32,7 +32,7 @@ export default function HomePage({ params: { locale } }: HomeProps) {
 
   return (
     <main className="z-10">
-      <div className="h-[calc(100vh-80px)] bg-darkblue w-full pb-8 md:-pb-0 relative">
+      <div className="min-h-[calc(100vh-80px)] md:min-h-[calc(100vh-0px)] bg-darkblue w-full pb-8 md:-pb-0 relative">
         <div className="w-full h-full pt-32 container mx-auto px-8 md:px-0">
           <div className="flex items-center justify-center flex-col h-2/5">
             <h1 className="lg:text-h-xl text-h-l text-yellow font-palanquin text-center">
@@ -42,13 +42,11 @@ export default function HomePage({ params: { locale } }: HomeProps) {
               {t("subTitle")}
             </h2>
           </div>
-          <div className="flex justify-center h-3/5">
+          <div className="flex justify-center h-3/5 mt-8 md:mt-0">
             <Image
               src={titleImage}
               alt="Picture of the author"
               className="object-contain pt-2"
-              // blurDataURL="data:..." automatically provided
-              // placeholder="blur" // Optional blur-up while loading
             />
           </div>
         </div>
