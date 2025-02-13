@@ -116,6 +116,21 @@
 
     "blogs": [
       {
+        "title": "Jahresbericht 2024",
+        "text": "Es ist so weit und wir können den Jahresbericht 2024 präsentieren. Wir sind sehr dankbar, wie das letzte Jahr gelaufen ist. Klar, gab es auch Herausforderungen, was ja bekanntlich dazugehört. Gesamthaft gesehen sind wir jedoch sehr zufrieden damit, was wir umsetzen konnten.",
+        "moreText": "Mehr Lesen",
+        "date": "2025.02.13",
+        "texts": [
+          "Wir haben das neue Jahr mit der Fortführung der Online-Kurse begonnen und Ende März 2025 sind wir wieder für 2 Wochen in Albanien: eine Woche in Elbasan und eine Woche in Librazhd. "
+        ],
+
+        "images": ["/blog/16_Annual_report_2024/Bild_1.jpg"],
+        "pdf": {
+          "title": "Jahresbericht",
+          "document": "/blog/16_Annual_report_2024/iSTEP_Jahresbericht_2024.pdf"
+        }
+      },
+      {
         "title": "Rückblich Outreach Elbasan & Creative Gruppe",
         "text": "Wir alle haben uns wieder an den Alltag in der Schweiz gewöhnt. Doch die Eindrücke aus Albanien bleiben. Ich bemerke wieder einmal, wie privilegiert wir sind und wie dankbar ich bin in der Schweiz zu leben.",
         "moreText": "Mehr Lesen",
@@ -126,6 +141,7 @@
           "Ich hatte in dieser Woche so viele großartige Momente, dass ich gar nicht weiss, wo ich anfangen soll. Ich war umgeben von liebevollen Menschen. Hatte tolle und lehrreiche Gespräche. Die Kinder haben mir in der Pause beigebracht, wie man in Albanien tanzt. Schon am ersten Tag wurde mir oft gesagt, ich bin eine großartige Lehrerin und am Ende der Woche wurde ich gefragt, wann ich wieder komme. Es gab viele Komplimente und Herzerwärmende Momente. Aber so wie all das Gute hat es auch viele berührende Momente gegeben, die mich etwas traurig gemacht haben.",
           "Dankbar blicke ich auf diese Erfahrung zurück und ich freue mich die Kinder weiterhin online zu Unterrichten und bin mir sicher, dass es ein Wiedersehen geben wird."
         ],
+
         "images": [
           "/blog/15_Review_Outreach_Elbasan_Crative_Group/Bild_1.jpg",
           "/blog/15_Review_Outreach_Elbasan_Crative_Group/Bild_2.jpg",
@@ -134,7 +150,8 @@
           "/blog/15_Review_Outreach_Elbasan_Crative_Group/Bild_5.jpg",
           "/blog/15_Review_Outreach_Elbasan_Crative_Group/Bild_6.jpg",
           "/blog/15_Review_Outreach_Elbasan_Crative_Group/Bild_7.jpg"
-        ]
+        ],
+        "pdf": {}
       },
       {
         "title": "Aus der Nähstube geplaudert",
@@ -154,7 +171,8 @@
           "/blog/14_A_chat_from_the_sewing_room/Bild_4.jpg",
           "/blog/14_A_chat_from_the_sewing_room/Bild_5.jpg",
           "/blog/14_A_chat_from_the_sewing_room/Bild_6.jpg"
-        ]
+        ],
+        "pdf": {}
       },
       {
         "title": "A2B Elbasan",
@@ -174,7 +192,8 @@
           "/blog/13_A2B_Elbasan/Bild_7.jpg",
 
           "/blog/13_A2B_Elbasan/Bild_9.jpg"
-        ]
+        ],
+        "pdf": {}
       },
       {
         "title": "Hallo Librazhd",
@@ -192,7 +211,8 @@
           "/blog/12_Hellp_Librazhd/Bild_3.jpg",
           "/blog/12_Hellp_Librazhd/Bild_4.jpg",
           "/blog/13_A2B_Elbasan/Bild_8.jpg"
-        ]
+        ],
+        "pdf": {}
       },
       {
         "title": "Pink Floyd und Abschied nehmen",
@@ -210,7 +230,8 @@
           "/blog/11_PinkFloydAndSayingGoodbye/Bild_3.jpg",
           "/blog/11_PinkFloydAndSayingGoodbye/Bild_4.jpg",
           "/blog/11_PinkFloydAndSayingGoodbye/Bild_5.jpg"
-        ]
+        ],
+        "pdf": {}
       },
       {
         "title": "Ich habe viel gesehen, aber niemand sieht mich.",
@@ -230,7 +251,8 @@
           "/blog/10_IveSeenALotButNobodySeesMe/Bild4.jpg",
           "/blog/10_IveSeenALotButNobodySeesMe/Bild5.jpg",
           "/blog/10_IveSeenALotButNobodySeesMe/Bild6.jpg"
-        ]
+        ],
+        "pdf": {}
       },
       {
         "title": "Lezha High School und Casa Rozalba I",
@@ -250,7 +272,8 @@
           "/blog/09_LezheHighSchoolCasaRozalbaI/Bild_5.jpg",
           "/blog/09_LezheHighSchoolCasaRozalbaI/Bild_6.jpg",
           "/blog/09_LezheHighSchoolCasaRozalbaI/Bild_7.jpg"
-        ]
+        ],
+        "pdf": {}
       },
       {
         "title": "Teamwechsel",
@@ -266,7 +289,8 @@
           "/blog/08_TeamChange/Bild_3.jpg",
           "/blog/08_TeamChange/Bild_4.jpg",
           "/blog/08_TeamChange/Bild_5.jpg"
-        ]
+        ],
+        "pdf": {}
       },
       {
         "title": "Kreative Schritte gemeistert",
@@ -284,7 +308,8 @@
           "/blog/07_CreativeStepsMastered/Bild_4.jpg",
           "/blog/07_CreativeStepsMastered/Bild_5.jpg",
           "/blog/07_CreativeStepsMastered/Bild_6.jpg"
-        ]
+        ],
+        "pdf": {}
       },
       {
         "title": "Erste Erfolge",
@@ -301,7 +326,8 @@
           "/blog/06_FirstSuccesses/Bild_4.jpg",
           "/blog/06_FirstSuccesses/Bild_5.jpg",
           "/blog/06_FirstSuccesses/Bild_6.jpg"
-        ]
+        ],
+        "pdf": {}
       },
       {
         "title": "Zurück in Albanien",
@@ -314,7 +340,8 @@
         "images": [
           "/blog/05_BackInAlbania/Bild_1.jpg",
           "/blog/05_BackInAlbania/Bild_2.jpg"
-        ]
+        ],
+        "pdf": {}
       },
       {
         "title": "Weiter nach Lezha",
@@ -328,7 +355,8 @@
           "/blog/04_ContinueToLezha/image_1.jpg",
           "/blog/04_ContinueToLezha/image_2.jpg",
           "/blog/04_ContinueToLezha/image_3.jpg"
-        ]
+        ],
+        "pdf": {}
       },
       {
         "title": "Fortschritt",
@@ -341,7 +369,8 @@
         "images": [
           "/blog/03_Progress/image_1.jpg",
           "/blog/03_Progress/image_2.jpg"
-        ]
+        ],
+        "pdf": {}
       },
       {
         "title": "Nach ein paar Tagen",
@@ -359,7 +388,8 @@
           "/blog/02_AfterAFewDays/image_3.jpg",
           "/blog/02_AfterAFewDays/image_4.jpg",
           "/blog/02_AfterAFewDays/image_5.jpg"
-        ]
+        ],
+        "pdf": {}
       },
       {
         "title": "Auf nach Albanien",
@@ -370,7 +400,8 @@
         "texts": [
           "Am Abend des 3. September 2023 begann die Reise für Matt, Yannic und Adrian. Die letzten Sachen wurden ins Auto gepackt (Laptops und andere Materialien für die Kursteilnehmer), bevor sie in der Nacht nach Ancona fuhren, um am nächsten Morgen die Fähre zu erreichen. Man sieht ihnen die Müdigkeit noch nicht an...."
         ],
-        "images": ["/blog/01_OffToAlbania/image_1.jpg"]
+        "images": ["/blog/01_OffToAlbania/image_1.jpg"],
+        "pdf": {}
       }
     ]
   },
