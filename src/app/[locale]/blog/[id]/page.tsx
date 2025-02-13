@@ -99,6 +99,16 @@ export default async function detailPage({
             </div>
           ))}
         </div>
+        {translation.Blog.blogs[id].pdf.title && (
+          <a
+            href={translation.Blog.blogs[id].pdf.document}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-p-lg text-darkblue font-palanquin font-bold underline mt-8 ml-4"
+          >
+            {translation.Blog.blogs[id].pdf.title}
+          </a>
+        )}
       </div>
     </main>
   );
