@@ -46,7 +46,7 @@ export default async function detailPage({ params }: { params: any }) {
       <div className="bg-darkblue pb-16">
         <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4 ">
           <div className="rounded-full bg-yellow p-2 w-36 text-p-sm text-darkblue font-bold font-palanquin mb-8">
-            <p className="text-center">{course[0].tag}</p>
+            {course[0].tag && <p className="text-center">{course[0].tag}</p>}
           </div>
           <h3 className="lg:text-h-xl  text-h-l  text-yellow font-palanquin md:text-left text-center mb-4 whitespace-pre-line">
             {course[0].title}
