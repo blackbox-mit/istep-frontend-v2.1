@@ -9,7 +9,7 @@ import Sidebar from "@/components/general/sidebar/sidebar";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-export default function Navbar() {
+export default function Navbar({ navigation }: { navigation: any }) {
   const pathname = usePathname();
   const [sideBarIsOpen, setSideBarIsOpen] = useState(false);
   const [showNavbar, setShowNavbar] = useState(true); // Tracks navbar visibility
@@ -62,7 +62,12 @@ export default function Navbar() {
       >
         <div>
           <Link href={pathname.substring(0, 3)}>
-            <Image src={logo} alt="Picture of the author" height={80} />
+            <Image
+              src={navigation[0].logo.asset.url}
+              alt="Logo"
+              height={80}
+              width={150}
+            />
           </Link>
         </div>
         <div className="inline-flex items-center height-[80px]">
@@ -70,7 +75,7 @@ export default function Navbar() {
             <Dropdown />
           </div>
           <div className="ml-2 mr-2 md:block hidden">
-            <DonateButton />
+            <DonateButton donationText={navigation[0].donationText} />
           </div>
           <div className="ml-2" onClick={toggleSidebar}>
             <BurgerMenu />
@@ -78,7 +83,12 @@ export default function Navbar() {
         </div>
       </div>
       <div>
-        <Sidebar isOpen={sideBarIsOpen} toggleSidebar={toggleSidebar} />
+        <Sidebar
+          isOpen={sideBarIsOpen}
+          toggleSidebar={toggleSidebar}
+          navigation={navigation[0].navigation}
+          donationText={navigation[0].donationText}
+        />
       </div>
     </>
   );

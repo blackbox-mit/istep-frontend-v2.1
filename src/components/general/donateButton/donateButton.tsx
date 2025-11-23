@@ -8,12 +8,12 @@ import { useTranslations } from "next-intl";
 
 interface DonateButtonProps {
   toggleSidebar?: () => void;
+  donationText?: string;
 }
 
-const DonateButton = ({ toggleSidebar }: DonateButtonProps) => {
+const DonateButton = ({ toggleSidebar, donationText }: DonateButtonProps) => {
   const [isHovered, setIsHovered] = useState(false);
   const pathname = usePathname();
-  const t = useTranslations("DonateButton"); // Access translations
 
   return (
     <div
@@ -27,7 +27,7 @@ const DonateButton = ({ toggleSidebar }: DonateButtonProps) => {
             isHovered ? "translate-x-[-12px]" : ""
           }`}
         >
-          {t("text")}
+          {donationText}
         </p>
       </Link>
 

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function wahtWeDo({ whatWeDo }: { whatWeDo: any }) {
+export default function whatWeDo({ whatWeDo }: { whatWeDo: any }) {
   return (
     <>
       <div className="text-orange font-palanquin ">

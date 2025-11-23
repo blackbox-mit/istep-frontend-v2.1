@@ -47,7 +47,6 @@ const fetchAllBlogPageQuery = gql`
     }
   }
 `;
-
 const fetchHomeQuery = gql`
   query FetchHome($language: String!) {
     allHome(where: { language: { eq: $language } }) {
@@ -174,7 +173,6 @@ async function fetchHomeList(language: string) {
     return [];
   }
 }
-
 async function fetchAllBlogPage(language: string) {
   try {
     const data: any = await request(endpoint, fetchAllBlogPageQuery, {
