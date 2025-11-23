@@ -11,7 +11,6 @@ export default async function CourseResultsTeaser({
         <TeaserIntroText
           title={resultsOverview.title}
           subTitle={resultsOverview.subTitle}
-          text={resultsOverview.text}
           theme={"orange"}
         />
 

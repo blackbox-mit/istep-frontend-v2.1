@@ -21,7 +21,6 @@ export default async function coursesOverviewDetail({
             <CoursePreviewBox
               course={course}
               key={index}
-              idx={index}
               individualCourseLearnMore={individualCourseLearnMore}
             />
           ))}

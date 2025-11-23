@@ -5,11 +5,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 export default function coursesPreviewBox({
   course,
-  idx,
+
   individualCourseLearnMore,
 }: {
   course: any;
-  idx: number;
+
   individualCourseLearnMore: any;
 }) {
   const pathname = usePathname();

@@ -14,7 +14,11 @@ export default function coursesOverview({ courses, ourCourses }: any) {
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {courses.map((course: any, index: number) => (
-            <CoursePreviewBox course={course} key={index} idx={index} />
+            <CoursePreviewBox
+              course={course}
+              key={index}
+              individualCourseLearnMore={ourCourses.learnMore}
+            />
           ))}
         </div>
       </div>
