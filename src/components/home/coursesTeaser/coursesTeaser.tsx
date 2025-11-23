@@ -34,9 +34,8 @@ export default async function CoursesTeaser({
             {ourCourses.courses.map((item: any, index: number) => (
               <CoursesTeaserElement
                 key={index}
+                index={index}
                 image={item.image.asset.url}
-                bgColor={getColor(index)}
-                imagePosition={item.imagePosition}
                 title={item.title}
                 text={item.moreText}
                 lng={locale}

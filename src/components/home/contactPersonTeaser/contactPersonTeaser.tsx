@@ -20,7 +20,7 @@ export default async function ContactPersonTeaser({
             name={contactPerson.person[0].title}
             image={contactPerson.person[0].image.asset.url}
             text={contactPerson.person[0].text}
-            moreText={"translation.TeamMember.swiss[0].moreText"}
+            moreText={contactPerson.readMoreButton}
             theme="darkblue"
             color="rgb(248 179 68 / 0)"
           />

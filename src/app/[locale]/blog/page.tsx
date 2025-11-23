@@ -32,6 +32,15 @@ const fetchProductsListQuery = gql`
     }
   }
 `;
+const fetchBlogPageQuery = gql`
+  query FetchBlogPage($language: String!) {
+    allBlogPage(where: { language: { eq: $language } }) {
+      title
+      subtitle
+      readMore
+    }
+  }
+`;
 
 async function fetchProductsList(language: string) {
   try {
@@ -45,13 +54,25 @@ async function fetchProductsList(language: string) {
   }
 }
 
+async function fetchBlogPage(language: string) {
+  try {
+    const data: any = await request(endpoint, fetchBlogPageQuery, {
+      language,
+    });
+    return data.allBlogPage?.[0] ?? null;
+  } catch (error) {
+    console.error("GraphQL fetch error:", error);
+    return null;
+  }
+}
+
 export default async function Blog({ params }: BlogProps) {
   let blogs = await fetchProductsList(params.locale);
   blogs = blogs.sort(
     (a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime()
   );
 
-  const t = await getTranslations("Blog");
+  const blogPage = await fetchBlogPage(params.locale);
 
   return (
     <main>
@@ -60,10 +81,10 @@ export default async function Blog({ params }: BlogProps) {
           <div>
             <div className="mt-6 text-white">
               <h1 className="lg:text-h-xl text-h-l text-green font-palanquin md:text-left text-center">
-                {t("title")}
+                {blogPage?.title}
               </h1>
               <p className="text-white md:text-h-md text-h-sm !font-thin font-palanquin md:text-left text-center">
-                {t("subTitle")}
+                {blogPage?.subtitle}
               </p>
             </div>
           </div>
@@ -72,7 +93,7 @@ export default async function Blog({ params }: BlogProps) {
             <BlogPreview
               blog={blogs[0]}
               lng={params.locale}
-              moreText={t("moreText")}
+              moreText={blogPage?.readMore}
             />
           </div>
         </div>
@@ -85,7 +106,7 @@ export default async function Blog({ params }: BlogProps) {
         <BlogOverview
           blogs={blogs}
           lng={params.locale}
-          moreText={t("moreText")}
+          moreText={blogPage?.readMore}
         />
       </div>
     </main>

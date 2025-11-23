@@ -3,6 +3,7 @@ import Image, { StaticImageData as NextImageProps } from "next/image";
 import { convertDate } from "@/utils/convertDate";
 
 export default async function blogPreview({ blog, moreText }: any) {
+  console.log("blog preview", blog);
   return (
     <>
       <div className="rounded-3xl bg-white">
@@ -32,7 +33,6 @@ export default async function blogPreview({ blog, moreText }: any) {
                 href={"/" + "de" + "/blog/" + blog._id}
                 className="text-p-sm md:text-p-lg !font-bold text-darkblue"
               >
-                {/* fix */}
                 {moreText}
               </a>
             </div>

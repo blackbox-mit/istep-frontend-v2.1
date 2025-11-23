@@ -110,6 +110,8 @@ export default async function AboutUs({}) {
                 src={aboutData[0]?.titlePreview?.image?.asset?.url}
                 alt="Picture of the author"
                 className="h-108 object-contain "
+                width={500}
+                height={500}
               />
             </div>
           </div>

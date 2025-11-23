@@ -22,8 +22,7 @@ export default function carousel({ results, locale }: any) {
           <div key={index}>
             <CoursesTeaserElement
               image={item.image.asset.url}
-              bgColor={getColor(index)}
-              imagePosition={item.imagePosition}
+              index={index}
               title={item.title}
               text={item.moreText}
               link={"/" + item.link}

@@ -38,6 +38,15 @@ const fetchProductsListQuery = gql`
     }
   }
 `;
+const fetchAllBlogPageQuery = gql`
+  query FetchAllBlogPage($language: String!) {
+    allBlogPage(where: { language: { eq: $language } }) {
+      title
+      subtitle
+      readMore
+    }
+  }
+`;
 
 const fetchHomeQuery = gql`
   query FetchHome($language: String!) {
@@ -90,6 +99,7 @@ const fetchHomeQuery = gql`
         personEmail
         personTelephone
         textButton
+        readMoreButton
         person {
           title
           text
@@ -165,10 +175,23 @@ async function fetchHomeList(language: string) {
   }
 }
 
+async function fetchAllBlogPage(language: string) {
+  try {
+    const data: any = await request(endpoint, fetchAllBlogPageQuery, {
+      language,
+    });
+    return data.allBlogPage ?? [];
+  } catch (error) {
+    console.error("GraphQL fetch error:", error);
+    return [];
+  }
+}
+
 export default async function HomePage({}) {
   const locale = await getLocale();
   const blogs = await fetchProductsList(locale);
   const home = await fetchHomeList(locale);
+  const allBlogPage = await fetchAllBlogPage(locale);
 
   return (
     <main className="z-10">
@@ -187,6 +210,8 @@ export default async function HomePage({}) {
               src={home[0]?.titlePreview?.image?.asset?.url}
               alt="Title"
               className="object-contain pt-2"
+              width={800}
+              height={600}
             />
           </div>
         </div>
@@ -215,7 +240,7 @@ export default async function HomePage({}) {
         />
       </div>
       <div>
-        <BlogTeaser lng={locale} blog={blogs[0]} />
+        <BlogTeaser lng={locale} blog={blogs[0]} blogPage={allBlogPage[0]} />
       </div>
     </main>
   );
