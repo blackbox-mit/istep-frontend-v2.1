@@ -98,7 +98,7 @@ export default async function RootLayout({ children }: Props) {
         {children}
 
         <Suspense>
-          <Footer lng={locale} footer={footer} />
+          <Footer footer={footer} />
         </Suspense>
       </body>
     </html>

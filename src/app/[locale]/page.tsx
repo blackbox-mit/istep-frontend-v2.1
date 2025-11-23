@@ -80,7 +80,9 @@ const fetchHomeQuery = gql`
         title
         subtitle
         moreText
+
         projects {
+          _id
           text
           title
           image {

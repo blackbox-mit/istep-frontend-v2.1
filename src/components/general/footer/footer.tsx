@@ -3,7 +3,7 @@ import logo from "@/assets/general/istep_logo_blau.png";
 import DonateButton from "@/components/general/donateButton/donateButton";
 import { useTranslations } from "next-intl";
 
-export default function footer({ lng, footer }: any) {
+export default function footer({ footer }: any) {
   const currentYear = new Date().getFullYear();
   const t = useTranslations("Footer"); // Access translations
   return (
@@ -49,7 +49,7 @@ export default function footer({ lng, footer }: any) {
             </div>
             <div className="flex items-center cursor-pointer">
               <hr className="h-0.5 my-4 w-4 border-0 dark:bg-darkblue mr-2" />
-              <a href={"/" + lng + "/impressum"}>{footer[0].legalNotice}</a>
+              <a href={"/impressum"}>{footer[0].legalNotice}</a>
             </div>
           </div>
         </div>
