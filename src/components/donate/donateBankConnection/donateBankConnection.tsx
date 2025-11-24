@@ -1,13 +1,11 @@
 "use client";
 import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
-import { useTranslations } from "next-intl";
 
-interface donateBankConnectionProps {}
+import { PortableText } from "@portabletext/react";
 
-export default function DonateBankConnection({}: donateBankConnectionProps) {
+export default function DonateBankConnection({ titleBank, textBankRaw }: any) {
   const [open, setOpen] = useState(false);
-  const t = useTranslations("Donate.donateBank");
 
   return (
     <>
@@ -16,15 +14,28 @@ export default function DonateBankConnection({}: donateBankConnectionProps) {
           className="flex justify-between items-center h-12"
           onClick={() => setOpen(!open)}
         >
-          <p className="text-h-sm ">{t("title")}</p>
+          <p className="text-h-sm ">{titleBank}</p>
           <ChevronDownIcon aria-hidden="true" className="w-12" />
         </div>
         {open && (
           <div className="pt-4">
-            <p>CH68 0900 0000 1617 1693 4</p>
-            <p>iSTEP </p>
-            <p>Parkettstrasse 36</p>
-            <p>3432 Lützelflüh</p>
+            <PortableText
+              value={textBankRaw}
+              components={{
+                list: ({ children, value }) => {
+                  if (value.listItem === "bullet") {
+                    return <ul className="list-disc pl-5">{children}</ul>;
+                  }
+                  if (value.listItem === "number") {
+                    return <ol className="list-decimal pl-5">{children}</ol>;
+                  }
+                  return <ul className="pl-5">{children}</ul>;
+                },
+                listItem: ({ children }) => (
+                  <li className="mb-1">{children}</li>
+                ),
+              }}
+            />
           </div>
         )}
       </div>

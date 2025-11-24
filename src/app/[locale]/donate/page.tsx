@@ -7,13 +7,8 @@ import DonateTwint from "@/components/donate/donateTwint/donateTwint";
 import DonateRaiseNow from "@/components/donate/donateRaiseNow/donateRaiseNow";
 import DonateBankConnection from "@/components/donate/donateBankConnection/donateBankConnection";
 
-//images
-import ITImage from "@/assets/general/coursesIcons/IT.png";
-import MultimediaImage from "@/assets/general/coursesIcons/multimedia.png";
-import MSOfficeImage from "@/assets/general/coursesIcons/MS-office.png";
-import DiverseKurse from "@/assets/general/coursesIcons/diverse_kurse.png";
 import { useTranslations } from "next-intl";
-import { unstable_setRequestLocale } from "next-intl/server";
+import { setRequestLocale } from "next-intl/server";
 
 interface CoursesProps {
   params: {
@@ -21,16 +16,60 @@ interface CoursesProps {
   };
 }
 
-export default function Donate({ params: { locale } }: CoursesProps) {
-  unstable_setRequestLocale(locale);
-  const t = useTranslations("Donate"); // Access translations
+import ScrollDown from "@/components/general/scrollDown/scrollDown";
+import { gql, request } from "graphql-request";
+import { getLocale } from "next-intl/server";
+
+const endpoint = process.env.SANITY_GRAPHQL_ENDPOINT || "";
+
+const fetchDonateQuery = gql`
+  query FetchDonatePage($language: String!) {
+    allDonatePage(where: { language: { eq: $language } }) {
+      titlePreview {
+        title
+        subtitle
+        image {
+          asset {
+            url
+          }
+        }
+      }
+      titleQR
+      imageQR {
+        asset {
+          url
+        }
+      }
+      titleBank
+      textBankRaw
+      titleCreditCard
+      textCreditCardRaw
+    }
+  }
+`;
+
+async function fetchDonatePage(language: string) {
+  try {
+    const data: any = await request(endpoint, fetchDonateQuery, {
+      language,
+    });
+    return data.allDonatePage ?? [];
+  } catch (error) {
+    console.error("GraphQL fetch error:", error);
+    return [];
+  }
+}
+export default async function Donate() {
+  const locale = await getLocale();
+  const donateData = await fetchDonatePage(locale);
+  console.log("donateData", donateData);
 
   return (
     <main className=" z-10">
       <div className="min-h-[calc(100vh-80px)] mt-[80px] md:mt-0 md:min-h-[calc(100vh-0px)] bg-darkblue w-full flex items-center pb-8 md:-pd-0">
         <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4 ">
           <h1 className="lg:text-h-xl  text-h-l  text-yellow font-palanquin md:text-left text-center">
-            {t("mainTitle")}
+            {donateData[0].titlePreview.title}
           </h1>
 
           <div className="flex flex-col lg:flex-row">
@@ -39,9 +78,11 @@ export default function Donate({ params: { locale } }: CoursesProps) {
             </div>
             <div className="lg:w-3/5 w-full flex justify-center">
               <Image
-                src={titleImage}
+                src={donateData[0].titlePreview.image.asset.url}
                 alt="Picture of the author"
                 className="h-96 object-contain "
+                width={400}
+                height={400}
               />
             </div>
           </div>
@@ -49,14 +90,23 @@ export default function Donate({ params: { locale } }: CoursesProps) {
       </div>
       <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4">
         <div className="mt-4">
-          <DonateQR lng={locale} />
+          <DonateQR
+            titleQR={donateData[0].titleQR}
+            imageQR={donateData[0].imageQR}
+          />
         </div>
         <div className="mt-4">
-          <DonateBankConnection />
+          <DonateBankConnection
+            titleBank={donateData[0].titleBank}
+            textBankRaw={donateData[0].textBankRaw}
+          />
         </div>
 
         <div className="mt-4">
-          <DonateRaiseNow />
+          <DonateRaiseNow
+            titleCreditCard={donateData[0].titleCreditCard}
+            textCreditCardRaw={donateData[0].textCreditCardRaw}
+          />
         </div>
       </div>
     </main>

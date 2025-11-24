@@ -1,34 +1,22 @@
 import TeaserIntroText from "@/components/general/teaserIntroText/teaserIntroText";
 import BlogPreview from "@/components/general/blogPreview/blogPreview";
-import image from "@/assets/placeholder/project.png";
+
 import Link from "next/link";
-import { unstable_setRequestLocale } from "next-intl/server";
 
-import { useTranslations } from "next-intl";
-
-export default async function BlogTeaser({ lng }: any) {
-  unstable_setRequestLocale(lng);
-  const t = useTranslations("Home.blog");
-
-  const translation = (await import(`../../../../locales/${lng}/${lng}.json`))
-    .default;
-
+export default async function BlogTeaser({ lng, blog, blogPage }: any) {
   return (
     <>
       <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4 ">
         <TeaserIntroText
-          title={t("title")}
-          subTitle={t("subTitle")}
-          text={t("text")}
+          title={blogPage?.title}
+          subTitle={blogPage?.subtitle}
           theme={"#25926F"}
         />
         <div className="mt-8 ">
           <BlogPreview
-            title={translation.Blog.blogs[0].title}
-            text={translation.Blog.blogs[0].text}
-            moreText={translation.Blog.blogs[0].moreText}
+            blog={blog}
+            moreText={blogPage?.readMore}
             theme={"#25926F"}
-            image={translation.Blog.blogs[0].images[0]}
             lng={lng}
           />
         </div>
@@ -38,7 +26,7 @@ export default async function BlogTeaser({ lng }: any) {
               type="button"
               className="rounded-full font-palanquin bg-green/80 md:mt-8 mt-4 ml-0  px-10 py-2.5 text-sm font-semibold text-white focus-visible:outline hover:scale-105 transition-all duration-300"
             >
-              {t("buttonText")}
+              {blogPage?.readMore}
             </button>
           </Link>
         </div>

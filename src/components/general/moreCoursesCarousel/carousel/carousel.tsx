@@ -28,8 +28,7 @@ export default function carousel() {
           <CoursesTeaserElement
             title="Diverse Kurse"
             text="Mehr erfahren"
-            bgColor={"bg-orange"}
-            imagePosition="justify-start"
+            index={0}
             image={differentCoursesImage}
             lng={"de"}
             link=""
@@ -40,8 +39,7 @@ export default function carousel() {
           <CoursesTeaserElement
             title="Diverse Kurse"
             text="Mehr erfahren"
-            bgColor="bg-orange"
-            imagePosition="justify-start"
+            index={1}
             image={differentCoursesImage}
             lng={"de"}
             link=""
@@ -52,8 +50,7 @@ export default function carousel() {
           <CoursesTeaserElement
             title="Diverse Kurse"
             text="Mehr erfahren"
-            bgColor="bg-orange"
-            imagePosition="justify-start"
+            index={2}
             image={differentCoursesImage}
             lng={"de"}
             link=""
@@ -64,8 +61,7 @@ export default function carousel() {
           <CoursesTeaserElement
             title="Diverse Kurse"
             text="Mehr erfahren"
-            bgColor="bg-orange"
-            imagePosition="justify-start"
+            index={2}
             image={differentCoursesImage}
             lng={"de"}
             link=""
@@ -76,8 +72,29 @@ export default function carousel() {
           <CoursesTeaserElement
             title="Diverse Kurse"
             text="Mehr erfahren"
-            bgColor="bg-orange"
-            imagePosition="justify-start"
+            index={3}
+            image={differentCoursesImage}
+            lng={"de"}
+            link=""
+            linkActive={false}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <CoursesTeaserElement
+            title="Diverse Kurse"
+            text="Mehr erfahren"
+            index={4}
+            image={differentCoursesImage}
+            lng={"de"}
+            link=""
+            linkActive={false}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <CoursesTeaserElement
+            title="Diverse Kurse"
+            text="Mehr erfahren"
+            index={5}
             image={differentCoursesImage}
             lng={"de"}
             link=""

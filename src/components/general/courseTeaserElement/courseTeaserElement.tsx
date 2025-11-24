@@ -2,43 +2,45 @@ import Image, { StaticImageData as NextImageProps } from "next/image";
 import Link from "next/link";
 
 interface CoursesTeaserElementProps {
-  bgColor: string;
   title: string;
   text: string;
-  image: NextImageProps;
-  imagePosition: string;
+  image: any;
+
   lng: string;
   link: string;
   linkActive: boolean;
+  index: number;
 }
 
 export default function CoursesTeaserElement({
-  bgColor,
   image,
-  imagePosition,
+
   title,
-  text,
+  index,
   lng,
   link,
   linkActive,
 }: CoursesTeaserElementProps) {
-  const backgroundColor = bgColor;
+  const getColor = (idx: number) => {
+    const color = ["bg-green ", "bg-yellow ", "bg-orange"];
+    return color[idx % color.length];
+  };
+
   return (
     <>
       {linkActive ? (
-        <Link
-          href={`${lng + link}`}
-          style={{ backgroundColor }}
-          className="rounded-3xl w-full"
-        >
+        <Link href={`${lng + link}`} className="rounded-3xl w-full">
           <div
-            className={`rounded-3xl md:p-8 p-6 font-palanquin`}
-            style={{ backgroundColor }}
+            className={`rounded-3xl md:p-8 p-6 font-palanquin ${getColor(
+              index
+            )}`}
           >
-            <div className={`${imagePosition} flex`}>
+            <div className={`flex`}>
               <Image
                 src={image}
-                alt="Picture of the author"
+                alt={title}
+                width={100}
+                height={100}
                 className="object-contain md:w-96 sm:w-48 w-28 aspect-square rounded-3xl max-h-56"
               />
             </div>
@@ -50,13 +52,14 @@ export default function CoursesTeaserElement({
         </Link>
       ) : (
         <div
-          className={`rounded-3xl md:p-8 p-6 font-palanquin`}
-          style={{ backgroundColor }}
+          className={`rounded-3xl md:p-8 p-6 font-palanquin ${getColor(index)}`}
         >
-          <div className={`${imagePosition} flex`}>
+          <div className={`flex`}>
             <Image
               src={image}
-              alt="Picture of the author"
+              alt={title}
+              width={100}
+              height={100}
               className="object-contain md:w-96 sm:w-48 w-28 aspect-square rounded-3xl max-h-56"
             />
           </div>

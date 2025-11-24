@@ -1,14 +1,14 @@
 interface TeaserIntroTextProps {
   theme: string;
   title: string;
-  text: string;
+
   subTitle: string;
 }
 
 export default function teaserIntroText({
   title,
   subTitle,
-  text,
+
   theme,
 }: TeaserIntroTextProps) {
   return (
@@ -25,7 +25,6 @@ export default function teaserIntroText({
       >
         {subTitle}
       </p>
-      <p className="w-full md:w-1/2 mb-2 text-darkblue">{text}</p>
     </div>
   );
 }

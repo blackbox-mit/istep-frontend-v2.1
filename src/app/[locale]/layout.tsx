@@ -1,13 +1,14 @@
 import "../globals.css";
 import type { Metadata } from "next";
-import { unstable_setRequestLocale } from "next-intl/server";
 
 import { ReactNode } from "react";
-import { notFound } from "next/navigation";
-import { NextIntlClientProvider } from "next-intl";
+
 import { Suspense } from "react";
 import Navbar from "../../components/general/navbar/navbar";
 import Footer from "../../components/general/footer/footer";
+
+import { gql, request } from "graphql-request";
+import { getLocale } from "next-intl/server";
 
 type Props = {
   children: ReactNode;
@@ -20,35 +21,85 @@ export const metadata: Metadata = {
     "der Verein iSTEP fokusiert sich auf IT Kurse, welche in bedürftigen Ländern mit Jugendliche durchgeführt werden.",
 };
 
-//function to generate the routes for all the locales
-export async function generateStaticParams() {
-  return ["en", "de"].map((locale) => ({ locale }));
+const endpoint = process.env.SANITY_GRAPHQL_ENDPOINT || "";
+
+const fetchNavigationQuery = gql`
+  query FetchHeaderFooter($language: String!) {
+    allHeader(where: { language: { eq: $language } }) {
+      logo {
+        asset {
+          url
+        }
+      }
+      donationText
+
+      navigation {
+        link
+        text
+      }
+    }
+  }
+`;
+const fetchFooterQuery = gql`
+  query FetchFooter($language: String!) {
+    allFooter(where: { language: { eq: $language } }) {
+      logo {
+        asset {
+          url
+        }
+      }
+      title
+      donationText
+      donateButton
+      legalNotice
+      copyrightText
+      email
+      statutes
+      istep
+    }
+  }
+`;
+
+async function fetchNavigation(language: string) {
+  try {
+    const data: any = await request(endpoint, fetchNavigationQuery, {
+      language,
+    });
+    return data.allHeader ?? [];
+  } catch (error) {
+    console.error("GraphQL fetch error:", error);
+    return { header: [], footer: [] };
+  }
 }
 
-export default async function RootLayout({
-  children,
-  params: { locale },
-}: Props) {
-  if (locale !== "de" && locale !== "en") {
-    notFound();
+async function fetchFooter(language: string) {
+  try {
+    const data: any = await request(endpoint, fetchFooterQuery, {
+      language,
+    });
+    return data.allFooter ?? [];
+  } catch (error) {
+    console.error("GraphQL fetch error:", error);
+    return { header: [], footer: [] };
   }
+}
 
-  unstable_setRequestLocale(locale);
-  const messages = require(`../../../locales/${locale}/${locale}.json`);
+export default async function RootLayout({ children }: Props) {
+  const locale = await getLocale();
 
+  const navigation = await fetchNavigation(locale);
+  const footer = await fetchFooter(locale);
   return (
     <html lang={locale}>
       <body className="h-full">
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          <Suspense>
-            <Navbar />
-          </Suspense>
-          {children}
+        <Suspense>
+          <Navbar navigation={navigation} />
+        </Suspense>
+        {children}
 
-          <Suspense>
-            <Footer lng={locale} />
-          </Suspense>
-        </NextIntlClientProvider>
+        <Suspense>
+          <Footer footer={footer} />
+        </Suspense>
       </body>
     </html>
   );

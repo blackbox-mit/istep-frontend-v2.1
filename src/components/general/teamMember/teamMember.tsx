@@ -1,5 +1,5 @@
 "use client";
-import Image, { StaticImageData as NextImageProps } from "next/image";
+import Image from "next/image";
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useRef, useState } from "react";
 import { XMarkIcon } from "@heroicons/react/20/solid";
@@ -8,7 +8,7 @@ interface teamMemberProps {
   name: string;
   text: string;
   moreText: string;
-  image: NextImageProps;
+  image: string;
   theme: string;
   color: string;
 }
@@ -42,6 +42,8 @@ export default function TeamMember({
       >
         <Image
           src={image}
+          width={400}
+          height={400}
           alt="Picture of the author"
           className="object-cover h-full rounded-3xl"
         />
@@ -102,6 +104,8 @@ export default function TeamMember({
                           src={image}
                           alt={name}
                           className="object-cover rounded-rt-3xl rounded-rb-3xl h-full hidden md:flex"
+                          width={400}
+                          height={400}
                         />
                         <div
                           style={{ backgroundColor: hex }}
