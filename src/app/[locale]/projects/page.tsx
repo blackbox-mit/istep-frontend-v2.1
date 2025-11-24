@@ -2,7 +2,6 @@ import Image from "next/image";
 import ProjectOverview from "@/components/projects/projectOverview/projectOverview";
 import ScrollDown from "@/components/general/scrollDown/scrollDown";
 import { gql, request } from "graphql-request";
-import { getLocale } from "next-intl/server";
 
 const endpoint = process.env.SANITY_GRAPHQL_ENDPOINT || "";
 const fetchProjectSite = gql`
@@ -44,10 +43,14 @@ async function fetchProjectsPageList(language: string) {
   }
 }
 
-export default async function Projects({}) {
-  const locale = await getLocale();
+export default async function Projects({
+  params,
+}: {
+  params: { locale: "en" | "de" };
+}) {
+  const locale = await params;
 
-  const project = await fetchProjectsPageList(locale);
+  const project = await fetchProjectsPageList(locale.locale);
 
   return (
     <main>

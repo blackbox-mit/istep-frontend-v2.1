@@ -4,7 +4,6 @@ import { ArrowRightIcon } from "@heroicons/react/20/solid";
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useTranslations } from "next-intl";
 
 interface DonateButtonProps {
   toggleSidebar?: () => void;

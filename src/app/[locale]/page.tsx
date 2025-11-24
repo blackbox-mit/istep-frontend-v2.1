@@ -9,7 +9,6 @@ import BlogTeaser from "@/components/home/blogTeaser/blogTeaser";
 
 import ScrollDown from "@/components/general/scrollDown/scrollDown";
 import { gql, request } from "graphql-request";
-import { getLocale } from "next-intl/server";
 
 const endpoint = process.env.SANITY_GRAPHQL_ENDPOINT || "";
 
@@ -187,8 +186,14 @@ async function fetchAllBlogPage(language: string) {
   }
 }
 
-export default async function HomePage({}) {
-  const locale = await getLocale();
+export default async function Page({
+  params,
+}: {
+  params: { locale: "en" | "de" };
+}) {
+  const par = await params;
+  const locale = par.locale;
+
   const blogs = await fetchProductsList(locale);
   const home = await fetchHomeList(locale);
   const allBlogPage = await fetchAllBlogPage(locale);

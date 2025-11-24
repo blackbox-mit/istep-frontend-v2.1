@@ -1,15 +1,12 @@
-import Image from "next/image";
-import logo from "@/assets/general/istep_logo_blau.png";
 import DonateButton from "@/components/general/donateButton/donateButton";
-import { useTranslations } from "next-intl";
 
-export default function footer({ footer }: any) {
+export default function footer({ footer, locale }: any) {
   const currentYear = new Date().getFullYear();
-  const t = useTranslations("Footer"); // Access translations
+
   return (
     <div className="bg-yellow/60 rounded-t-3xl">
       <div className="container mx-auto pt-12 pb-8 px-8 lg:px-4">
-        <Image
+        <img
           src={footer[0].logo.asset?.url}
           alt="Picture of the author"
           className="md:w-48 w-32"
@@ -49,7 +46,7 @@ export default function footer({ footer }: any) {
             </div>
             <div className="flex items-center cursor-pointer">
               <hr className="h-0.5 my-4 w-4 border-0 dark:bg-darkblue mr-2" />
-              <a href={"/impressum"}>{footer[0].legalNotice}</a>
+              <a href={"/" + locale + "/impressum"}>{footer[0].legalNotice}</a>
             </div>
           </div>
         </div>

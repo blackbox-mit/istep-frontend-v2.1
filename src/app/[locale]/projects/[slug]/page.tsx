@@ -2,13 +2,12 @@ import Image from "next/image";
 import ScrollDown from "@/components/general/scrollDown/scrollDown";
 
 import { gql, request } from "graphql-request";
-import { getLocale } from "next-intl/server";
 
 const endpoint = process.env.SANITY_GRAPHQL_ENDPOINT || "";
 
 const fetchAllProjectQuery = gql`
-  query FetchAllProject($language: String!, $id: ID!) {
-    allProject(where: { language: { eq: $language }, _id: { eq: $id } }) {
+  query FetchAllProject($language: String!, $title: String!) {
+    allProject(where: { language: { eq: $language }, title: { eq: $title } }) {
       title
       text
       image {
@@ -29,11 +28,11 @@ const fetchAllProjectQuery = gql`
   }
 `;
 
-async function fetchAllProject(language: string, id: any) {
+async function fetchAllProject(language: string, title: any) {
   try {
     const data: any = await request(endpoint, fetchAllProjectQuery, {
       language,
-      id,
+      title,
     });
     return data.allProject ?? [];
   } catch (error) {
@@ -43,10 +42,12 @@ async function fetchAllProject(language: string, id: any) {
 }
 
 export default async function detailPage({ params }: { params: any }) {
-  const projectId = params.slug;
+  const locale = await params;
 
-  const locale = await getLocale();
-  const project = await fetchAllProject(locale, projectId);
+  const project = await fetchAllProject(
+    locale.locale,
+    decodeURIComponent(locale.slug)
+  );
 
   return (
     <main>

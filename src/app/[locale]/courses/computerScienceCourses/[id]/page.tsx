@@ -1,5 +1,5 @@
 import { gql, request } from "graphql-request";
-import { getLocale } from "next-intl/server";
+
 import { PortableText } from "@portabletext/react";
 
 const endpoint = process.env.SANITY_GRAPHQL_ENDPOINT || "";
@@ -35,11 +35,11 @@ async function fetchCourse(language: string, courseTitle: string) {
 }
 
 export default async function detailPage({ params }: { params: any }) {
-  const locale = await getLocale();
+  const locale = await params;
 
-  const courseId = params.id.replace(/-/g, " ").replace(/%3A/g, ":");
+  const courseId = locale.id.replace(/-/g, " ").replace(/%3A/g, ":");
 
-  const course = await fetchCourse(locale, courseId);
+  const course = await fetchCourse(locale.locale, courseId);
 
   return (
     <main className="">

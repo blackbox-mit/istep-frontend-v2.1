@@ -2,7 +2,6 @@ import DonateButton from "@/components/general/donateButton/donateButton";
 import { XMarkIcon } from "@heroicons/react/20/solid";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useTranslations } from "next-intl";
 
 interface SidebarProps {
   isOpen: boolean;

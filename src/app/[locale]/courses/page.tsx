@@ -5,7 +5,6 @@ import CoursesOverview from "@/components/courses/coursesOverview/coursesOvervie
 import ScrollDown from "@/components/general/scrollDown/scrollDown";
 
 import { gql, request } from "graphql-request";
-import { getLocale } from "next-intl/server";
 
 const endpoint = process.env.SANITY_GRAPHQL_ENDPOINT || "";
 
@@ -58,9 +57,9 @@ async function fetchOurCourses(language: string) {
   }
 }
 
-export default async function Courses({}) {
-  const locale = await getLocale();
-  const ourCourses = await fetchOurCourses(locale);
+export default async function Courses({ params }: { params: any }) {
+  const locale = await params;
+  const ourCourses = await fetchOurCourses(locale.locale);
   return (
     <main className="z-10">
       <div className="min-h-[calc(100vh-80px)] mt-[80px] md:mt-0 md:min-h-[calc(100vh-0px)] bg-darkblue w-full flex items-center pb-8 md:-pd-0">
@@ -93,7 +92,7 @@ export default async function Courses({}) {
       <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4">
         <CoursesOverview
           ourCoursesSection={ourCourses[0]?.ourCoursesSection}
-          lng={locale}
+          lng={locale.locale}
         />
       </div>
     </main>

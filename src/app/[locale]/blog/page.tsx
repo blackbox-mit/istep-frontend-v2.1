@@ -3,10 +3,10 @@ import BlogOverview from "@/components/blog/blogOverview/blogOverview";
 import ScrollDown from "@/components/general/scrollDown/scrollDown";
 
 import { gql, request } from "graphql-request";
-import { getTranslations } from "next-intl/server";
+
 interface BlogProps {
   params: {
-    locale: string;
+    locale: any;
   };
 }
 const endpoint = process.env.SANITY_GRAPHQL_ENDPOINT || "";
@@ -67,12 +67,13 @@ async function fetchBlogPage(language: string) {
 }
 
 export default async function Blog({ params }: BlogProps) {
-  let blogs = await fetchProductsList(params.locale);
+  const locale = await params;
+  let blogs = await fetchProductsList(locale.locale);
   blogs = blogs.sort(
     (a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime()
   );
 
-  const blogPage = await fetchBlogPage(params.locale);
+  const blogPage = await fetchBlogPage(locale.locale);
 
   return (
     <main>
@@ -105,7 +106,7 @@ export default async function Blog({ params }: BlogProps) {
       <div className="container mx-auto md:py-24 py-12 px-8 lg:px-4">
         <BlogOverview
           blogs={blogs}
-          lng={params.locale}
+          lng={locale.locale}
           moreText={blogPage?.readMore}
         />
       </div>

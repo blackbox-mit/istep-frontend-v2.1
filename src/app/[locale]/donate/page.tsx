@@ -1,5 +1,4 @@
 import Image from "next/image";
-import titleImage from "@/assets/aboutUs/titleImage.png";
 
 import CoursesTeaserElement from "@/components/general/courseTeaserElement/courseTeaserElement";
 import DonateQR from "@/components/donate/donteQR/donateQR";
@@ -7,18 +6,14 @@ import DonateTwint from "@/components/donate/donateTwint/donateTwint";
 import DonateRaiseNow from "@/components/donate/donateRaiseNow/donateRaiseNow";
 import DonateBankConnection from "@/components/donate/donateBankConnection/donateBankConnection";
 
-import { useTranslations } from "next-intl";
-import { setRequestLocale } from "next-intl/server";
-
 interface CoursesProps {
   params: {
-    locale: string;
+    locale: any;
   };
 }
 
 import ScrollDown from "@/components/general/scrollDown/scrollDown";
 import { gql, request } from "graphql-request";
-import { getLocale } from "next-intl/server";
 
 const endpoint = process.env.SANITY_GRAPHQL_ENDPOINT || "";
 
@@ -59,10 +54,10 @@ async function fetchDonatePage(language: string) {
     return [];
   }
 }
-export default async function Donate() {
-  const locale = await getLocale();
-  const donateData = await fetchDonatePage(locale);
-  console.log("donateData", donateData);
+export default async function Donate({ params }: CoursesProps) {
+  const locale = await params;
+
+  const donateData = await fetchDonatePage(locale.locale);
 
   return (
     <main className=" z-10">

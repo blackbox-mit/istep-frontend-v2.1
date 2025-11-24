@@ -4,7 +4,6 @@ import ScrollDown from "@/components/general/scrollDown/scrollDown";
 import DigitalSkills from "@/components/ourKnowHow/digitalSkills/digitalSkills";
 
 import { gql, request } from "graphql-request";
-import { getLocale } from "next-intl/server";
 
 const endpoint = process.env.SANITY_GRAPHQL_ENDPOINT || "";
 
@@ -45,9 +44,10 @@ async function fetchOurKnowledge(language: string) {
   }
 }
 
-export default async function OurKnowHow({}) {
-  const locale = await getLocale();
-  const ourKnowledgeData = await fetchOurKnowledge(locale);
+export default async function OurKnowHow({ params }: { params: any }) {
+  const locale = await params;
+
+  const ourKnowledgeData = await fetchOurKnowledge(locale.locale);
 
   return (
     <main>

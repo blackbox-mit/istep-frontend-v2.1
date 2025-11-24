@@ -76,8 +76,10 @@ async function fetchBlogById(id: string) {
 }
 
 export default async function detailPage(params: any) {
-  const blog = await fetchBlogById(params.params.id);
-  //console.log("blog", params.params.id);
+  const locale = await params;
+  const resolvedParams = await locale.params;
+
+  const blog = await fetchBlogById(resolvedParams.id);
 
   return (
     <main>
@@ -92,8 +94,6 @@ export default async function detailPage(params: any) {
                 {blog ? blog.subtitle : "Blog not found"}
               </p>
               <p className="text-white text-p-sm  mt-4 mb-4 md:text-left text-center font-palanquin !font-bold">
-                {/* {translation.Blog.blogs[id].date} */}
-
                 {blog ? convertDate(blog.date) : "Blog not found"}
               </p>
             </div>
@@ -112,7 +112,7 @@ export default async function detailPage(params: any) {
           <ScrollDown />
         </div>
       </div>
-      {/* <div className="md:pt-48 md:pb-24" /> */}
+
       <div className="container mx-auto py-12 md:mt-16 lg:px-4">
         <div className="flex flex-col">
           {blog?.blogItemTexts?.map((item: any, index: number) => {

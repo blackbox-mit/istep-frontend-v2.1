@@ -1,5 +1,4 @@
 import { gql, request } from "graphql-request";
-import { getLocale } from "next-intl/server";
 
 const endpoint = process.env.SANITY_GRAPHQL_ENDPOINT || "";
 
@@ -30,11 +29,10 @@ async function fetchAllImpressum(language: string) {
   }
 }
 
-export default async function Impressum({}) {
-  const locale = await getLocale();
-  const impressum = await fetchAllImpressum(locale);
+export default async function Impressum({ params }: { params: any }) {
+  const locale = await params;
+  const impressum = await fetchAllImpressum(locale.locale);
 
-  console.log("impressum", impressum);
   return (
     <main className="container mx-auto md:py-24 py-12 px-8 lg:px-4">
       <div className="mt-4 font-palanquin text-darkblue">

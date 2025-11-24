@@ -9,7 +9,13 @@ import Sidebar from "@/components/general/sidebar/sidebar";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-export default function Navbar({ navigation }: { navigation: any }) {
+export default function Navbar({
+  navigation,
+  locale,
+}: {
+  navigation: any;
+  locale: "en" | "de";
+}) {
   const pathname = usePathname();
   const [sideBarIsOpen, setSideBarIsOpen] = useState(false);
   const [showNavbar, setShowNavbar] = useState(true); // Tracks navbar visibility
@@ -73,7 +79,7 @@ export default function Navbar({ navigation }: { navigation: any }) {
         </div>
         <div className="inline-flex items-center height-[80px]">
           <div className="mr-2">
-            <Dropdown />
+            <Dropdown locale={locale} />
           </div>
           <div className="ml-2 mr-2 md:block hidden">
             <DonateButton donationText={navigation[0].donationText} />

@@ -5,7 +5,6 @@ import FormComp from "@/components/contact/form/form";
 import ScrollDown from "@/components/general/scrollDown/scrollDown";
 
 import { gql, request } from "graphql-request";
-import { getLocale } from "next-intl/server";
 
 const endpoint = process.env.SANITY_GRAPHQL_ENDPOINT || "";
 
@@ -45,9 +44,9 @@ async function fetchAbout(language: string) {
   }
 }
 
-export default async function Contact({}: any) {
-  const locale = await getLocale();
-  const contactData = await fetchAbout(locale);
+export default async function Contact({ params }: any) {
+  const locale = await params;
+  const contactData = await fetchAbout(locale.locale);
 
   return (
     <main className=" z-10">

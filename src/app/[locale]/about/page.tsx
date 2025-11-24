@@ -6,7 +6,6 @@ import OurVision from "@/components/general/ourVision/ourVision";
 import OurValues from "@/components/general/ourValues/ourValues";
 
 import { gql, request } from "graphql-request";
-import { getLocale } from "next-intl/server";
 
 import ScrollDown from "@/components/general/scrollDown/scrollDown";
 
@@ -88,9 +87,10 @@ async function fetchAbout(language: string) {
   }
 }
 
-export default async function AboutUs({}) {
-  const locale = await getLocale();
-  const aboutData = await fetchAbout(locale);
+export default async function AboutUs({ params }: { params: any }) {
+  const locale = await params;
+
+  const aboutData = await fetchAbout(locale.locale);
   return (
     <main className="">
       <div className="min-h-[calc(100vh-80px)] mt-[80px] md:mt-0 md:min-h-[calc(100vh-0px)] bg-darkblue w-full flex items-center pb-8 md:-pd-0">

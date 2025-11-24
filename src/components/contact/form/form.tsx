@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { useTranslations } from "next-intl";
+
 import emailjs from "@emailjs/browser";
 
 export default function from({ contactData }: any) {

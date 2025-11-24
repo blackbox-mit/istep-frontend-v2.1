@@ -4,7 +4,6 @@ import CoursesOverviewDetail from "@/components/courses/coursesOverview/coursesO
 import MoreCoursesCarousel from "@/components/general/moreCoursesCarousel/moreCoursesCarousel";
 
 import { gql, request } from "graphql-request";
-import { getLocale } from "next-intl/server";
 
 const endpoint = process.env.SANITY_GRAPHQL_ENDPOINT || "";
 
@@ -49,9 +48,9 @@ async function fetchCourse(language: string, courseTitle: string) {
     return [];
   }
 }
-export default async function MultimediaCourses({}) {
-  const locale = await getLocale();
-  const course = await fetchCourse(locale, "multimedia");
+export default async function MultimediaCourses({ params }: any) {
+  const locale = await params;
+  const course = await fetchCourse(locale.locale, "multimedia");
 
   return (
     <main>
