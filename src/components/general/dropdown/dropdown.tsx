@@ -19,7 +19,7 @@ export default function Dropdown({ locale }: { locale: any }) {
           onClick={() => setIsHovered(true)}
         >
           {isHovered && (
-            <Link href={locale}>
+            <Link href={"/" + locale}>
               <p className="p-2 px-4 hover:bg-orange hover:rounded-[24px] text-white text-p-sm">
                 {locale.toUpperCase()}
               </p>
@@ -38,7 +38,7 @@ export default function Dropdown({ locale }: { locale: any }) {
           } overflow-hidden`}
         >
           <div className="text-center">
-            <Link href={alternateLanguage.toLowerCase()}>
+            <Link href={"/" + alternateLanguage.toLowerCase()}>
               <p className="p-2 px-4 hover:bg-orange hover:rounded-[24px] text-white text-p-sm cursor-pointer">
                 {alternateLanguage}
               </p>
