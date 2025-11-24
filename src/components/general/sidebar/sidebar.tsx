@@ -44,7 +44,7 @@ export default function Sidebar({
         <div className="text-h-md text-right mr-16 font-normal flex flex-col">
           {navigation.map((item: any, idx: number) => (
             <Link
-              key={item.idx}
+              key={idx}
               href={pathname.substring(0, 3) + (item.link ?? "")}
               className="mt-4 mb-4"
               onClick={toggleSidebar}
