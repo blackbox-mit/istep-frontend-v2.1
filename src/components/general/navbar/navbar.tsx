@@ -65,8 +65,9 @@ export default function Navbar({ navigation }: { navigation: any }) {
             <Image
               src={navigation[0].logo.asset.url}
               alt="Logo"
-              height={80}
-              width={150}
+              height={20}
+              width={40}
+              className="w-auto h-20"
             />
           </Link>
         </div>

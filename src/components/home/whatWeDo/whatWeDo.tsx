@@ -14,6 +14,7 @@ export default function whatWeDo({ whatWeDo }: { whatWeDo: any }) {
           alt="Picture of the author"
           height={400}
           width={400}
+          className="w-auto h-auto"
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 font-palanquin mt-4 md:mt-4">
@@ -22,6 +23,7 @@ export default function whatWeDo({ whatWeDo }: { whatWeDo: any }) {
           alt="Picture of the author"
           height={400}
           width={400}
+          className="w-auto h-auto"
         />
         <p className="text-p-sm md:text-p-lg order-first md:order-last text-darkblue">
           {whatWeDo.text2}

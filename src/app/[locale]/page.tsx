@@ -209,7 +209,7 @@ export default async function HomePage({}) {
             <Image
               src={home[0]?.titlePreview?.image?.asset?.url}
               alt="Title"
-              className="object-contain pt-2"
+              className="object-contain pt-2 w-auto h-auto"
               width={800}
               height={600}
             />
