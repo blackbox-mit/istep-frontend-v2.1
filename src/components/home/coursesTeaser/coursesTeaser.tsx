@@ -39,7 +39,7 @@ export default async function CoursesTeaser({
                 title={item.title}
                 text={item.moreText}
                 lng={locale}
-                link={"/courses/" + item.title}
+                link={"/courses/" + item.link}
                 linkActive={true}
               />
             ))}
