@@ -114,9 +114,11 @@ const fetchHomeQuery = gql`
         title
         subtitle
         text
+
         courses {
           title
           subtitle
+          link
           image {
             asset {
               url
