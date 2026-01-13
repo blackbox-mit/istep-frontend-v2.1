@@ -63,7 +63,7 @@ const ProjectTeaser = ({
         <button
           type="button"
           onClick={() =>
-            router.push(pathname.substring(0, 3) + "/projects/" + project._id)
+            router.push(pathname.substring(0, 3) + "/projects/" + project.title)
           }
           className={`rounded-full ${bgColor} absolute bottom-4 mt-4 ml-5 px-10 py-2.5 text-sm font-semibold text-white focus-visible:outline hover:scale-105 transition-all duration-300`}
         >
