@@ -46,7 +46,7 @@ export default async function detailPage({ params }: { params: any }) {
 
   const project = await fetchAllProject(
     locale.locale,
-    decodeURIComponent(locale.slug)
+    decodeURIComponent(locale.slug),
   );
 
   return (
@@ -64,15 +64,17 @@ export default async function detailPage({ params }: { params: any }) {
             </div>
           </div>
 
-          <div className="w-full justify-end flex md:px-0 px-8 ">
-            <Image
-              src={project[0].image.asset.url}
-              alt={`Image of ${project[0].title}`}
-              className="h-full object-contain md:w-1/2 w-full md:mr-16 z-20 mt-4 rounded-3xl"
-              width={1920}
-              height={1080}
-            />
-          </div>
+          {project[0].image?.asset?.url && (
+            <div className="w-full justify-end flex md:px-0 px-8 ">
+              <Image
+                src={project[0].image.asset.url}
+                alt={`Image of ${project[0].title}`}
+                className="h-full object-contain md:w-1/2 w-full md:mr-16 z-20 mt-4 rounded-3xl"
+                width={1920}
+                height={1080}
+              />
+            </div>
+          )}
           <div className="hidden md:block">
             <ScrollDown />
           </div>
@@ -94,15 +96,17 @@ export default async function detailPage({ params }: { params: any }) {
                   </p>
                 )}
               </div>
-              <div className="flex items-center justify-end">
-                <Image
-                  src={item.image.asset.url}
-                  alt={`Image of ${item.title}`}
-                  className="md:w-4/5 w-full object-contain h-min rounded-3xl"
-                  width={500}
-                  height={300}
-                />
-              </div>
+              {item.image?.asset?.url && (
+                <div className="flex items-center justify-end">
+                  <Image
+                    src={item.image.asset.url}
+                    alt={`Image of ${item.title}`}
+                    className="md:w-4/5 w-full object-contain h-min rounded-3xl"
+                    width={500}
+                    height={300}
+                  />
+                </div>
+              )}
             </div>
           </div>
         ))}
